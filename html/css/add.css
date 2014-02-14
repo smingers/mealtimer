@@ -1,0 +1,143 @@
+.jumbotron {
+    background-image:url('http://farm3.staticflickr.com/2703/4079495203_713d43a3e6_o.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a04307;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.inset {
+    text-shadow: -1px -1px 0 #222;
+}
+
+.time {
+    display: inline;
+}
+
+.recipe-section-title {
+    padding-left: 15px;
+}
+
+.form-area {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/* Show and affix the side nav when space allows it SWIPED FROM BOOTSTRAP LOCK, STOCK AND WHATNOT */
+@media (min-width: 992px) {
+  .bs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .tools-ingredients.affix,
+  .tools-ingredients.affix-bottom {
+    width: 213px;
+  }
+  .tools-ingredients.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 80px;
+  }
+  .tools-ingredients.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .tools-ingredients.affix-bottom .bs-sidenav,
+  .tools-ingredients.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .tools-ingredients.affix-bottom,
+  .tools-ingredients.affix {
+    width: 263px;
+  }
+}
+
+/* IN PROGRESS adjusting active state of the timer controls button group 
+.btn-group .btn:active,
+.btn-group .btn.active {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+*/
+
+/* link styling, specifically for the jumbotron */
+a {
+	color: #888;
+}
+
+a:visited {
+    color: #aaa;
+    font-style: underline;
+}
+
+a:hover {
+	color: #ddd;
+	text-shadow: 0 0;
+}
+
+/* timer div that fixes to the top of the page... */
+.timer-row {
+	font-size: 24px;
+	color: #fff;
+	background-color: #66afe9;
+	padding: 10px 0 10px 0;
+	border: none;
+}
+
+.timer-row-timesUp {
+	font-size: 24px;
+	color: #fff;
+	background-color: #953b39;
+	padding: 10px 0 10px 0;
+}
+
+/* current step in the recipe */
+.current {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.timesUp {
+    border-color: #953b39;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+.completed {
+	background-color: #eeeeee;
+}
+
+/* text styles for classes of content */
+.ingredient {
+	font-weight: bold;
+	border-bottom: 1px dotted;
+}
+
+.technique {
+
+}
+
+.tool {
+	font-style: italic;
+	border-bottom: 1px dotted;
+}
+
+.bs-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
