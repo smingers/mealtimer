@@ -1,0 +1,225 @@
+.timer-row {
+	font-size: 24px;
+	color: #333;
+	background-color: rgba(255,255,255,.9);
+	padding: 10px 0 10px 0;
+	border: none;
+}
+
+.jumbotron {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222222;
+    color: #f4f6f8;
+    margin-bottom: 0;
+    padding-top: 150px;
+}
+
+.inset {
+    text-shadow: 1px 1px 0 #333;
+}
+
+.time {
+    display: inline;
+}
+
+.time small {
+    color: #555555;
+    padding-left: 10px;
+}
+
+.progress {
+    border-radius: 0;
+    height: 10px;
+    box-shadow: 0 0 8px #eee;
+    margin-bottom: 0;
+    background-color: rgba(255,255,255,0);
+}
+
+.progress-bar-step {
+  background-color: rgba(255,255,255,.9);
+  border-right: 1px solid #cfcfcf;
+}
+
+.progress-bar-step-current {
+    background-color: #66afe9;
+    border-right: none;
+}
+
+.progress-bar-step-completed {
+    background-color: #a3cff1;
+    border-right: none;
+}
+
+.progress-bar-step-times-up {
+	background-color: #953b39;
+	border-right: none;
+}
+
+.main-content {
+    margin-top: 25px;
+}
+
+.recipe-section-title {
+    padding-left: 15px;
+}
+
+.panel {
+    margin-bottom: 25px;
+    border-radius: 0;
+}
+
+.panel-title small {
+    padding-left: 10px;
+    color: #333;
+    font-size: 75%;
+}
+
+.panel-heading {
+  border-bottom: 0;
+}
+
+.elapsed-time {
+    float: right;
+}
+
+/* experimenting with lighter border - looks thicker because of box shadow i think.
+.panel-default {
+     border-color: #f5f5f5;
+}
+*/
+
+.sidebar ul {
+    color: #777777;
+    font-size: 13px;
+    padding-left: 15px;
+    line-height: 1.75;
+}
+
+.ingredient-category {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+/* Show and affix the side nav when space allows it; code sample taken from bootstrap.com */
+@media (min-width: 992px) {
+  .tools-ingredients .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .tools-ingredients.affix,
+  .tools-ingredients.affix-bottom {
+    width: 213px;
+  }
+  .tools-ingredients.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 72px;
+  }
+  .tools-ingredients.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .tools-ingredients.affix-bottom .bs-sidenav,
+  .tools-ingredients.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .tools-ingredients.affix-bottom,
+  .tools-ingredients.affix {
+    width: 263px;
+  }
+}
+
+@media {
+  .progress .nav > .active > ul {
+    display: block;
+  }
+ 
+  .progress.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 57px;
+    width: 100%;
+    z-index: 1000;
+  }
+  .progress.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .progress.affix-bottom,
+  .progress.affix {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+/* IN PROGRESS adjusting active state of the timer controls button group 
+.btn-group .btn:active,
+.btn-group .btn.active {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+*/
+
+/* link styling, specifically for the jumbotron */
+a {
+	color: #888;
+}
+
+a:visited {
+    color: #aaa;
+    font-style: underline;
+}
+
+a:hover {
+	color: #ddd;
+	text-shadow: 0 0;
+}
+
+/* current step in the recipe */
+.current {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.completed {
+    opacity: 0.5;
+    filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.times-up {
+    border-color: #953b39;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+/* text styles for classes of content */
+.ingredient {
+	font-weight: bold;
+	border-bottom: 1px dotted;
+}
+
+.technique {
+
+}
+
+.tool {
+	font-style: italic;
+	border-bottom: 1px dotted;
+}
+
+.bs-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
