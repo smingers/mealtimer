@@ -108,17 +108,22 @@ $(document).ready(function () {
             $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
         }
         
+        // IN PROGRESS stop function
+        // $('.stop').click(function () {
+        //    clearInterval();
+        //    currentStep = 0;
+        //    $display.text(stopWatchTime(convertMS(totalTime)));
+        // });
         
         // affix progress bar
         $progress.affix({
             offset: {
-              top: function () {
-                  return (this.top = $jumbotron.outerHeight() - $navbar.outerHeight());
-                  
-              }, 
-              bottom: function () {
-                return (this.bottom = $('.bs-footer').outerHeight(true));
-              }
+                top: function () {
+                    return (this.top = $jumbotron.outerHeight() - $navbar.outerHeight());
+                }, 
+                bottom: function () {
+                    return (this.bottom = $('.bs-footer').outerHeight(true));
+                }
             }
         });
         
@@ -152,7 +157,7 @@ $(document).ready(function () {
     };
     
     // intiate countdown and refresh every second using setInterval
-    var startCountdown = function () {  // DELETED ARGUMENT 'elapsed'; BREAKS PAUSE FUNCTION
+    var startCountdown = function () { 
         $('.step').text('Step ' + (currentStep + 1));
         
         // checks for null time value
@@ -326,13 +331,6 @@ $(document).ready(function () {
     $prev.click(prev);
     $next.click(next);
     
-    // IN PROGRESS stop function
-    $('.stop').click(function () {
-        clearInterval();
-        currentStep = 0;
-        $('.time').css('visibility', 'hidden');
-    });
-        
 
     // Uses left and right arrow keys to go back / forward a step IN PROGRESS - CREATES PROBLEMS WITH SPACE AND ENTER
     $(document).keydown(function(objEvent) {

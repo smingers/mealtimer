@@ -214,6 +214,10 @@ a:hover {
 	border-bottom: 1px dotted;
 }
 
+.stop {
+    float: right;
+}
+
 .bs-footer {
     padding-top: 80px;
     padding-bottom: 80px;
