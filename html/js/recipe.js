@@ -109,11 +109,20 @@ $(document).ready(function () {
         }
         
         // IN PROGRESS stop function
-        // $('.stop').click(function () {
-        //    clearInterval();
-        //    currentStep = 0;
-        //    $display.text(stopWatchTime(convertMS(totalTime)));
-        // });
+         $('.stop').click(function () {
+            clearInterval(countDown);
+            currentStep = 0;
+            $display.text(stopWatchTime(convertMS(totalTime)));
+            $('.step').text('');
+            $prev.addClass('disabled');
+            $play.removeClass('disabled');
+            $pause.addClass('disabled');
+            $add.addClass('disabled');
+            $next.addClass('disabled');
+            elapsedTimes = elapsedTimes.map(function(){
+               return 0;
+            });
+        });
         
         // affix progress bar
         $progress.affix({
