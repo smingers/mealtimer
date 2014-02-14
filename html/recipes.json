@@ -1,0 +1,1198 @@
+[
+
+{
+
+    "id" : "1",
+    "title" : "Country Sourdough Bread",
+    "description" : "Chad Robertson of San Francisco's <a href='http://www.tartinebakery.com/'>Tartine Bakery & Cafe</a> developed his recipe for a basic country loaf over the course of decades of apprenticeship and experimentation  This recipe is adapted from his cookbook <a href='http://www.tartinebread.com/'>Tartine Bread</a>.  It omits the steps to create and develop a sourdough starter.  Use this recipe when you are ready to bake.",
+    "author" : "Chad Robertson",
+    "bgImage" : "http://1.bp.blogspot.com/-aCjaAn0Ek5A/TXxARZgRkII/AAAAAAAABM0/8UxzCIe_nu8/s1600/_DSC6886.JPG",
+    "yield" : "two large, round loaves",
+    "time" : [
+        "12 hours overnight to make the leaven",
+        "8-10 hours to form the loaves",
+        "40-45 minutes to bake each loaf",
+        "24 hours total"
+    ],
+    "ingredientsCategories" : [
+        "leaven",
+        "dough"
+    ],
+    "ingredients" : [
+        "1 tbsp mature starter",
+        "200g 75° water",
+        "100g white flour",
+        "100g whole wheat flour",
+        "700g plus 50g (27 oz) 80° water",
+        "200g leaven",
+        "900g white flour",
+        "100g whole wheat flour",
+        "20g salt"
+    ],
+    "tools" : [
+        "kitchen scale",
+        "large bowls (2)",
+        "kitchen towels (2)",
+        "dough scraper",
+        "dough bucket",
+        "cast iron combination cooker or dutch oven",
+        "sharp knife or razor blade",
+        "wire cooling rack"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 43200000,
+        "elapsed" : 0,
+        "text" : "To make the leaven: the night before you are ready to bake, discard all of the <span class='ingredient'>starter</span> except for 1 tbsp.  Add the tbsp of starter to <span class='ingredient'>200g 78 degree water</span> and <span class='ingredient'>200g of the white and whole wheat flour mixture</span>. Cover with a <span class='tool'>kitchen towel</span> and let rise overnight, up to 12 hours.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Test the readiness of the leaven by dropping a spoonful in a bowl of room temperature water. If it floats it is ready to use. If not, wait awhile longer.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Gather the ingredients to make the bread dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add <span class='ingredient'>700g water</span> into a large mixing bowl.  Stir in the <span class='ingredient'>200g leaven</span> to disperse.  Set aside the remaining leaven - this is now your starter.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the <span class='ingredient'>900g white flour</span> and <span class='ingredient'>100g whole wheat flour</span> and mix by hand until fully incorporated.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 2400000,
+        "elapsed" : 0,
+        "text" : "Cover and let rest 25-40 minutes.  This initial rest is called the autolyse and is integral to forming tension in the dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "<p>Add <span class='ingredient'>20g salt</span> and <span class='ingredient'>50g water</span> and mix in by hand, breaking the dough apart.  Transfer to a <span class='tool'>large, clear plastic container with a lid (dough bucket)</span>.</p><p>Bulk fermentation begins and may take 3-4 hours in a warm area.  The cooler the room the longer it will take.  If your kitchen is cool you can create a microclimate in the oven by briefly heating it and keeping the oven door closed.</p><p>During fermentation, fold or \"turn\" the dough every 30 minutes.  Dip one hand in water to prevent the dough from sticking to you and then grab the underside of the dough, stretch it up, and fold it back over the rest of the dough.  Repeat this action two or three times so that all the dough gets evenly developed.  This is considered one turn.</p><p>Look for signs of development as you are folding.  These include bubbles forming in the dough and a smooth surface.  After folding the dough it should quickly regain its shape, and the dough should release from the sides of the container easily.</p>",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Wait 30 minutes before doing the first turn.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 1st time and wait 30 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 2nd time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 3rd time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 4th time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 5th time.  At this time, the dough should start to get billowy, soft, and aerated.  At this later stage, you should turn the dough more gently to avoid pressing gas out of the dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 14,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 6th time, if necessary. Otherwise, skip to Step 16.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 15,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 7th time, if necessary. Otherwise, skip to Step 16.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 16,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place the dough on an unfloured work surface. Split the dough in half using a bench knife. Flour each piece, flip it over, and work into a ball in as few movements as possible.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 17,
+        "time" : 1200000,
+        "extra-time" : 600000,
+        "elapsed" : 0,
+        "text" : "When both doughs are shaped, flour the tops and cover with a <span class='tool'>towel</span> for the bench rest, 20-30 min.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 18,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Line <span class='tool'>2 medium baskets or bowls with clean kitchen towels</span>; generously dust with flour. Using the dough scraper, transfer each round to a basket, smooth side down, with seam centered and facing up.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 19,
+        "time" : 9600000,
+        "extra-time" : 3600000,
+        "elapsed" : 0,
+        "text" : "Let rest at room temperature (75 degrees to 80 degrees), covered with <span class='tool'>towels</span> for 3 to 4 hours before baking.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 20,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Bake the Bread: Twenty minutes before you are ready to bake the bread, preheat the <span class='tool'>oven</span> to 500 degrees, with rack in lowest position, and warm a 9 1/2-inch round or an <span class='tool'>11-inch oval Dutch oven</span> (or a heavy ovenproof pot with a tight-fitting lid).",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 21,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a <span class='tool'>razor blade or a sharp knife</span>. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 22,
+        "time" : 1200000,
+        "extra-time" : 300000,
+        "elapsed" : 0,
+        "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 23,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer loaf to a <span class='tool'>wire rack</span>. It will feel light and sound hollow when tapped. Let cool.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 24,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "To bake the second loaf, raise oven temperature to 500 degrees, wipe out Dutch oven with a dry kitchen towel, and reheat with lid for 10 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 25,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a razor blade or a sharp knife. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 26,
+        "time" : 1200000,
+        "extra-time" : 300000,
+        "elapsed" : 0,
+        "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 27,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer loaf to a wire rack. It will feel light and sound hollow when tapped. Let cool.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+
+},
+
+{
+
+    "id" : "2",
+    "title" : "Shakshuka",
+    "description" : "Shakshuka is a North African dish with many variations. Some add preserved lemon, others feta and different herbs and spices. It is my ideal brunch fair. Cook and serve it in individual pans, if you have them, or in one very large one. Chunky white bread on the side is a must.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Plenty",
+    "bgImage" : "http://farm9.staticflickr.com/8042/8040922186_730646a485_o.jpg",
+    "yield" : "serves 4 generously",
+    "time" : [
+        "30 minutes to prepare",
+        "40 minutes to cook",
+        "70 minutes total"
+    ],
+    "ingredients" : [ 
+        "1/2 tsp cumin seeds",
+        "3/4 cup light olive oil or vegetable oil",
+        "2 large onions, sliced",
+        "2 red peppers, cut into 3/4 in strips",
+        "2 yellow peppers, cut into 3/4 in strips",
+        "4 tsp muscovado sugar",
+        "2 bay leaves",
+        "6 thyme sprigs, leaves picked and chopped",
+        "2 tbsp chopped parsley",
+        "2 tbsp chopped cilantro, plus extra to garnish",
+        "6 ripe tomatoes, roughly chopped",
+        "1/2 tsp saffron threads",
+        "pinch of cayenne pepper",
+        "up to 1 1/8 cups water",
+        "8 eggs",
+        "salt and black pepper"
+    ],
+    "tools" : [
+        "large frying pan",
+        "four deep frying pans with lids"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "In a very large pan dry-roast the cumin seeds on a high heat for 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Add the oil and onions and sauté for 5 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Add the peppers, sugar and herbs and continue cooking on a high heat for 5-10 minutes to get a nice color.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Add the tomatoes, saffron, cayenne and some salt and pepper. Reduce the heat to low and cook for 15 minutes. During the cooking keep adding water so that the mix has a pasta sauce consistency. Taste and adjust the seasoning. It should be potent and flavorful. (You can prepare this mix well in advance.)",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove the bay leaves, then divide the pepper mix among four deep frying pans, each large enough to take a generous individual portion.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place the frying pans on medium heat to warm up, then make two gaps in the pepper mix in each pan and carefully break an egg into each gap. Sprinkle with salt and cover the pans with lids.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Cook on a very (!) gentle heat for 10-12 minutes, or until the eggs are just set.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+                {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Sprinkle with chopped cilantro and serve.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+
+},
+
+{
+
+    "id" : "3",
+    "title" : "Shakshuka",
+    "description" : "Shakshuka is Tunisian in origin but has become hugely popular in Jerusalem and all over Israel as substantial breakfast or brunch fare.  Tunisian cuisine has a passionate love affair with eggs and this particulare version of shakshuka is the seasonal variant for the summer and early autumn.  Potatoes are used duing the winter and eggplants in spring.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Jerusalem",
+    "bgImage" : "http://graphics8.nytimes.com/images/2013/05/08/dining/08APPE/08APPE-superJumbo.jpg",
+    "yield" : "serves 2-4",
+    "time" : [
+        "30 minutes to prepare",
+        "30 minutes to cook",
+        "1 hour total"
+    ],
+    "ingredients" : [
+        "2 tbsp olive oil",
+        "2 tbsp Pilpelchuma or harissa",
+        "2 tsp tomato paste",
+        "2 parge red peppers, cut into 1/4-inch dice (2 cups / 300 g total)",
+        "4 cloves garlic, finely chopped",
+        "1 tsp ground cumin",
+        "5 large, very ripe tomatoes, chopped (5 cups / 800g total); canned are also fine",
+        "4 large eggs plus 4 egg yolks",
+        "1/2 cup / 120 g labneh or thick yogurt",
+        "salt"
+    ],
+    "tools" : [
+        "large frying pan"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Heat the olive oil in a large frying pan over medium heat and add the pilpelchuma or harissa, tomato paste, peppers, garlic, cumin, and 3/4 tsp salt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 480000,
+        "elapsed" : 0,
+        "text" : "Stir and cook over medium heat for about 8 minutes to allow the pepper to soften.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the tomatoes and bring to a gentle simmer.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Cook for a further 10 minutes until you have quite a thick sauce.  Taste for seasoning.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Make 8 little dips in the sauce.  Gently break the eggs and carefully pour each into its own dip.  Do the same with the yolks.  Use a fork to swirl the egg whites a little bit with the sauce, taking care not to break the yolks.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 480000,
+        "elapsed" : 0,
+        "text" : "Simmer gently for 8 to 10 minutes, until the egg whites are set but the yolks are still runny (you can cover the pan with a lid if you wish to hasten the process).",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Remove from the heat, leave for a couple of minutes to settle, then spoon into individual plates and serve with the labneh or yogurt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+
+},
+
+{
+
+    "id" : "4",
+    "title" : "Chemex Coffee",
+    "description" : "Method for pour-over style coffee brewing using a Chemex Coffee maker and filter",
+    "author" : "Intelligentsia Coffee Company",
+    "bgImage" : "http://bostonstoker.com/wp-content/uploads/2013/03/chemex_brewing-1729571_1200x550.png",
+    "yield" : "20 fluid ounces",
+    "time" : [
+        "10 minutes"
+    ],
+    "timeAlt" : {
+        "prep" : "",
+        "cooking" : "",
+        "total" : ""
+    },
+    "ingredients" : [
+        "44 g whole coffee beans",
+        "700 g (20 fl oz) filtered water",
+        "hot water (to soak the coffee filter)"
+    ],
+    "tools" : [
+        "Chemex 8 cup coffee maker",
+        "pour over style kettle",
+        "Chemex coffee filter",
+        "digital scale",
+        "coffee grinder",
+        "instant read or infrared thermometer"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Fill the kettle with 700 g fresh, filtered water.  Set to boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Weigh 44 g of whole bean coffee and add to the grinder.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place a filter into the top compartment of the Chemex making sure the 3-layered side is facing the spout. This will allow air to escape during the brew process.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Pour plenty of hot water through the filter to avoid any papery taste affecting the brew.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Once thoroughly saturated, tip the Chemex over a sink to dispose of the rinse water. Don’t be tempted to remove the filter to empty faster; it can be difficult to secure back into place once removed.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place your Chemex complete with rinsed filter on the scale and tare to zero.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Grind your coffee, add it to the filter, and tare to zero again.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When the kettle comes to a boil, remove from heat.  After the water has cooled for a minute to about 200°F, gently but thoroughly pre-wet the coffee grounds with 100g of water and start a timer. This will initiate the “bloom” period.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 30000,
+        "elapsed" : 0,
+        "text" : "This process will typically take 30 seconds for this dose weight. Wait for the prompt from the timer before progressing.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Using a circular pulse pour motion, slowly pour water over the coffee. Avoid the sides of the Chemex by pouring into the middle. Keep a close eye on the scale, and add around 100g of water on each pour in 10-20 second intervals up to 700g of total water. If the pour gets too high, pause for a moment to let the level fall a few cm, and then continue with a slow pour. Do not fill up to the rim of the Chemex. Keep the slurry level at least 5cm below the rim of the Chemex to prevent the filter from collapsing.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Once the drips stall to every couple of seconds, your brew is finished. If your grind was correct, and you poured at the right speed, this should have taken approximately 3-4 minutes. Remove the filter and discard.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+    
+},
+
+{
+    
+    "id" : "5",
+    "title" : "Cook's Illustrated Home Fries",
+    "description" : "Making home fries the traditional way takes about an hour of standing over a hot skillet, after which you get only three servings at most. We wanted a quicker, more hands-off method for making a larger amount. To speed things up, we developed a hybrid cooking technique: First, we parboil diced russet potatoes, and then we coat them in oil and cook them in a very hot oven. We discovered that boiling the potatoes with baking soda quickly breaks down their exterior while leaving their insides nearly raw, ensuring home fries with a crisp, brown crust and a moist, fluffy interior. We added diced onions in the last 20 minutes of oven time and finished the home fries with chives to reinforce the onion flavor.",
+    "author" : "Cook's Illustrated",
+    "bgImage" : "http://myyearwithchris.files.wordpress.com/2012/02/dsc_0013.jpg",
+    "yield" : "serves 6-8",
+    "time" : [
+        "20 minutes prep",
+        "40-45 minutes to bake",
+        "1 hour total"
+    ],
+    "ingredients" : [
+        "3.5 lbs russet potatoes, diced into 3/4\" cubes",
+        "10 c water",
+        "1/2 t baking soda",
+        "3 T butter, cut into 12 pieces",
+        "3 T vegetable oil",
+        "2 t kosher salt",
+        "pepper",
+        "pinch of cayenne pepper",
+        "2 onions, diced",
+        "3 T chives, minced"
+    ],
+    "tools" : [
+        "large stockpot",
+        "colander",
+        "large, rimmed baking sheet",
+        "nonstick foil",
+        "spatula"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Adjust oven rack to lowest position, place rimmed baking sheet on rack, and heat over to 500&deg.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Brin 10 cups water to boil in the stockpot.  Add potatoes and baking soda.  Return to boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Cook the potatoes for 1 minute and then drain in the colander.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Return potatoes to the pot over low heat.  Cook, shaking the pot occasionally, until any surface moisture has evaporated, about 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove pot from heat.  Add butter, 1 1/2 t salt, and cayenne.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 30000,
+        "elapsed" : 0,
+        "text" : "Mix with a rubber spatula until potatoes are coated with thick, starchy paste, about 30 seconds.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove baking sheet from oven and drizzle with 2 T oil.  Transfer potatoes to baking sheet and spread into even layer.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Roast for 15 minutes.  While potatoes roast, combine onions, remaining 1 T oil, and 1/2 t salt in bowl.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove baking sheet from oven.  Turn the potatoes with a spatula.  Clear an 8 by 5-inch space in center of baking sheet and add onion mixture.  Return to oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Roast for 15 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove and turn again, mixing onions into potatoes.  Return to oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 300000,
+        "extra-time" : 300000,
+        "elapsed" : 0,
+        "text" : "Continue roasting until potatoes are well browned and onions are softened and beginning to brown, 5 to 10 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Stir in chives and season to taste.  Serve immediately.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+
+}
+
+]
