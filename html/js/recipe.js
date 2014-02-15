@@ -119,6 +119,7 @@ $(document).ready(function () {
             $pause.addClass('disabled');
             $add.addClass('disabled');
             $next.addClass('disabled');
+            $('.panel').removeClass('completed');
             elapsedTimes = elapsedTimes.map(function(){
                return 0;
             });
