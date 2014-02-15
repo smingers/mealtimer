@@ -120,6 +120,8 @@ $(document).ready(function () {
             $add.addClass('disabled');
             $next.addClass('disabled');
             $('.panel').removeClass('completed');
+            $('.progress-bar-step').removeClass('progress-bar-step-current');
+            $('.progress-bar-step').removeClass('progress-bar-step-completed');
             elapsedTimes = elapsedTimes.map(function(){
                return 0;
             });
