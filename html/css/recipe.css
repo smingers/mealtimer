@@ -216,6 +216,7 @@ a:hover {
 
 .stop {
     float: right;
+    visibility: hidden;
 }
 
 .bs-footer {

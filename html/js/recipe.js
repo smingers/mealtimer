@@ -21,6 +21,8 @@ $(document).ready(function () {
     var $timerRow = $('.timer-row');
     var $jumbotron = $('.jumbotron');
     var $progress = $('.progress');
+    var $start = $('#start');
+    var $stop = $('.stop');
     
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
@@ -109,7 +111,7 @@ $(document).ready(function () {
         }
         
         // IN PROGRESS stop function
-         $('.stop').click(function () {
+         $stop.click(function () {
             clearInterval(countDown);
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
@@ -122,6 +124,8 @@ $(document).ready(function () {
             $('.panel').removeClass('completed');
             $('.progress-bar-step').removeClass('progress-bar-step-current');
             $('.progress-bar-step').removeClass('progress-bar-step-completed');
+            $start.css('visibility', 'visible');
+            $stop.css('visibility', 'hidden');
             elapsedTimes = elapsedTimes.map(function(){
                return 0;
             });
@@ -256,7 +260,8 @@ $(document).ready(function () {
         $pause.removeClass('disabled');
         $play.addClass('disabled');
         $add.removeClass('disabled');
-        $('#start').css('visibility', 'hidden');
+        $start.css('visibility', 'hidden');
+        $stop.css('visibility', 'visible');
         prevDisabler(currentStep);
         nextDisabler(currentStep);
         
