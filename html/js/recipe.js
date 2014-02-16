@@ -127,7 +127,7 @@ $(document).ready(function () {
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
             elapsedTimes = elapsedTimes.map(function(){
-               return 0;
+               return 0; // resets all values in array to zero
             });
         });
         
