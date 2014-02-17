@@ -1,27 +1,24 @@
 {
     
-    "id" : ,
+    "id" : "",
     "title" : "",
     "description" : "",
     "author" : "",
     "bgImage" : "",
     "yield" : "",
     "time" : [
-        "prep" : "",
-        "cooking" : "",
-        "total" : "",
     ],
     "ingredients" : [
-    ]
+    ],
     "tools" : [
-    ]
+    ],
     
     "steps" : [
     
         {
         "ordinal" : 1,
-        "time" : ,
-        "elapsed" : ,
+        "time" : null,
+        "elapsed" : 0,
         "text" : "",
         "ingredients" : [
         ],
@@ -34,9 +31,9 @@
         },
 
         {
-        "ordinal" : ,
-        "time" : ,
-        "elapsed" : ,
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
         "text" : "",
         "ingredients" : [
         ],
@@ -46,7 +43,7 @@
         "class" : "",
         "subclass" : "",
         "intensity" : ""
-        },
+        }
         
     ]
 
