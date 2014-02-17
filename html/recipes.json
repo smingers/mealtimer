@@ -1451,7 +1451,61 @@
 },
 
 {
+    "id" : "8",
+    "title" : "Black Bottom Cupcakes",
+    "description" : "",
+    "author" : "Marlene Berman",
+    "bgImage" : "http://1.bp.blogspot.com/_eH_XyqbidOM/TQl6ECBiX_I/AAAAAAAADuA/QFPIm6jGfMg/s1600/Cupcakes%2B006.jpg",
+    "yield" : "approx. 40 small cupcakes",
+    "time" : [
+    ],
+    "ingredients" : [
+        "8 oz cream cheese",
+        "1 egg, beaten",
+        "1/3 c sugar",
+        "1/8 t salt",
+        "1 1/2 c flour",
+        "1/4 c cocoa powder",
+        "1 t baking soda",
+        "12 oz package of chocolate chips",
+        "TO BE CTD"
+    ],
+    "tools" : [
+    ],
     
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
 },
 
 {
