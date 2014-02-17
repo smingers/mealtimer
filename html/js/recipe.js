@@ -363,12 +363,12 @@ $(document).ready(function () {
         }
     });
     
-    
+
    // get recipe from JSON array of objects; currently hard coding the ID number IN PROGRESS
     $.getJSON("recipes.json", function(recipes) {
         var recipe;
         for (var i = 0, length = recipes.length; i < length && !recipe; i++) {
-            if (recipes[i].id === "6") {
+            if (recipes[i].id === purl().param('id')) {
                 recipe = recipes[i];
             }
         }
