@@ -363,7 +363,7 @@ $(document).ready(function () {
     $.getJSON("recipes.json", function(recipes) {
         var recipe;
         for (var i = 0, length = recipes.length; i < length && !recipe; i++) {
-            if (recipes[i].id === "1") {
+            if (recipes[i].id === "6") {
                 recipe = recipes[i];
             }
         }

@@ -1203,7 +1203,9 @@
     "bgImage" : "http://www.rusticgardenbistro.com/wp-content/uploads/www.rusticgardenbistro.com-Shrimp-Etouffee.jpg",
     "yield" : "Serves 4-6",
     "time" : [
-        ""
+        "prep: 20 minutes (more if you peel the shrimp)",
+        "cook: 30 minutes",
+        "total: 50 minutes"
     ],
     "ingredients" : [
         "2 lbs medium shrimp, peeled",
@@ -1317,7 +1319,7 @@
         },
         
         {
-        "ordinal" : 8,
+        "ordinal" : 7,
         "time" : 300000,
         "elapsed" : 0,
         "text" : "Remove cover and add sherry, if using,  Let bubble and cook down, 5 minutes.  If the mixture looks too thin, add stir in extra flour.",
@@ -1332,7 +1334,7 @@
         },
         
         {
-        "ordinal" : 9,
+        "ordinal" : 8,
         "time" : null,
         "elapsed" : 0,
         "text" : "Spoon etoufee over the rice and serve hot.",
