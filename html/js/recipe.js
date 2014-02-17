@@ -18,11 +18,15 @@ $(document).ready(function () {
     var $prev = $('.prev');
     var $next = $('.next');
     var $navbar = $('.navbar');
+    var $step = $('.step');
     var $timerRow = $('.timer-row');
     var $jumbotron = $('.jumbotron');
     var $progress = $('.progress');
     var $start = $('#start');
     var $stop = $('.stop');
+    var $panel = $('.panel');
+    var $progressBarStep = $('.progress-bar-step');
+    
     
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
@@ -115,15 +119,16 @@ $(document).ready(function () {
             clearInterval(countDown);
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
-            $('.step').text('');
+            $step.text('');
             $prev.addClass('disabled');
             $play.removeClass('disabled');
             $pause.addClass('disabled');
             $add.addClass('disabled');
             $next.addClass('disabled');
-            $('.panel').removeClass('completed');
-            $('.progress-bar-step').removeClass('progress-bar-step-current');
-            $('.progress-bar-step').removeClass('progress-bar-step-completed');
+            $panel.removeClass('completed');
+            $panel.removeClass('current');
+            $progressBarStep.removeClass('progress-bar-step-current');
+            $progressBarStep.removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
             elapsedTimes = elapsedTimes.map(function(){
@@ -174,7 +179,7 @@ $(document).ready(function () {
     
     // intiate countdown and refresh every second using setInterval
     var startCountdown = function () { 
-        $('.step').text('Step ' + (currentStep + 1));
+        $step.text('Step ' + (currentStep + 1));
         
         // checks for null time value
         if (recipeStepTimes[currentStep] === null) {
