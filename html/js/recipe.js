@@ -24,7 +24,7 @@ $(document).ready(function () {
     var $progress = $('.progress');
     var $start = $('#start');
     var $stop = $('.stop');
-    var $panel = $('.panel');
+    // var $panel = $('.panel');
     var $progressBarStep = $('.progress-bar-step');
     
     
@@ -125,8 +125,8 @@ $(document).ready(function () {
             $pause.addClass('disabled');
             $add.addClass('disabled');
             $next.addClass('disabled');
-            $panel.removeClass('completed');
-            $panel.removeClass('current');
+            $('.panel').removeClass('completed');
+            $('.panel').removeClass('current');
             $progressBarStep.removeClass('progress-bar-step-current');
             $progressBarStep.removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
