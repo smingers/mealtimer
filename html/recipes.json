@@ -1352,7 +1352,102 @@
 },
 
 {
+    "id" : "7",
+    "title" : "Pasta Primavera",
+    "description" : "This is a light pasta salad that is perfect for summer picnics and is easy to make ahead and refrigerate until just ready to serve",
+    "author" : "",
+    "bgImage" : "http://upload.wikimedia.org/wikipedia/commons/d/dd/Pasta_primavera.jpg",
+    "yield" : "Serves 8-12 as an appetizer",
+    "time" : [
+    ],
+    "ingredients" : [
+        "1 carrot, sliced",
+        "2 tomatoes, diced",
+        "1 green pepper, diced",
+        "1-2 cucumbers, diced",
+        "1-2 scallions, sliced",
+        "2-4 radishes, sliced",
+        "1 lb rotini",
+        "FOR THE DRESSING",
+        "1/2 c vegetable or olive oil",
+        "1/2 c red wine vinegar",
+        "1 tbsp dijon mustard",
+        "1/2 T dried basil",
+        "1/2 T dried parsley",
+        "1/4 t dried oregano",
+        "1/2 t salt",
+        "1/2 t pepper"
+    ],
+    "tools" : [
+        "large pot",
+        "colander",
+        "mixing bowl",
+        "large serving bowl"
+    ],
     
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Combine all the ingredients for the dressing and blend well.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Bring a large pot of salted water to a boil.  Chop all the vegetables",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Cook pasta and drain.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Combine drained pasta and chopped vegetables in a large serving bowl.  Toss with the dressing until well coated.  Refrigerate until ready to serve.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
 },
 
 {
