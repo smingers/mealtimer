@@ -1193,6 +1193,172 @@
         
     ]
 
+},
+
+{
+    "id" : "6",
+    "title" : "Shrimp Etoufee",
+    "description" : "This is an authentic cajun recipe from Louisiana native Velter Savage",
+    "author" : "Velter Savage",
+    "bgImage" : "http://www.rusticgardenbistro.com/wp-content/uploads/www.rusticgardenbistro.com-Shrimp-Etouffee.jpg",
+    "yield" : "Serves 4-6",
+    "time" : [
+        ""
+    ],
+    "ingredients" : [
+        "2 lbs medium shrimp, peeled",
+        "4 small onions, chopped",
+        "1/2 c celery, chopped",
+        "1 stick butter or margarine",
+        "2 t tomato paste",
+        "2-3 T flour",
+        "1 c shallots, chopped",
+        "2 T parsley",
+        "cayenne pepper, to taste",
+        "salt, to taste",
+        "sherry (optional)",
+        "white rice, to serve"
+    ],
+    "tools" : [
+        "large frying pan with lid",
+        "medium saucepan"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Saute onions and celery in butter (or margarine) until glazed.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Add tomato paste and blend into the onions and celery.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Add shrimp and cook until the mixture bubbles and shrimp starts to turn pink.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Blend in the flour - add a little water to thin the mixture.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add salt, cayenne to taste, shallots, and parsley flakes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Cover and let simmer for 10-15 minutes.  While the etoufee is simmering, bring a pot of water to boil and cook the rice.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Remove cover and add sherry, if using,  Let bubble and cook down, 5 minutes.  If the mixture looks too thin, add stir in extra flour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Spoon etoufee over the rice and serve hot.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+    ]
+        
+},
+
+{
+    
+},
+
+{
+    
+},
+
+{
+    
 }
 
 ]
