@@ -102,7 +102,7 @@ $(document).ready(function () {
         $jumbotron.css("background-image", "url('" + recipe.bgImage + "')");
         $('.title').text(recipe.title);
         $('.description').html(recipe.description);
-        $('.author').html('By ' + recipe.author);
+        $('.author').html(recipe.author);
         $('.yield').append('<li>' + recipe.yield + '</li>');
         for (i = 0, length = recipe.time.length; i < length; i++) {
             $('.prep-time').append('<li>' + recipe.time[i] + '</li>');
