@@ -1451,6 +1451,432 @@
 },
 
 {
+    "id" : "8",
+    "title" : "Yogurt flatbreads with barley and mushrooms",
+    "description" : "This is a wonderfully soothing dish due to the smooth textures of the mushrooms and barley.  As amazing as the flatbreads are, you don't have to make them if you are short of time.  Rice or couscous will be fine alternatives.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Plenty",
+    "bgImage" : "http://4.bp.blogspot.com/-3ZbshXNBfEo/T1oFyrbh-LI/AAAAAAAAD3o/6GRjbLFdCsU/s1600/barley4.jpg",
+    "yield" : "Serves 6 as a starter",
+    "time" : [
+        "60-75 minutes to prepare (mostly waiting)"
+        "1 hour to cook"
+        "2 hours, 15 minutes total"
+    ],
+    "ingredients" : [
+        "FLATBREADS",
+        "1 c plus 2 tsp whole-wheat flour",
+        "1 1/2 t baking powder",
+        "1/2 t salt",
+        "3/4 c Greek yogurt",
+        "3 T chopped fresh cilantro",
+        "4 T clarified butter (or a mixture of melted butter and vegetable oil",
+        "MUSHROOM RAGOUT",
+        "1/2 c pearl barley",
+        "3/4 oz dried porcini mushrooms",
+        "3/4 c lukewarm water",
+        "4 c mixed shiitake and button mushrooms, halved",
+        "2 T olive oil",
+        "5 T butter",
+        "2 thyme sprigs",
+        "1 garlic clove, crushed",
+        "1/2 c white wine",
+        "salt and black pepper",
+        "2 T chopped parsley, plus extra to garnish",
+        "1/2 T finely chopped preserved lemon",
+        "6 T Greek yogurt"
+    ],
+    "tools" : [
+        "large bowl",
+        "plastic wrap",
+        "small bowl",
+        "medium saucepan",
+        "large frying pan",
+        "rolling pin",
+        "medium nonstick frying pan"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the flatbreads, combine all the ingredients, apart from the butter, in a bowl and use your hands to mix them together to a dry dough; add more flour if needed.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Knead the dough for a minute or so, until it is smooth and uniform.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 3600000,
+        "elapsed" : 0,
+        "text" : "Wrap it in plastic wrap and chill for at least an hour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "To make the mushroom ragout, rince the barley with cold water, then place in a medium saucepan and cover with plenty of fresh water.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Simmer the barley for 30 to 35 minutes, or until al dente.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place the porcini in a bowl and cover with lukewarm water; set aside.  Put the fresh mushrooms in a heavy pan with the olive oil over medium-high heat, half the butter and thyme.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Saute for 4 minutes, stirring occasionally.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Once the mushrooms have softened, add the garlic and wine and allow to bubble away for about 5 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Add the porcini and their soaking liquid, leaving behind andy grit in the bowl, plus some salt and pepper.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Simmer on low heat for about 10 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Stir in the rmaining butter with the parsley, preserved lemon, lemon juice, and cooked barley.  You will now have a flavorful mushroom stew with a thick sauce.  Add more water if needed and taste for seasoning.  Set aside to reheat before serving.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When ready to make the flatbreads, divide your dough into six pieces.  Roll into balls, then flatten them with a rolling pin into round discs about 1 inch thick.  Heat some clarified butter in a nonstick pan and fry the flatbreads, one at a time, on medium heat for about 2 minutes on each side, or until golden brown.  Add more butter as you need it and keep the flatbreads warm as they are cooked (place a plate in the oven on the lowest heat setting and transfer each flatbread into the oven when finished frying).",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 14,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 15,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 16,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 17,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 18,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 19,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 20,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 21,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 22,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 23,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry flatbread on one side and turn.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 24,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Fry the other side and remove from the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 25,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To serve, fold each warm flatbread in half or into quarters and top with warm ragout, a spoonful of yogurt and a sprinkle of parsley.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]  
+},
+
+{
     
 }
 
