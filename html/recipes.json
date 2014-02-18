@@ -2265,6 +2265,179 @@
 },
 
 {
+    "id" : "11",
+    "title" : "Harissa paste",
+    "description" : "The basic flavoring agent in Tunisian cuisine, harissa is extremely versatile.  Use it as a condiment for grilled meat or fish, add it to roasted vegetables, or stir into stews and soups.  We particularly like it with couscous or rice.  Adjust the amount of heat by increasing or reducing the number of chiles.  Just remember: it is meant to be hot!",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Jerusalem",
+    "bgImage" : "http://upload.wikimedia.org/wikipedia/commons/9/98/Harissa_Sauce.JPG",
+    "yield" : "1 small jar (3/4 c / 200 mL)",
+    "time" : [
+        "10 minutes to prepare",
+        "40 minutes to cook",
+        "50 minutes total"
+    ],
+    "ingredients" : [
+        "1 red pepper",
+        "1/2 t coriander seeds",
+        "1/2 t cumin seeds",
+        "1/2 t caraway seeds",
+        "1 1/2 T olive oil",
+        "1 (90g) small red onion, coarsely chopped",
+        "3 cloves garlic, coarsely chopped",
+        "3 hot red chiles, seeded and coarsely chopped",
+        "1 1/2 t tomato paste",
+        "2 T freshly squeezed lemon juice",
+        "1/2 t salt"
+    ],
+    "tools" : [
+        "plastic wrap",
+        "small frying pan",
+        "mortar and pestle",
+        "food processor"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Preheat the broiler until very hot.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 1500000,
+        "elapsed" : 0,
+        "text" : "Place the red pepper in the broiler, turning occasionally for about 25 minutes, until blackened on the outside and completely soft.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer pepper to a bowl, cover with plastic wrap, and allow to cool.  Peel the pepper and discard its skin and seeds.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Place a dry frying pan over low heat and lightly toast the coriander, cumin, and caraway seeds for 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Grind seeds to a powder in a mortar and pestle.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Heat the olive oil in a frying pan over medium heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Fry the onion, garlic, and chiles for 10 to 12 minutes, until a dark smoky color and almost caramelized.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Use a blender or food processor to blitz together all ingredients until smooth, adding a little more oil if needed.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Store in the fridge for up to 2 weeks.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
