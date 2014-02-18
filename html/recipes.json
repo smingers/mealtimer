@@ -1877,6 +1877,394 @@
 },
 
 {
+    "id" : "9",
+    "title" : "Delhi-style Chana Dal",
+    "description" : "Dal is sometimes made with whole beans (or lentils, or dried peas, but I’ll use the word \"legumes\" to include all of these), but they tend to be smaller than their North American relatives. They are also often peeled and split. This means they cook faster — half an hour is generally long enough to make many dals — and break down quickly. That texture is enhanced by a mathani, a kind of wooden beater or churner reminiscent of the molinillo used to froth Mexican hot chocolate. A mathani is fun to use — you rub the dowel end between your palms to twirl the action end in the dal, semi-puréeing it — but a whisk works pretty well, too, as might a molinillo, for that matter.",
+    "author" : "Mark Bittman & Julie Sahni",
+    "source" : "The New York Times",
+    "bgImage" : "http://thebrookcook.files.wordpress.com/2013/03/img_2848.jpg",
+    "yield" : "Serves 4",
+    "time" : [
+        "10 minutes to prepare",
+        "45-75 minutes to cook (mostly unattended)",
+        "55-85 minutes total"
+    ],
+    "ingredients" : [
+        "1 cup split chickpeas (chana dal)",
+        "1 1/2 teaspoons turmeric",
+        "1/2 teaspoon ground cardamom",
+        "1 bay leaf, preferably Indian",
+        "1 teaspoon salt",
+        "2 tablespoons sunflower or safflower oil",
+        "6 whole cloves",
+        "4 large garlic cloves, thinly sliced",
+        "1 teaspoon crushed-red-chili flakes (optional)",
+        "3 tablespoons freshly chopped cilantro"
+    ],
+    "tools" : [
+        "large saucepan or dutch oven",
+        "small frying pan",
+        "mathani or whisk"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Combine the chana dal, turmeric, cardamom, bay leaf, salt and 4 cups water in a large saucepan and bring to a boil. Adjust the heat so the mixture bubbles gently and partly cover.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 2400000,
+        "elapsed" : 0,
+        "text" : "Cook for 40 minutes, undisturbed.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "At that point, the mixture should still be quite moist; if it is not, add 1 cup additional water and continue cooking, covered, until the dal is tender, about 20 minutes; turn off the heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Remove the bay leaf. Use an Indian mathani (see description) to purée the dal for about 1 minute; the dal should be saucy but not soupy.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the tadka, put the oil in a small saucepan over medium-high heat. When the oil is hot, add the cloves.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 30000,
+        "elapsed" : 0,
+        "text" : "Let sizzle for 30 seconds, until fragrant.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the garlic and cook, stirring constantly, until medium brown. Stir in the chili flakes if you’re using them, and turn off the heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Pour the tadka into the dal; stir gently to combine. Garnish with cilantro and serve.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+    ]
+},
+
+{
+    "id" : "10",
+    "title" : "Bagels",
+    "description" : "Good bagels are one of the tastiest baked treats you could ask for.  Repeat: <i>good bagels</i>.  When we have them, we tend to remember both the bagels and where we got them.  Like most baked goods, bagels have a few needs in their production, and they require a little special equipment, but there is nothing out of the ordinary, and nothing that is cost prohibitive.",
+    "author" : "Jeffrey Hamelman",
+    "source" : "Bread: A Baker's Book of Techniques and Recipes",
+    "bgImage" : "http://media-cache-cd0.pinimg.com/736x/81/70/a2/8170a24561ddb6b5fce2db2915ad074d.jpg",
+    "yield" : "13 bagels",
+    "time" : [
+        "7-12 hours prep, mostly idle",
+        "15-18 minutes to bake"
+    ],
+    "ingredients" : [
+        "2 lb (7 1/2 c) high-gluten flour",
+        "1 lb, 2.6 oz (2 3/8 c) water",
+        ".2 oz (2 t) non-diastatic malt powder",
+        ".6 oz (1 T) salt",
+        ".14 oz (1 3/8 t) instant dry yeast",
+        "Malt syrup or powder as needed for boiling",
+        "Poppy, sesame, and caraway seeds, plus salt, for topping",
+        "semolina, cornmeal, or rice flour, for dusting"
+    ],
+    "tools" : [
+        "baking mat",
+        "large bowl",
+        "food scale",
+        "plastic wrap",
+        "baking sheets",
+        "large saucepan or stockpot",
+        "pizza/baking stone",
+        "pizza peel"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Mixing: Add all the ingredients except the malt syrup (or powder) used for boiling into a mixing bowl.  Knead by hand until dough is well-incorporated but stiff, about 5 minutes.  Depending on the flour's absorption, slightly more water may need to be added, but ensure the dough remains stiff.  Desired dough temperature: 76&degF.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 3600000,
+        "elapsed" : 0,
+        "text" : "Cover and commence bulk fermentation for one hour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Dividing and shaping: Divide the dought into 4 oz pieces that are more or less square.  Flatten them one by one, and roll them into tight cylinders.  Roll each dough piece 10 to 11 inches long, with no taper at the ends.  Shape the dough into a bagel like the old timers did: wrap it around the boradest part of your hand.  The ends should overlap slightly on your palm.  Roll your hand back and forth on the bench in order to seal the two ends together.  Place the finished bagels on sheet pans that have been sprinkled with cornmeal, semolina, or rice flour and cover with plastic.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 21600000,
+        "elapsed" : 0,
+        "text" : "Refrigerate the bagels for at least 6 hours or overnight.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Boiling: bring a large pot of water to the boil.  Add malt syrup or powder before it comes to the boil - enough to make the water the color of strong tea.  The malt will slightly permeate the dough, and once in the oven the bagels will take on a rich color and a good shien.  The boiling also reactivates the yeats, which is sluggish from its long refrigeration, and pregelatinizes the starch on the surface of the bagels, which contributes to their chewiness.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "While bring the water to the boil, preheat the oven to 500&degF.  Place a pizza stone on a rack in the middle position.  Bagels bake best when the oven has lots of steam.  To simulate this at home, fill an ovenproof pan or bowl with water and place on the bottom of the oven (or bottom rack).  A Corningware dish is perfect for this task.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When the water is boiling, take the bagels out from refrigeration.  Put several into the pot (keep the heat on, and add as many as can comfortably fit without lowering the water temperature too much), and leave for about 45 seconds.  They will puff considerably and float.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove the bagels from the water and place in a bowl of ice water (optional).",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Repeat until all bagels have been boiled.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Allow bagels to cool and sprinkle with seeds, if desired.  Place bagels onto a pizza peel lined with parchment paper.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When all bagels are on the pizza peel and the oven is fully heated, place bagels in the oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Bake the bagels until golden, 15 to 18 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove from the oven and allow to cool.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
