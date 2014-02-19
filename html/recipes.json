@@ -2439,13 +2439,16 @@
 
 {
     "id" : "12",
-    "title" : "Panfried mackerel with Golden Beet & Orange Salsa",
+    "title" : "Panfried Mackerel with Golden Beet & Orange Salsa",
     "description" : "Although oranges aren't grown in Jerusalem, the famous Jaffa oranges, cultivated along the coast, have made their mark on the city's skyline, sort of.",
     "author" : "Yotam Ottolenghi",
     "source" : "Jerusalem",
     "bgImage" : "http://saltpepperlime.files.wordpress.com/2008/09/dsc_0547.jpg",
     "yield" : "Serves 4 as a starter",
     "time" : [
+        "20-30 minutes to prepare",
+        "40 minutes to cook",
+        "1 hour total"
     ],
     "ingredients" : [
         "1 T harissa paste (store bought is OK)",
@@ -2478,7 +2481,7 @@
     
         {
         "ordinal" : 1,
-        "time" : 300000,
+        "time" : 360000,
         "elapsed" : 0,
         "text" : "Heat a dry frying pan over low heat.  Toast the cumin seeds until fragrant, about 3 minutes, and remove to a bowl.  Crush with a mortar and pestle.  Repeat with the coriander seeds, toasting for 3 minutes and then crushing.",
         "ingredients" : [
@@ -2626,6 +2629,230 @@
         "intensity" : ""
         }
         
+    ]
+},
+
+{
+    "id" : "13",
+    "title" : "Puy Lentil Galettes",
+    "description" : "These may seem a bit outdated, reminiscent of the old vol-au-vents, but all good things eventually make a comeback and I am sure this modernized version will score you many points on the imaginative-host scale.  The lentils are also delicious on their own, without the puff base.  You can skip the toasting and grinding of the seeds, if you prefer, and use ready-ground spices instead; just halve the quantity.",
+    "author" : "Yotam Ottolenghi",
+    "bgImage" : "http://bakelist.files.wordpress.com/2012/03/puygalette2.jpg",
+    "yield" : "Serves 4",
+    "time" : [
+        "20 minutes to prepare",
+        "40 minutes to cook",
+        "1 hour total"
+    ],
+    "ingredients" : [
+        "1 c Puy lentils",
+        "2 bay leaves",
+        "2 t cumin seeds",
+        "2 t coriander seeds",
+        "5 T olive oil, plus extra to finish",
+        "1 medium onion, roughly chopped",
+        "2 garlic cloves, crushed",
+        "1 1/4 c Greek yogurt",
+        "2 c baby spinach leaves",
+        "3 T chopped cilantro",
+        "3 T chopped mint",
+        "juice of 1 lemon",
+        "salt and black pepper",
+        "14 oz high-quality puff pastry",
+        "1 egg, beaten"
+    ],
+    "tools" : [
+        "saucepan",
+        "large mesh sieve",
+        "small frying pan",
+        "mortar and pestle",
+        "2 mixing bowls",
+        "baking sheet",
+        "whisk",
+        "pastry or basting brush"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Heat a small frying pan without oil over medium-low heat and toast the spices until fragrant, about 3 minutes.  Transfer to a mortar and pestle and grind.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Roll out the puff pastry 1 1/4 inches thick and cut out four circles about 3 inches in diameter.  Place on a baking sheet and refrigerate.  Preheat oven to 400&degF.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Bring a quart of water to a boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 4,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Add lentils with the bay leaves for 20 to 30 minutes, or until thoroughly cooked.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Drain in a sieve and set aside.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 360000,
+        "elapsed" : 0,
+        "text" : "Heat 1 tablespoon of the olive oil in a small plan and fry the onion gently for 6-8 minutes, or until golden and very soft.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add the ground spices and garlic and garlic and cook for 2 more minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Mix this with the lentils and set aside to cool down.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Once cool, stir in the yogurt, spinach, herbs, lemon juice, and remaining olive oil.  Taste and add salt and pepper.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove pastry from the refrigerator.  Beat an egg and brush over the pastry.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Bake for 10 to 15 minutes, or until golden on top and underneath.  Allow to cool slightly.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To serve, place the pastry discs in the middle of four serving plates.  Pile up the lentils high on top so you can just see the edge of the pastry.  Finish with a drizzle of olive oil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
     ]
 },
 
