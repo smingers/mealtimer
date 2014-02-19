@@ -2438,6 +2438,198 @@
 },
 
 {
+    "id" : "12",
+    "title" : "Panfried mackerel with Golden Beet & Orange Salsa",
+    "description" : "Although oranges aren't grown in Jerusalem, the famous Jaffa oranges, cultivated along the coast, have made their mark on the city's skyline, sort of.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Jerusalem",
+    "bgImage" : "http://saltpepperlime.files.wordpress.com/2008/09/dsc_0547.jpg",
+    "yield" : "Serves 4 as a starter",
+    "time" : [
+    ],
+    "ingredients" : [
+        "1 T harissa paste (store bought is OK)",
+        "1 t ground cumin",
+        "4 mackerel fillets (about 9 oz / 260 g in total), with skin",
+        "1 medium golden beet (3 1/2 oz / 100 g in total)",
+        "1 small lemon, halved widthwise",
+        "1/4 c / 30 g Kalamata olives, quartered lengthwise",
+        "1/2 small red onion, finely chopped (1/4 c / 40 g in total)",
+        "1/4 c / 15 g chopped flat-leaf parsley",
+        "1/2 t coriander seeds, toasted and crushed",
+        "3/4 t cumin seeds, toasted and crushed",
+        "1/2 t sweet paprika",
+        "1/2 t chile flakes",
+        "1 T hazelnut or walnut oil",
+        "1/2 t olive oil",
+        "salt"
+    ],
+    "tools" : [
+        "small frying pan",
+        "mortar and pestle",
+        "saucepan",
+        "2 mixing bowls",
+        "",
+        "",
+        ""
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Heat a dry frying pan over low heat.  Toast the cumin seeds until fragrant, about 3 minutes, and remove to a bowl.  Crush with a mortar and pestle.  Repeat with the coriander seeds, toasting for 3 minutes and then crushing.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Mix together the harissa paste, ground cumin, and a pinch of salt and rub the mixture into the mackerel fillets.  Set aside in the fridge until ready to cook.  Fill a pot with enough water to cover the beet and bring to a boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Boil the beet for 20 minutes (it may take much longer, depending on the variety), until the flesh of the beet can be easily punctured.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Allow beet to cool, then peel, ctu into 1/2-inche dice, and place in a mixing bowl.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Peel the orange and 1 lemon half, getting rid of all the outer pith, and cut into quarters.  Remove the middle pith and any seeds and cut the flesh into 1/2-inch dice.  Add to the beet along with the olives, red onion, and parsley.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "In a separate bowl, mix together the spices, the juice of the remaining lemon half, and the nut oil.  Pour this onto the beet and orange mix, stir, and season to taste with salt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Let salsa stand at room temperature for at least 10 minutes to allow all the flavors to mingle.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Just before serving, heat the olive oil in a large nonstick frying pan over medium heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Place the mackerel fillets skin side down in the pan, and cook, turning once, for about 3 minutes, until cooked through.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer fillets to serving plates and spoon the salsa on top.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
