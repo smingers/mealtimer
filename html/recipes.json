@@ -2301,7 +2301,7 @@
     
         {
         "ordinal" : 1,
-        "time" : null,
+        "time" : 480000,
         "elapsed" : 0,
         "text" : "Preheat the broiler until very hot.",
         "ingredients" : [
