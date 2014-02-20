@@ -2455,6 +2455,7 @@
         "1 t ground cumin",
         "4 mackerel fillets (about 9 oz / 260 g in total), with skin",
         "1 medium golden beet (3 1/2 oz / 100 g in total)",
+        "1 medium orange",
         "1 small lemon, halved widthwise",
         "1/4 c / 30 g Kalamata olives, quartered lengthwise",
         "1/2 small red onion, finely chopped (1/4 c / 40 g in total)",
@@ -2471,31 +2472,13 @@
         "small frying pan",
         "mortar and pestle",
         "saucepan",
-        "2 mixing bowls",
-        "",
-        "",
-        ""
+        "2 mixing bowls"
     ],
     
     "steps" : [
-    
-        {
-        "ordinal" : 1,
-        "time" : 360000,
-        "elapsed" : 0,
-        "text" : "Heat a dry frying pan over low heat.  Toast the cumin seeds until fragrant, about 3 minutes, and remove to a bowl.  Crush with a mortar and pestle.  Repeat with the coriander seeds, toasting for 3 minutes and then crushing.",
-        "ingredients" : [
-        ],
-        "tools" : [
-        ],
-        "media" : "",
-        "class" : "",
-        "subclass" : "",
-        "intensity" : ""
-        },
 
         {
-        "ordinal" : 2,
+        "ordinal" : 1,
         "time" : null,
         "elapsed" : 0,
         "text" : "Mix together the harissa paste, ground cumin, and a pinch of salt and rub the mixture into the mackerel fillets.  Set aside in the fridge until ready to cook.  Fill a pot with enough water to cover the beet and bring to a boil.",
@@ -2510,10 +2493,25 @@
         },
         
         {
-        "ordinal" : 3,
-        "time" : 1200000,
+        "ordinal" : 2,
+        "time" : 2700000,
         "elapsed" : 0,
-        "text" : "Boil the beet for 20 minutes (it may take much longer, depending on the variety), until the flesh of the beet can be easily punctured.",
+        "text" : "Boil the beet for 45 minutes (the time may vary significantly, depending on the variety), until the flesh of the beet can be easily punctured.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 3,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Heat a dry frying pan over low heat.  Toast the cumin and coriander seeds until fragrant, about 3 minutes, and remove to a bowl.  Crush with a mortar and pestle.",
         "ingredients" : [
         ],
         "tools" : [
@@ -2528,7 +2526,7 @@
         "ordinal" : 4,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Allow beet to cool, then peel, ctu into 1/2-inche dice, and place in a mixing bowl.",
+        "text" : "Allow beet to cool, then peel, dice into 1/2-inch pieces, and place in a mixing bowl.",
         "ingredients" : [
         ],
         "tools" : [
