@@ -114,9 +114,11 @@ $(document).ready(function () {
             $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
         }
         
-        // IN PROGRESS stop function
+        // IN PROGRESS stop function, restores pretty much everything back to its original state
          $stop.click(function () {
+            $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
             clearInterval(countDown);
+            console.log(currentStep);
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
             $step.text('');
@@ -131,6 +133,7 @@ $(document).ready(function () {
             $progressBarStep.removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
+            totalElapsed();
             elapsedTimes = elapsedTimes.map(function(){
                return 0; // resets all values in array to zero
             });
@@ -242,7 +245,7 @@ $(document).ready(function () {
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
-    var prevDisabler = function(currentStep) {
+    var prevDisabler = function (currentStep) {
         if (currentStep === 0) {
             $prev.addClass('disabled');
         } else {
@@ -250,12 +253,21 @@ $(document).ready(function () {
         }
     };
 
-    var nextDisabler = function(currentStep) {
+    var nextDisabler = function (currentStep) {
         if (currentStep === (recipeStepTimes.length - 1)) {
             $next.addClass('disabled');
         } else {
             $next.removeClass('disabled');
         }
+    };
+    
+    // IN PROGRESS
+    var totalElapsed = function () {
+        var total = 0;
+        for (var i = 0; i < elapsedTimes.length; i++) {
+            total += elapsedTimes[i];
+        }
+        $('.total-elapsed').html('Total time: '+ stopWatchTime(convertMS(total)));
     };
     
     // BUTTONS
@@ -346,6 +358,7 @@ $(document).ready(function () {
         $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
         $('#progress' + (currentStep)).addClass('progress-bar-step-completed');
         
+        totalElapsed();
         startCountdown();
         
     };
