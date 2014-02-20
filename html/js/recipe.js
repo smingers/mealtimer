@@ -116,9 +116,9 @@ $(document).ready(function () {
         
         // IN PROGRESS stop function, restores pretty much everything back to its original state
          $stop.click(function () {
-            $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
             clearInterval(countDown);
-            console.log(currentStep);
+            $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
+            console.log(currentStep, elapsedTimes[currentStep]);
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
             $step.text('');
