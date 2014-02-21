@@ -14,7 +14,7 @@ $(document).ready(function () {
     var $display = $('.display');
     var $play = $('.play');
     var $pause = $('.pause');
-    var $add = $('.add');
+    var $more = $('.more');
     var $prev = $('.prev');
     var $next = $('.next');
     var $navbar = $('.navbar');
@@ -125,7 +125,7 @@ $(document).ready(function () {
             $prev.addClass('disabled');
             $play.removeClass('disabled');
             $pause.addClass('disabled');
-            $add.addClass('disabled');
+            $more.addClass('disabled');
             $next.addClass('disabled');
             $('.panel').removeClass('completed');
             $('.panel').removeClass('current');
@@ -188,7 +188,7 @@ $(document).ready(function () {
         if (recipeStepTimes[currentStep] === null) {
             $display.text('N/A');
             $pause.addClass('disabled'); 
-            $add.addClass('disabled');
+            $more.addClass('disabled');
             
             // IN PROGRESS attempting to discretely update elapsed w/o modifying time display...
             elapsed = elapsedTimes[currentStep];
@@ -200,7 +200,7 @@ $(document).ready(function () {
             
         } else {
             $pause.removeClass('disabled');
-            $add.removeClass('disabled');
+            $more.removeClass('disabled');
             elapsed = elapsedTimes[currentStep];
             startTime = Date.now() - elapsed;
             displayRemainingTime(startTime);
@@ -276,7 +276,7 @@ $(document).ready(function () {
         // adjusts button appearances
         $pause.removeClass('disabled');
         $play.addClass('disabled');
-        $add.removeClass('disabled');
+        $more.removeClass('disabled');
         $start.css('visibility', 'hidden');
         $stop.css('visibility', 'visible');
         prevDisabler(currentStep);
