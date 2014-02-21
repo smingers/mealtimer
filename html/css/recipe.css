@@ -230,7 +230,8 @@ a:hover {
 }
 
 .total-elapsed {
-    float: right;
+    float: left;
+    margin-top: 8px;
 }
 
 .btn-group-vertical > .btn-default {
