@@ -229,6 +229,11 @@ a:hover {
     float: right;
 }
 
+.btn-group-vertical > .btn-default {
+    text-align: left;
+    border: none;
+}
+
 .bs-footer {
     padding-top: 80px;
     padding-bottom: 80px;

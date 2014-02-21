@@ -389,6 +389,12 @@ $(document).ready(function () {
         buildRecipe(recipe);
     });
     
+    $('.more').popover({
+        placement: 'bottom',
+        html: 'true',
+        content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
+    });
+    
 });  
     
 
