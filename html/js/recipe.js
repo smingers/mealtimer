@@ -407,6 +407,12 @@ $(document).ready(function () {
         content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default subtract"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default reset"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
     });
     
+    $(document).on('click', 'button.subtract', function () {
+        userAddedTime -= 60000;
+        displayRemainingTime(startTime);
+        console.log("click");
+    });
+    
 });  
     
 
