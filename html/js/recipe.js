@@ -308,13 +308,23 @@ $(document).ready(function () {
     });
 
 
-    // add function, initially adds a fixed amount of time (1 minute)
-    $add.click(function() {
-        // IN PROGRESS TO DO: round "current time" down to display time so that adding 60 seconds doesn't appear to the end user to be adding 59 seconds.
+    // add one minute to the current step
+    $add.click(function () {
         userAddedTime += 60000;
         displayRemainingTime(startTime);
     });
     
+    // IN PROGRESS subtract one minute from the current step
+    $('.subtract').click(function () {
+        userAddedTime -= 60000;
+        displayRemainingTime(startTime);
+    });
+    
+    // IN PROGRESS reset time for current step
+    $('.reset').click(function () {
+       elapsed = 0;
+       displayRemainingTime(startTime);
+    });
     
     // go back to the previous step
     var prev = function () {
@@ -392,7 +402,7 @@ $(document).ready(function () {
     $('.more').popover({
         placement: 'bottom',
         html: 'true',
-        content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
+        content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default subtract"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default reset"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
     });
     
 });  
