@@ -118,7 +118,7 @@ $(document).ready(function () {
          $stop.click(function () {
             clearInterval(countDown);
             $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
-            console.log(currentStep, elapsedTimes[currentStep]);
+            $more.popover('hide');
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
             $step.text('');
@@ -312,9 +312,10 @@ $(document).ready(function () {
         clearInterval(countDown);
         userAddedTime = 0;
         currentStep -= 1;
-        elapsed = elapsedTimes[currentStep - 1]; // TEST IN PROGRESS  !!!! IMPORTANT
+        elapsed = elapsedTimes[currentStep - 1];
         prevDisabler(currentStep);
         nextDisabler(currentStep);
+        $more.popover('hide');
         
         // change the appearance of the step panels
         $('#' + (currentStep + 1)).removeClass('completed');
@@ -336,9 +337,10 @@ $(document).ready(function () {
         currentStep += 1;
         prevDisabler(currentStep);
         nextDisabler(currentStep);
+        $more.popover('hide');
 
         $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep - 1])));
-        elapsedTimes[currentStep - 1] = elapsed; // TEST
+        elapsedTimes[currentStep - 1] = elapsed;
         
         // change the appearance of the step panels
         $('#' + (currentStep + 1)).addClass('current');
@@ -380,7 +382,7 @@ $(document).ready(function () {
         buildRecipe(recipe);
     });
     
-    $('.more').popover({
+    $more.popover({
         position: 'fixed',
         placement: 'bottom',
         html: 'true',
