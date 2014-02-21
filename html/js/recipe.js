@@ -322,8 +322,9 @@ $(document).ready(function () {
     
     // IN PROGRESS reset time for current step
     $('.reset').click(function () {
-       elapsed = 0;
-       displayRemainingTime(startTime);
+       elapsedTimes[currentStep] = 0;
+       clearInterval(countDown);
+       startCountdown();
     });
     
     // go back to the previous step
