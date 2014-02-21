@@ -306,26 +306,6 @@ $(document).ready(function () {
         paused = true;
         clearInterval(countDown);
     });
-
-
-    // add one minute to the current step
-    $add.click(function () {
-        userAddedTime += 60000;
-        displayRemainingTime(startTime);
-    });
-    
-    // IN PROGRESS subtract one minute from the current step
-    $('.subtract').click(function () {
-        userAddedTime -= 60000;
-        displayRemainingTime(startTime);
-    });
-    
-    // IN PROGRESS reset time for current step
-    $('.reset').click(function () {
-       elapsedTimes[currentStep] = 0;
-       clearInterval(countDown);
-       startCountdown();
-    });
     
     // go back to the previous step
     var prev = function () {
@@ -407,10 +387,18 @@ $(document).ready(function () {
         content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default subtract"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default reset"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
     });
     
-    $(document).on('click', 'button.subtract', function () {
+    $(document).on('click', '.add', function () {
+        userAddedTime += 60000;
+        displayRemainingTime(startTime);
+    }).on('click', '.subtract', function () {
         userAddedTime -= 60000;
         displayRemainingTime(startTime);
         console.log("click");
+    }).on('click', '.reset', function () {
+        elapsedTimes[currentStep] = 0;
+        userAddedTime = 0;
+        clearInterval(countDown);
+        startCountdown();
     });
     
 });  
