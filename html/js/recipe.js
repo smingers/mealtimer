@@ -5,7 +5,7 @@ $(document).ready(function () {
     var startTime; // date.now when current step begins
     var elapsed; // amount of time elapsed in the current step
     var userAddedTime = 0; // time added to the current step by the user
-    var titleReg = document.title;
+    // var titleReg = document.title;
     var titleAlert = "(!) " + document.title;
     var elapsedTimes = []; // actual completion times for the user
     var recipeStepTimes = []; // times, in ms, for each step in the recipe
@@ -101,6 +101,7 @@ $(document).ready(function () {
         $display.text(stopWatchTime(convertMS(totalTime)));
         $jumbotron.css("background-image", "url('" + recipe.bgImage + "')");
         $('.title').text(recipe.title);
+        document.title = recipe.title + " | " + document.title;
         $('.description').html(recipe.description);
         $('.author').html(recipe.author);
         $('.yield').append('<li>' + recipe.yield + '</li>');
@@ -189,15 +190,11 @@ $(document).ready(function () {
             $display.text('N/A');
             $pause.addClass('disabled'); 
             $more.addClass('disabled');
-            
-            // IN PROGRESS attempting to discretely update elapsed w/o modifying time display...
             elapsed = elapsedTimes[currentStep];
             countDown = setInterval(function () {
                 elapsed += 1000;
                 elapsedTimes[currentStep] = elapsed;
-                console.log(elapsedTimes);
             }, 1000);
-            
         } else {
             $pause.removeClass('disabled');
             $more.removeClass('disabled');
@@ -224,6 +221,8 @@ $(document).ready(function () {
         console.log(elapsedTimes);
         var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
         $display.text(stopWatchTime(convertMS(remaining)));
+        var titleReg = document.title;
+        // var titleAlert = "(!) " + document.title;
         
         // time expires
         if (remaining < 0) {
@@ -235,7 +234,6 @@ $(document).ready(function () {
                 document.title = titleReg;
             }
         } else if (remaining === 0) {
-            // plays audio once
             $('#timer-audio')[0].play();
         } else {
             $('#' + (currentStep + 1)).removeClass('times-up');
@@ -395,7 +393,6 @@ $(document).ready(function () {
     }).on('click', '.subtract', function () {
         userAddedTime -= 60000;
         displayRemainingTime(startTime);
-        console.log("click");
     }).on('click', '.reset', function () {
         elapsedTimes[currentStep] = 0;
         userAddedTime = 0;
