@@ -16,6 +16,20 @@
     position: fixed;
 }
 
+.popover-content {
+    padding: 0;
+}
+
+.btn-group-vertical > .btn-default {
+    text-align: left;
+    border: none;
+}
+
+.btn-group-vertical > .subtract {
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
 .jumbotron {
     background-position: center center;
     background-repeat: no-repeat;
@@ -232,11 +246,6 @@ a:hover {
 .total-elapsed {
     float: left;
     margin-top: 8px;
-}
-
-.btn-group-vertical > .btn-default {
-    text-align: left;
-    border: none;
 }
 
 .bs-footer {
