@@ -2267,7 +2267,7 @@
 {
     "id" : "11",
     "title" : "Harissa paste",
-    "description" : "The basic flavoring agent in Tunisian cuisine, harissa is extremely versatile.  Use it as a condiment for grilled meat or fish, add it to roasted vegetables, or stir into stews and soups.  We particularly like it with couscous or rice.  Adjust the amount of heat by increasing or reducing the number of chiles.  Just remember: it is meant to be hot!",
+    "description" : "The basic flavoring agent in Tunisian cuisine, harissa is extremely versatile.  Use it as a condiment for grilled meat or fish, add it to roasted vegetables, or stir into stews and soups.  We particularly like it with couscous or rice.  Adjust the amount of heat by increasing or reducing the number of chilies.  Just remember: it is meant to be hot!",
     "author" : "Yotam Ottolenghi",
     "source" : "Jerusalem",
     "bgImage" : "http://upload.wikimedia.org/wikipedia/commons/9/98/Harissa_Sauce.JPG",
@@ -2285,7 +2285,7 @@
         "1 1/2 T olive oil",
         "1 (90g) small red onion, coarsely chopped",
         "3 cloves garlic, coarsely chopped",
-        "3 hot red chiles, seeded and coarsely chopped",
+        "3 hot red chilies, seeded and coarsely chopped",
         "1 1/2 t tomato paste",
         "2 T freshly squeezed lemon juice",
         "1/2 t salt"
@@ -2393,7 +2393,7 @@
         "ordinal" : 7,
         "time" : 600000,
         "elapsed" : 0,
-        "text" : "Fry the onion, garlic, and chiles for 10 to 12 minutes, until a dark smoky color and almost caramelized.",
+        "text" : "Fry the onion, garlic, and chilies for 10 to 12 minutes, until a dark smoky color and almost caramelized.",
         "ingredients" : [
         ],
         "tools" : [
@@ -2463,7 +2463,7 @@
         "1/2 t coriander seeds, toasted and crushed",
         "3/4 t cumin seeds, toasted and crushed",
         "1/2 t sweet paprika",
-        "1/2 t chile flakes",
+        "1/2 t chili flakes",
         "1 T hazelnut or walnut oil",
         "1/2 t olive oil",
         "salt"
