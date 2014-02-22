@@ -74,7 +74,7 @@
         
         {
         "ordinal" : 3,
-        "time" : null,
+        "time" : 120000,
         "elapsed" : 0,
         "text" : "Gather the ingredients to make the bread dough.",
         "ingredients" : [ 
@@ -89,7 +89,7 @@
         
         {
         "ordinal" : 4,
-        "time" : null,
+        "time" : 120000,
         "elapsed" : 0,
         "text" : "Add <span class='ingredient'>700g water</span> into a large mixing bowl.  Stir in the <span class='ingredient'>200g leaven</span> to disperse.  Set aside the remaining leaven - this is now your starter.",
         "ingredients" : [ 
@@ -104,7 +104,7 @@
         
         {
         "ordinal" : 5,
-        "time" : null,
+        "time" : 480000,
         "elapsed" : 0,
         "text" : "Add the <span class='ingredient'>900g white flour</span> and <span class='ingredient'>100g whole wheat flour</span> and mix by hand until fully incorporated.",
         "ingredients" : [ 
@@ -136,7 +136,7 @@
         "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
-        "text" : "<p>Add <span class='ingredient'>20g salt</span> and <span class='ingredient'>50g water</span> and mix in by hand, breaking the dough apart.  Transfer to a <span class='tool'>large, clear plastic container with a lid (dough bucket)</span>.</p><p>Bulk fermentation begins and may take 3-4 hours in a warm area.  The cooler the room the longer it will take.  If your kitchen is cool you can create a microclimate in the oven by briefly heating it and keeping the oven door closed.</p><p>During fermentation, fold or \"turn\" the dough every 30 minutes.  Dip one hand in water to prevent the dough from sticking to you and then grab the underside of the dough, stretch it up, and fold it back over the rest of the dough.  Repeat this action two or three times so that all the dough gets evenly developed.  This is considered one turn.</p><p>Look for signs of development as you are folding.  These include bubbles forming in the dough and a smooth surface.  After folding the dough it should quickly regain its shape, and the dough should release from the sides of the container easily.</p>",
+        "text" : "<p>Add <span class='ingredient'>20g salt</span> and <span class='ingredient'>50g water</span> (if the dough looks dry) and mix in by hand, breaking the dough apart.  Transfer to a <span class='tool'>large, clear plastic container with a lid (dough bucket)</span>.</p><p>Bulk fermentation begins and may take 3-4 hours in a warm area.  The cooler the room the longer it will take.  If your kitchen is cool you can create a microclimate in the oven by briefly heating it and keeping the oven door closed.</p><p>During fermentation, fold or \"turn\" the dough every 30 minutes.  Dip one hand in water to prevent the dough from sticking to you and then grab the underside of the dough, stretch it up, and fold it back over the rest of the dough.  Repeat this action two or three times so that all the dough gets evenly developed.  This is considered one turn.</p><p>Look for signs of development as you are folding.  These include bubbles forming in the dough and a smooth surface.  After folding the dough it should quickly regain its shape, and the dough should release from the sides of the container easily.</p>",
         "ingredients" : [ 
         ],
         "tools" : [
@@ -2855,7 +2855,177 @@
 },
 
 {
+    "id" : "14",
+    "title" : "Thai Red Curry Chicken",
+    "description" : "I really can’t think of a more perfect comfort food. I mean, you’ve got it all — creamy coconut milk, spicy Thai curry paste, tons of veggies and chicken. Oh, and don’t forget all the fluffy rice to soak up the sauce!",
+    "author" : "Jenna Weber",
+    "source" : "http://www.eatliverun.com/thai-red-curry-chicken/",
+    "bgImage" : "http://upload.wikimedia.org/wikipedia/commons/2/29/Kaeng_phet_mu.jpg",
+    "yield" : "Serves 4",
+    "time" : [
+        "25 minutes to prepare",
+        "15 minutes to cook",
+        "40 minutes total"
+    ],
+    "ingredients" : [
+        "1 lb boneless skinless chicken breast, cut into bite-sized chunks",
+        "1 tbsp coconut oil",
+        "3 c coconut milk, light or regular",
+        "1 1/2 c water",
+        "3 tbsp red curry paste",
+        "2 baby bok choy, chopped",
+        "1 red bell pepper, thinly sliced",
+        "1\" knob ginger, grated",
+        "1 cup chopped snow peas",
+        "2 sweet potatoes, peeled and sliced into 1/4\" thick pieces",
+        "1 1/2 tsp sugar",
+        "2 tsp fish sauce",
+        "juice of 1 lime",
+        "1 tsp salt",
+        "cooked rice or quinoa for serving"
+    ],
+    "tools" : [
+        "large heavy-bottomed pot"
+    ],
     
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 1500000,
+        "elapsed" : 0,
+        "text" : "Wash and chop bok choy, bell pepper, ginger, snow peas, sweet potatoes.  Measure the 2 tsp fish sauce, lime juice, 1 tsp salt, and 1 1/2 tsp sugar and set aside.  Cut the boneless chicken breasts into bite-size chunks.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "If serving with rice or quinoa, bring a pot of water to boil, add grains, and reduce heat to low.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Heat the coconut oil in a large heavy-bottomed pot over medium high heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "When hot, add the ginger and saute until fragrant — 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the chicken and sear until not quite cooked through.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add the curry paste. Mix the ginger, chicken and curry paste together and continue to saute over high heat for another two minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Pour in the coconut milk and water, then add the bok choy, bell pepper, chopped snow peas and sweet potatoes. Bring curry to a boil, then reduce heat and simmer.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Stir in the fish sauce, salt, lime juice and sugar. Continue simmering over medium/low heat until veggies are soft. This will take about 10 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Serve curry over rice or quinoa.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
 }
 
 ]
