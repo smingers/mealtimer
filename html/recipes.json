@@ -20,14 +20,14 @@
     ],
     "ingredients" : [
         "1 tbsp mature starter",
-        "200g 75° water",
-        "100g white flour",
-        "100g whole wheat flour",
-        "700g plus 50g (27 oz) 80° water",
-        "200g leaven",
-        "900g white flour",
-        "100g whole wheat flour",
-        "20g salt"
+        "200 g 75° water",
+        "100 g white flour",
+        "100 g whole wheat flour",
+        "700 g plus 50 g (27 oz) 80° water",
+        "200 g leaven",
+        "900 g white flour",
+        "100 g whole wheat flour",
+        "20 g salt"
     ],
     "tools" : [
         "kitchen scale",
@@ -636,7 +636,7 @@
         "2 tbsp olive oil",
         "2 tbsp Pilpelchuma or harissa",
         "2 tsp tomato paste",
-        "2 parge red peppers, cut into 1/4-inch dice (2 cups / 300 g total)",
+        "2 large red peppers, cut into 1/4-inch dice (2 cups / 300 g total)",
         "4 cloves garlic, finely chopped",
         "1 tsp ground cumin",
         "5 large, very ripe tomatoes, chopped (5 cups / 800g total); canned are also fine",
@@ -855,7 +855,7 @@
         "ordinal" : 5,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Once thoroughly saturated, tip the Chemex over a sink to dispose of the rinse water. Don’t be tempted to remove the filter to empty faster; it can be difficult to secure back into place once removed.",
+        "text" : "Once thoroughly saturated, tip the Chemex over a sink to dispose of the rinse water. Don't be tempted to remove the filter to empty faster; it can be difficult to secure back into place once removed.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1014,7 +1014,7 @@
         "ordinal" : 2,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Brin 10 cups water to boil in the stockpot.  Add potatoes and baking soda.  Return to boil.",
+        "text" : "Bring 10 cups water to boil in the stockpot.  Add potatoes and baking soda.  Return to boil.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1198,7 +1198,7 @@
 {
     "id" : "6",
     "title" : "Shrimp Etoufee",
-    "description" : "This is an authentic cajun recipe from Louisiana native Velter Savage",
+    "description" : "This is an authentic Cajun recipe from Louisiana native Velter Savage",
     "author" : "Velter Savage",
     "bgImage" : "http://www.rusticgardenbistro.com/wp-content/uploads/www.rusticgardenbistro.com-Shrimp-Etouffee.jpg",
     "yield" : "Serves 4-6",
@@ -1232,7 +1232,7 @@
         "ordinal" : 1,
         "time" : 300000,
         "elapsed" : 0,
-        "text" : "Saute onions and celery in butter (or margarine) until glazed.",
+        "text" : "Sauté onions and celery in butter (or margarine) until glazed.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1367,7 +1367,7 @@
         "1-2 cucumbers, diced",
         "1-2 scallions, sliced",
         "2-4 radishes, sliced",
-        "1 lb rotini",
+        "1 lb tricolor rotini",
         "FOR THE DRESSING",
         "1/2 c vegetable or olive oil",
         "1/2 c red wine vinegar",
@@ -1547,7 +1547,7 @@
         "ordinal" : 4,
         "time" : 60000,
         "elapsed" : 0,
-        "text" : "To make the mushroom ragout, rince the barley with cold water, then place in a medium saucepan and cover with plenty of fresh water.",
+        "text" : "To make the mushroom ragout, rinse the barley with cold water, then place in a medium saucepan and cover with plenty of fresh water.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1592,7 +1592,7 @@
         "ordinal" : 7,
         "time" : 240000,
         "elapsed" : 0,
-        "text" : "Saute for 4 minutes, stirring occasionally.",
+        "text" : "Sauté for 4 minutes, stirring occasionally.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1879,7 +1879,7 @@
 {
     "id" : "9",
     "title" : "Delhi-style Chana Dal",
-    "description" : "Dal is sometimes made with whole beans (or lentils, or dried peas, but I’ll use the word \"legumes\" to include all of these), but they tend to be smaller than their North American relatives. They are also often peeled and split. This means they cook faster — half an hour is generally long enough to make many dals — and break down quickly. That texture is enhanced by a mathani, a kind of wooden beater or churner reminiscent of the molinillo used to froth Mexican hot chocolate. A mathani is fun to use — you rub the dowel end between your palms to twirl the action end in the dal, semi-puréeing it — but a whisk works pretty well, too, as might a molinillo, for that matter.",
+    "description" : "Dal is sometimes made with whole beans (or lentils, or dried peas, but I'll use the word \"legumes\" to include all of these), but they tend to be smaller than their North American relatives. They are also often peeled and split. This means they cook faster — half an hour is generally long enough to make many dals — and break down quickly. That texture is enhanced by a mathani, a kind of wooden beater or churner reminiscent of the molinillo used to froth Mexican hot chocolate. A mathani is fun to use — you rub the dowel end between your palms to twirl the action end in the dal, semi-puréeing it — but a whisk works pretty well, too, as might a molinillo, for that matter.",
     "author" : "Mark Bittman & Julie Sahni",
     "source" : "The New York Times",
     "bgImage" : "http://thebrookcook.files.wordpress.com/2013/03/img_2848.jpg",
@@ -2003,7 +2003,7 @@
         "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Add the garlic and cook, stirring constantly, until medium brown. Stir in the chili flakes if you’re using them, and turn off the heat.",
+        "text" : "Add the garlic and cook, stirring constantly, until medium brown. Stir in the chili flakes if you're using them, and turn off the heat.",
         "ingredients" : [
         ],
         "tools" : [
@@ -2100,7 +2100,7 @@
         "ordinal" : 3,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Dividing and shaping: Divide the dought into 4 oz pieces that are more or less square.  Flatten them one by one, and roll them into tight cylinders.  Roll each dough piece 10 to 11 inches long, with no taper at the ends.  Shape the dough into a bagel like the old timers did: wrap it around the boradest part of your hand.  The ends should overlap slightly on your palm.  Roll your hand back and forth on the bench in order to seal the two ends together.  Place the finished bagels on sheet pans that have been sprinkled with cornmeal, semolina, or rice flour and cover with plastic.",
+        "text" : "Dividing and shaping: Divide the dough into 4 oz pieces that are more or less square.  Flatten them one by one, and roll them into tight cylinders.  Roll each dough piece 10 to 11 inches long, with no taper at the ends.  Shape the dough into a bagel like the old timers did: wrap it around the boradest part of your hand.  The ends should overlap slightly on your palm.  Roll your hand back and forth on the bench in order to seal the two ends together.  Place the finished bagels on sheet pans that have been sprinkled with cornmeal, semolina, or rice flour and cover with plastic.",
         "ingredients" : [
         ],
         "tools" : [
