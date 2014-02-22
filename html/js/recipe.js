@@ -5,7 +5,7 @@ $(document).ready(function () {
     var startTime; // date.now when current step begins
     var elapsed; // amount of time elapsed in the current step
     var userAddedTime = 0; // time added to the current step by the user
-    // var titleReg = document.title;
+    var titleReg = document.title;
     var titleAlert = "(!) " + document.title;
     var elapsedTimes = []; // actual completion times for the user
     var recipeStepTimes = []; // times, in ms, for each step in the recipe
@@ -24,7 +24,6 @@ $(document).ready(function () {
     var $progress = $('.progress');
     var $start = $('#start');
     var $stop = $('.stop');
-    // var $panel = $('.panel');
     var $progressBarStep = $('.progress-bar-step');
     
     
@@ -101,7 +100,7 @@ $(document).ready(function () {
         $display.text(stopWatchTime(convertMS(totalTime)));
         $jumbotron.css("background-image", "url('" + recipe.bgImage + "')");
         $('.title').text(recipe.title);
-        document.title = recipe.title + " | " + document.title;
+        // document.title = recipe.title + " | " + document.title;
         $('.description').html(recipe.description);
         $('.author').html(recipe.author);
         $('.yield').append('<li>' + recipe.yield + '</li>');
@@ -221,8 +220,8 @@ $(document).ready(function () {
         console.log(elapsedTimes);
         var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
         $display.text(stopWatchTime(convertMS(remaining)));
-        var titleReg = document.title;
-        // var titleAlert = "(!) " + document.title;
+        // var titleReg = document.title;
+        
         
         // time expires
         if (remaining < 0) {
