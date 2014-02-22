@@ -259,7 +259,7 @@ $(document).ready(function () {
         }
     };
     
-    // IN PROGRESS
+    // display total elapsed time & update on prev, next, stop
     var totalElapsed = function () {
         var total = 0;
         for (var i = 0; i < elapsedTimes.length; i++) {
@@ -358,7 +358,7 @@ $(document).ready(function () {
     $next.click(next);
     
 
-    // Uses left and right arrow keys to go back / forward a step IN PROGRESS - CREATES PROBLEMS WITH SPACE AND ENTER
+    // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
     $(document).keydown(function(objEvent) {
         if (!$prev.hasClass('disabled') && objEvent.keyCode == 37) {
              prev();
@@ -405,10 +405,9 @@ $(document).ready(function () {
 
 /*
 
-var confirmMsg = function() {
-    confirm("Your recipe timer is still in progress. Are you sure you want to leave this page?");
-};
-
+    var confirmMsg = function() {
+        confirm("Your recipe timer is still in progress. Are you sure you want to leave this page?");
+    };
 
     // IN PROGRESS close window alert
     window.onbeforeunload = function() {
