@@ -42,7 +42,7 @@
         "class" : "",
         "subclass" : "",
         "intensity" : ""
-        }
+        },
         
         {
         "ordinal" : 3,
@@ -91,21 +91,6 @@
         
         {
         "ordinal" : 6,
-        "time" : null,
-        "elapsed" : 0,
-        "text" : "",
-        "ingredients" : [
-        ],
-        "tools" : [
-        ],
-        "media" : "",
-        "class" : "",
-        "subclass" : "",
-        "intensity" : ""
-        },
-        
-        {
-        "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
         "text" : "",
