@@ -300,7 +300,7 @@
         
         {
         "ordinal" : 18,
-        "time" : null,
+        "time" : 300000,
         "elapsed" : 0,
         "text" : "Line <span class='tool'>2 medium baskets or bowls with clean kitchen towels</span>; generously dust with flour. Using the dough scraper, transfer each round to a basket, smooth side down, with seam centered and facing up.",
         "ingredients" : [ 
@@ -331,7 +331,7 @@
         
         {
         "ordinal" : 20,
-        "time" : null,
+        "time" : 1200000,
         "elapsed" : 0,
         "text" : "Bake the Bread: Twenty minutes before you are ready to bake the bread, preheat the <span class='tool'>oven</span> to 500 degrees, with rack in lowest position, and warm a 9 1/2-inch round or an <span class='tool'>11-inch oval Dutch oven</span> (or a heavy ovenproof pot with a tight-fitting lid).",
         "ingredients" : [ 
@@ -3026,6 +3026,405 @@
         }
         
     ]
+},
+
+{
+    "id" : "15",
+    "title" : "Socca",
+    "description" : "On a recent trip to southern France I went to Grain de Sel, Anne and Philippe Audibert's tiny restaurant in Cogolin. Among other great grub, I had this variation on pissaladière. Instead of the normal dough base, Philippe uses socca batter, a speciality of Nice made with chickpea flour, water and olive oil. Serves four.",
+    "author" : "Yotam Ottolenghi",
+    "bgImage" : "http://cheeseandtoast.files.wordpress.com/2012/03/dinner-plated.jpg",
+    "yield" : "Serves 4",
+    "time" : [
+        "15 minutes to prepare",
+        "45 minutes to cook",
+        "1 hour total"
+    ],
+    "ingredients" : [
+        "300g cherry tomatoes, halved",
+        "salt and ground black pepper",
+        "4 T olive oil",
+        "800g white onions, peeled and cut into rings",
+        "2 tbsp picked thyme leaves",
+        "½ tsp white-wine vinegar",
+        "200g chickpea flour (aka gram flour)",
+        "450ml water",
+        "crème fraîche, to serve"
+    ],
+    "tools" : [
+        "baking sheets",
+        "large frying pan",
+        "2 mixing bowls",
+        "whisk",
+        "small (6 inch) frying pan",
+        "spatula"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Preheat the oven to 275&deg.  Halve the cherry tomatoes, spread them cut-side up on a small baking pan and sprinkle them with some salt and pepper and a drizzle of oil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 1500000,
+        "elapsed" : 0,
+        "text" : "Roast for 25 minutes or until semi-cooked.  The tomatoes are not supposed to dry out completely.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Meanwhile, heat 4 T olive oil in a large frying pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Add the onions, thyme, and some salt and pepper and cook on high heat, stirring, for about a minute.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Reduce the heat to low and continue cooking for 20 minutes, stirring occasionally.  You want the onions completely soft, sweet and golden brown, but not very dark.  At the end, stir in the vinegar, then taste and adjust the seasoning.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When you take the tomatoes out of the oven, increase the temperature to 325&degF.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Put the chickpea flour, water, 1 1/2 T olive oil, 3/4 t salt and some pepper in a bowl.  Mix well with a hand whisk until the batter is totally homogenous.  In a separate bowl whisk the egg whites to soft peaks and gently fold into the batter.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Line two baking sheets with parchment paper and brush the paper with a little bit of oil; set on the side.  Then take a small nonstick frying pan, roughly 6 inches diameter at its base, and brush it with the smallest amount of olive oil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Put on high heat for a couple of minutes, then reduce heat to medium high and pour in one quarter of the socca batter.  It should be about 1/4 inch thick.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Cook the batter for about two minutes; air bubbles will appear on the surface and the pancake will have set on its base.  Use an offset spatula to release its edges from the pan, then carefully lift and turn it over.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Cook for another minute.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 720000,
+        "elapsed" : 0,
+        "text" : "Transfer to the lined baking sheet.  Repeat with the rest of the batter.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "When all the pancakes have been made, place in the oven for five minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 14,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To serve, spread the onion over the pancakes; they should be totally covered. Arrange tomato halves on top.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 15,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Place in the oven to warm up for about 4 minutes",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 16,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Serve warm, with crème fraîche on the side.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "16",
+    "title" : "Sweet Potato Cakes",
+    "description" : "The ultimate comfort food: soft, a bit messy and delicious.",
+    "author" : "Yotam Ottolenghi",
+    "bgImage" : "http://plateandfork.files.wordpress.com/2012/04/sweetpotatopancake1472.jpeg",
+    "yield" : "Serves 4",
+    "time" : [
+        "90 minutes to prepare, mostly idle",
+        "30 minutes to cook",
+        "2 hours total"
+        
+    ],
+    "ingredients" : [
+        "2 1/4 lbs peeled sweet potatoes, cut into large chunks",
+        "2 t soy sauce",
+        "3/4 c all-purpose flour",
+        "1 t sugar",
+        "2 T chopped green onion",
+        "1/2 t finely chopped red chile (or more if you want them hot)",
+        "plenty of butter for frying",
+        "SAUCE",
+        "3 T Greek yogurt",
+        "3 T sour cream",
+        "2 T olive oil",
+        "1 T lemon juice",
+        "1 T chopped cilantro",
+        "salt and black pepper"
+    ],
+    "tools" : [
+        "large saucepan with lid",
+        "steaming basket",
+        "colander",
+        "large mixing bowl",
+        "large nonstick frying pan",
+        "paper towels"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Wash, peel, and cut the sweet potatoes into large chunks.  Place a steaming basket in a saucepan (with lid), add water, and bring to a boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Steam the sweet potatoes until completely soft.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 3600000,
+        "elapsed" : 0,
+        "text" : "<p>Drain in a colander.  Let sit for at least an hour.</p><p>Meanwhile, make the sauce by mixing the yogurt, sour cream, olive oil, lemon juice, cilantro, salt and pepper to taste.  Assemble the rest of the ingredients for the potato cakes and set aside.</p>",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Once the sweet potatoes have lost most of their liquid, place them in a mixing bowl and add the rest of the ingredients (except the butter).  Mix everything together, preferably by hand, until smooth and even.  Do not over-mix.  The mixture should be sticky; if it's runny add some more flour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Melt some butter in a nonstick frying pan over medium heat.  For each cake, use a tablespoon to lift some mixture into the pan and flatten with the back of the spoon to create a not-too-perfect disc roughly 2 inches in diameter and 3/8 inch thick.  Fry the cakes on medium heat for about 6 minutes on each side, or until you get a nice brown crust.  Place in between two sheets of paper towels to soak up the excess butter.  Serve hot or warm, with the sauce on the side.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    
 }
 
 ]
