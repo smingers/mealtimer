@@ -3313,7 +3313,7 @@
     "bgImage" : "http://plateandfork.files.wordpress.com/2012/04/sweetpotatopancake1472.jpeg",
     "yield" : "Serves 4",
     "time" : [
-        "90 minutes to prepare, mostly idle",
+        "90 minutes to prepare (mostly idle)",
         "30 minutes to cook",
         "2 hours total"
         
@@ -3410,6 +3410,454 @@
         "time" : 1800000,
         "elapsed" : 0,
         "text" : "Melt some butter in a nonstick frying pan over medium heat.  For each cake, use a tablespoon to lift some mixture into the pan and flatten with the back of the spoon to create a not-too-perfect disc roughly 2 inches in diameter and 3/8 inch thick.  Fry the cakes on medium heat for about 6 minutes on each side, or until you get a nice brown crust.  Place in between two sheets of paper towels to soak up the excess butter.  Serve hot or warm, with the sauce on the side.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "17",
+    "title" : "Purple Sprouting Broccoli with Green Curry and Rice Noodles",
+    "description" : "Yes, there's a long list of ingredients here, but I am ready to be extra-kind and allow you to adapt the recipe to use commercial Thai curry paste instead of having to schlep and get all the individual items.  This \"dry\" variation of a green curry makes one of the most satisfying supper dishes for the late winter and early months of spring.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Plenty",
+    "bgImage" : "http://www.ottolenghi.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/reveg0010006_b.jpg",
+    "yield" : "Serves 6",
+    "time" : [
+        "25 minutes to prepare",
+        "20 minutes to cook",
+        "45 minutes total"
+    ],
+    "ingredients" : [
+        "1 1/4 lbs purple sprouting broccoli or broccolini",
+        "1 red onion, finely chopped",
+        "1 T vegetable oil",
+        "salt",
+        "1 tsp palm sugar",
+        "7 kaffir lime leaves",
+        "1 3/4 c coconut milk",
+        "1 lb wide rice noodles (or rice sticks)",
+        "4 T toasted sesame oil",
+        "3 T lime juice, plus extra to finish",
+        "2 T shredded basil or cilantro",
+        "SPICE PASTE",
+        "3/4\" piece of galangal (or fresh ginger), peeled and chopped",
+        "1 1/2 medium fresh green chilies, seeded and roughly chopped",
+        "1 1/2 lemongrass stalks, outer layer and tough ends removed, roughly chopped",
+        "1 garlic clove, crushed",
+        "1/2 shallot, roughly chopped",
+        "3/4 T coriander seeds, finely ground",
+        "1/2 t cumin seeds, finely ground",
+        "grated zest and juice of 1/2 lime",
+        "1 small bunch of cilantro (with stalks and roots)",
+        "2 T vegetable oil"
+    ],
+    "tools" : [
+        "spice grinder or mortar and pestle",
+        "small food processor",
+        "3 medium saucepans",
+        "colander"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "To make the spice paste, (optionally toast and) grind the coriander and cumin seeds (if using pre-ground, halve the amounts).  Chop the galangal/ginger, chilies, lemongrass, garlic, shallots, and cilantro.  Place all the ingredients in the small bowl of a food processor and blend to a paste.  You might need to stop once or twice to scrape the mixture back down from the sides of the bowl or add a little extra lime juice or oil.  Set the paste aside.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Trim leaves from the broccoli and divide into large florets.  Chop the onion and measure the rest of your ingredients.  Heat the vegetable oil in a medium saucepan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add the onion to the pan and sauté for 2-3 minutes, or until translucent.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add the spice paste and cook, stirring, for 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add 1 t salt, the palm sugar, lime leaves, and coconut milk.  Bring to a boil, then turn down the heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Simmer gently for 5 minutes.  Meanwhile, bring two medium saucepans of salted water to the boil.  Meanwhile, warm serving bowls in the oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "In one saucepan, cook the broccoli for 1 to 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "In the other, cook the rice noodles for 3 to 6 minutes (check instructions on the packet).",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Drain both pans.  Rince the noodles briefly under hot water and drain well, then toss with 3 T of the sesame oil and the lime juice; season generously with salt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Drizzle the rest of the sesame oil over the broccoli and sprinkle with a pinch of salt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Divide the noodles among warmed bowls and top with the warm broccoli.  Spoon 3 to 4 tablespoons of the sauce per portion over and around the broccoli.  Finish with the basil or cilantro and a squirt of lime juice.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "18",
+    "title" : "Stuffed Cabbage",
+    "description" : "This comforting main course makes use of a combination common to Arab and Turkish cuisines - it mixes rice and little vermicelli noodles to create an attractive texture that is light and delecate.",
+    "author" : "Yotam Ottolenghi",
+    "bgImage" : "https://lh6.googleusercontent.com/-9ffXzpsFykQ/TX8rzSFZeZI/AAAAAAAAAD4/q9qJbjjYXQE/s1600/100_2406.JPG",
+    "yield" : "Serves 4",
+    "time" : [
+        "30 minutes to prepare",
+        "90 minutes to cook",
+        "2 hours total"
+    ],
+    "ingredients" : [
+        "2 T unsalted butter",
+        "1 1/2 oz vermicelli noodles (not the rice variety)",
+        "7/8 c basmati rice",
+        "1 1/4 c water",
+        "salt",
+        "1 medium white cabbage",
+        "1/3 c pine nuts, toasted and roughly chopped",
+        "3/4 c ricotta",
+        "1/4 c grated Parmesan",
+        "3 T chopped mint",
+        "4 T chopped parsley, plus extra to finish",
+        "3 garlic cloves, crushed",
+        "black pepper",
+        "1 c dry white wine",
+        "6 T vegetable stock",
+        "1 1/2 T sugar",
+        "4 T olive oil"
+    ],
+    "tools" : [
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Melt the butter in a small saucepan over medium heat.  Break the vermicelli with your hands into 3/4 inch long pieces and add to the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Stir as you fry them for 1 to 2 minutes.  Take care!  They can burn in a second.  As soon as the noodles start turning golden add the rice and stir well.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the water and 1/2 t salt and bring to the boil.  Turn heat down to the minimum.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Cover and cook for 20 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Remove from the heat and leave to sit for 10 minutes before removing the lid and allowing to cool down a bit.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 360000,
+        "elapsed" : 0,
+        "text" : "While the rice is cooking, cut the cabbage vertically in half.  Peel off the leaves and blanch them in boiling water for 6 to 8 minutes, or until semisoft.  You may need to do this in a few batches, depending on the size of your pan.  (Alternatively, trim off the base of hte cabbage, then put it whole into a pot of boiling water; gradually remove the outer leaves as they cook.)  Refresh the leaves under cold running water, drain, and pat dry.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Preheat the oven to 350&degF.  To the cooked rice add the pine nuts, ricotta, half the Parmesan, the herbs, garlic, salt and pepper to taste; mix well with a fork.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Use the cooked cabbage leaves to make parcels of whatever size you choose, each one conaining a generous amount of the rice filling.  Alternatively, make the rolls by placing some filling at the base of a rectangular-shaped piece of cabbage and then rolling it up; don't worry that the sides remain open.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Arrange the cabbage parcels close together in an ovenproof dish (if you can't fill up the dish completely use cabbage trimmings to fill in the gaps).  Whisk together the wine, stock, sugar, olive oil, and plenty of salt and pepper.  Pour this over the cabbage parcels and put the dish in the oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 2400000,
+        "elapsed" : 0,
+        "text" : "Bake for about 40 minutes, or until almost all the liquid is gone.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Sprinkle with the remaining Parmesan and return to the oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Bake for a further 10 minutes so the cheese melts and turns golden.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Remove from the oven and lit sit 5 minutes before serving.",
         "ingredients" : [
         ],
         "tools" : [
