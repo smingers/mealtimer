@@ -19,7 +19,7 @@
 }
 
 .thumbnail img {
-    height: 240px;
+    margin: 0 auto;
 }
 
 .content {
