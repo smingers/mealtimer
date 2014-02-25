@@ -222,22 +222,22 @@ a:hover {
 	border-bottom: 1px dotted;
 }
 
-.technique {
-
-}
-
 .tool {
 	font-style: italic;
 	border-bottom: 1px dotted;
 }
 
+.technique {
+
+}
+
 .stop {
-    float: right;
+    float: left;
     visibility: hidden;
 }
 
 .total-elapsed {
-    float: left;
+    float: right;
     margin-top: 8px;
 }
 

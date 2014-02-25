@@ -400,11 +400,11 @@ $(document).ready(function () {
     
     // click outside popover to dismiss; doesn't work on mobile
     // attributed to: http://stackoverflow.com/questions/11703093/how-to-dismiss-a-twitter-bootstrap-popover-by-clicking-outside and http://jsfiddle.net/mattdlockyer/C5GBU/2/
-    $('body').on('click', function (e) {
+    $('body').on('click', function (event) {
     $('[data-toggle="popover"]').each(function () {
-        //the 'is' for buttons that trigger popups
-        //the 'has' for icons within a button that triggers a popup
-        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+        // 'is' for buttons that trigger popups
+        // 'has' for icons within a button that triggers a popup
+        if (!$(this).is(event.target) && $(this).has(event.target).length === 0 && $('.popover').has(event.target).length === 0) {
             $(this).popover('hide');
         }
     });
