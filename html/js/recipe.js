@@ -217,11 +217,8 @@ $(document).ready(function () {
     var displayRemainingTime = function(startTime) {
         elapsed = Date.now() - startTime;
         elapsedTimes[currentStep] = elapsed;
-        console.log(elapsedTimes);
         var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
         $display.text(stopWatchTime(convertMS(remaining)));
-        // var titleReg = document.title;
-        
         
         // time expires
         if (remaining < 0) {
@@ -388,7 +385,7 @@ $(document).ready(function () {
         content : '<div class="btn-group-vertical"><button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus"></span> Add a minute</button><button type="button" class="btn btn-default subtract"><span class="glyphicon glyphicon-minus"></span> Subtract a minute</button><button type="button" class="btn btn-default reset"><span class="glyphicon glyphicon-repeat"></span> Reset time</button></div>'
     });
     
-    $(document).on('click', '.add', function () {
+    $('body').on('click', '.add', function () {
         userAddedTime += 60000;
         displayRemainingTime(startTime);
     }).on('click', '.subtract', function () {
@@ -400,6 +397,19 @@ $(document).ready(function () {
         clearInterval(countDown);
         startCountdown();
     });
+    
+    // click outside popover to dismiss; doesn't work on mobile
+    // attributed to: http://stackoverflow.com/questions/11703093/how-to-dismiss-a-twitter-bootstrap-popover-by-clicking-outside and http://jsfiddle.net/mattdlockyer/C5GBU/2/
+    $('body').on('click', function (e) {
+    $('[data-toggle="popover"]').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+    
+});
     
 });  
     
