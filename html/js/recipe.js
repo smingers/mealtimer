@@ -379,6 +379,8 @@ $(document).ready(function () {
         buildRecipe(recipe);
     });
     
+    
+    // popover with extra time controls (add, subtract, reset)
     $more.popover({
         position: 'fixed',
         placement: 'bottom',
