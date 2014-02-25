@@ -24,8 +24,6 @@ $(document).ready(function () {
     var $progress = $('.progress');
     var $start = $('#start');
     var $stop = $('.stop');
-    var $progressBarStep = $('.progress-bar-step');
-    
     
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
@@ -129,8 +127,8 @@ $(document).ready(function () {
             $next.addClass('disabled');
             $('.panel').removeClass('completed');
             $('.panel').removeClass('current');
-            $progressBarStep.removeClass('progress-bar-step-current');
-            $progressBarStep.removeClass('progress-bar-step-completed');
+            $('.progress-bar-step').removeClass('progress-bar-step-current');
+            $('.progress-bar-step').removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
             totalElapsed();
