@@ -16,13 +16,10 @@
 
 .thumbnail {
     height: 250px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .thumbnail img {
-    margin: 0 auto;
+    height: 240px;
 }
 
 .content {
