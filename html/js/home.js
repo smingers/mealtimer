@@ -15,7 +15,7 @@ $(document).ready(function () {
         $('.recipe-grid').append(recipeDiv);
     };
    
-   // get recipe from JSON array of objects; currently hard coding the ID number
+   // get all recipes
     $.getJSON("recipes.json", function(recipes) {
         var recipe;
         for (var i = 0, length = recipes.length; i < length; i++) {
