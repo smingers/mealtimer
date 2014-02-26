@@ -60,7 +60,6 @@ $(document).ready(function () {
         return timeString;
     };
     
-    
     // load recipe content from JSON 
     var buildRecipe = function (recipe) {
         
@@ -210,7 +209,6 @@ $(document).ready(function () {
         
     };
         
-        
     // displays the remaining time 1x when called (called every second by setInterval fn)
     var displayRemainingTime = function(startTime) {
         elapsed = Date.now() - startTime;
@@ -286,7 +284,6 @@ $(document).ready(function () {
             startCountdown();
         }
     });
-    
 
     // pause function, freezes the timer until play is pressed again
     $pause.click(function () {
@@ -350,7 +347,6 @@ $(document).ready(function () {
     
     $prev.click(prev);
     $next.click(next);
-    
 
     // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
     $(document).keydown(function(objEvent) {
@@ -360,7 +356,6 @@ $(document).ready(function () {
             next();
         }
     });
-    
 
    // get recipe from JSON array of objects; currently hard coding the ID number IN PROGRESS
     $.getJSON("recipes.json", function(recipes) {
@@ -373,7 +368,6 @@ $(document).ready(function () {
         
         buildRecipe(recipe);
     });
-    
     
     // popover with extra time controls (add, subtract, reset)
     $more.popover({
