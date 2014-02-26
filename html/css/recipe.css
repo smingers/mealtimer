@@ -5,7 +5,8 @@
 .timer-row {
 	font-size: 24px;
 	color: #333;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, .9);
 	padding: 5px 0 5px 0;
 	border: none;
 }
