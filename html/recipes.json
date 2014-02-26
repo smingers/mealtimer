@@ -1465,27 +1465,36 @@
         "2 hours, 15 minutes total"
     ],
     "ingredients" : [
-        "FLATBREADS",
-        "1 c plus 2 tsp whole-wheat flour",
-        "1 1/2 t baking powder",
-        "1/2 t salt",
-        "3/4 c Greek yogurt",
-        "3 T chopped fresh cilantro",
-        "4 T clarified butter (or a mixture of melted butter and vegetable oil",
-        "MUSHROOM RAGOUT",
-        "1/2 c pearl barley",
-        "3/4 oz dried porcini mushrooms",
-        "3/4 c lukewarm water",
-        "4 c mixed shiitake and button mushrooms, halved",
-        "2 T olive oil",
-        "5 T butter",
-        "2 thyme sprigs",
-        "1 garlic clove, crushed",
-        "1/2 c white wine",
-        "salt and black pepper",
-        "2 T chopped parsley, plus extra to garnish",
-        "1/2 T finely chopped preserved lemon",
-        "6 T Greek yogurt"
+        {
+            "category" : "flatbreads",
+            "ingredients" : [
+                "1 c plus 2 tsp whole-wheat flour",
+                "1 1/2 t baking powder",
+                "1/2 t salt",
+                "3/4 c Greek yogurt",
+                "3 T chopped fresh cilantro",
+                "4 T clarified butter (or a mixture of melted butter and vegetable oil"
+            ]
+        },
+        
+        {
+            "category" : "mushroom ragout",
+            "ingredients" : [
+                "1/2 c pearl barley",
+                "3/4 oz dried porcini mushrooms",
+                "3/4 c lukewarm water",
+                "4 c mixed shiitake and button mushrooms, halved",
+                "2 T olive oil",
+                "5 T butter",
+                "2 thyme sprigs",
+                "1 garlic clove, crushed",
+                "1/2 c white wine",
+                "salt and black pepper",
+                "2 T chopped parsley, plus extra to garnish",
+                "1/2 T finely chopped preserved lemon",
+                "6 T Greek yogurt"
+            ]
+        }
     ],
     "tools" : [
         "large bowl",
