@@ -115,6 +115,11 @@
     line-height: 1.75;
 }
 
+.sidebar li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
 .ingredient-category {
     margin-top: 15px;
     margin-bottom: 5px;
