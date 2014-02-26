@@ -108,7 +108,16 @@ $(document).ready(function () {
             $('.tools').append('<li>' + recipe.tools[i] + '</li>');
         }
         for (i = 0, length = recipe.ingredients.length; i < length; i++) {
-            $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
+            if (typeof recipe.ingredients[i] === 'string') {
+                $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
+            } else {
+                $('.ingredients').append('<h6>' + recipe.ingredients[i].category + '</h6>');
+                for (var j = 0, length2 = recipe.ingredients[i].ingredients.length; j < length2; j++) {
+                    $('.ingredients').append('<li>' + recipe.ingredients[i].ingredients[j] + '</li>');
+                }
+                $('.ingredients').append('<br>');
+            }
+            
         }
         
         // IN PROGRESS stop function, restores pretty much everything back to its original state

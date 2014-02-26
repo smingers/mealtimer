@@ -19,10 +19,15 @@
         "dough"
     ],
     "ingredients" : [
-        "1 tbsp mature starter",
-        "200 g 75° water",
-        "100 g white flour",
-        "100 g whole wheat flour",
+        {
+            "category" : "leaven",
+            "ingredients" : [
+                "1 tbsp mature starter",
+                "200 g 75° water",
+                "100 g white flour",
+                "100 g whole wheat flour"
+            ]
+        },
         "700 g plus 50 g (27 oz) 80° water",
         "200 g leaven",
         "900 g white flour",
