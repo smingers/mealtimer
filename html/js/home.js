@@ -14,6 +14,14 @@ $(document).ready(function () {
         var recipeDiv = "<div class=\"col-xs-6 col-md-4 recipe\"><a class=\"thumbnail\" href=\"..\\html\\recipe.html?id=" + id + "\"><img src=\"" + image + "\" alt=\"\"></a><h4 class=\"title\">" + title + "</h4><p class=\"description\">" + description + "</p></div>";
         $('.recipe-grid').append(recipeDiv);
     };
+    
+    // set width of title & description div
+    var imgWidth = $('.thumbnail img').css('width');
+    $('.title-description').css('width', imgWidth);
+    $(window).resize(function () {
+        imgWidth = $('.thumbnail img').css('width');
+        $('.title-description').css('width', imgWidth);
+    });
    
    // get all recipes
     $.getJSON("recipes.json", function(recipes) {
