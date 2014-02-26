@@ -8,10 +8,14 @@
     background-color: #a04307;
     color: #f4f6f8;
     margin-bottom: 0;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-align: center;
     box-shadow: 0 0 8px #eee;
+}
+
+.logo {
+    margin-top: 0;
 }
 
 .subtitle {
