@@ -1356,10 +1356,11 @@
     "id" : "7",
     "title" : "Pasta Primavera",
     "description" : "This is a light pasta salad that is perfect for summer picnics and is easy to make ahead and refrigerate until just ready to serve",
-    "author" : "",
+    "author" : "Marlene Berman",
     "bgImage" : "http://pinluckproject.files.wordpress.com/2013/08/dsc_0287.jpg",
     "yield" : "Serves 8-12 as an appetizer",
     "time" : [
+        "30 minutes total"
     ],
     "ingredients" : [
         "1 carrot, sliced",
@@ -1369,15 +1370,19 @@
         "1-2 scallions, sliced",
         "2-4 radishes, sliced",
         "1 lb tricolor rotini",
-        "FOR THE DRESSING",
-        "1/2 c vegetable or olive oil",
-        "1/2 c red wine vinegar",
-        "1 tbsp dijon mustard",
-        "1/2 T dried basil",
-        "1/2 T dried parsley",
-        "1/4 t dried oregano",
-        "1/2 t salt",
-        "1/2 t pepper"
+        {
+            "category" : "dressing",
+            "ingredients" : [
+                "1/2 c vegetable or olive oil",
+                "1/2 c red wine vinegar",
+                "1 tbsp dijon mustard",
+                "1/2 T dried basil",
+                "1/2 T dried parsley",
+                "1/4 t dried oregano",
+                "1/2 t salt",
+                "1/2 t pepper"
+            ]
+        }
     ],
     "tools" : [
         "large pot",
@@ -1390,7 +1395,7 @@
     
         {
         "ordinal" : 1,
-        "time" : null,
+        "time" : 300000,
         "elapsed" : 0,
         "text" : "Combine all the ingredients for the dressing and blend well.",
         "ingredients" : [
@@ -1405,7 +1410,7 @@
 
         {
         "ordinal" : 2,
-        "time" : null,
+        "time" : 900000,
         "elapsed" : 0,
         "text" : "Bring a large pot of salted water to a boil.  Chop all the vegetables",
         "ingredients" : [
