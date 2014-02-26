@@ -3449,17 +3449,21 @@
         "4 T toasted sesame oil",
         "3 T lime juice, plus extra to finish",
         "2 T shredded basil or cilantro",
-        "SPICE PASTE",
-        "3/4\" piece of galangal (or fresh ginger), peeled and chopped",
-        "1 1/2 medium fresh green chilies, seeded and roughly chopped",
-        "1 1/2 lemongrass stalks, outer layer and tough ends removed, roughly chopped",
-        "1 garlic clove, crushed",
-        "1/2 shallot, roughly chopped",
-        "3/4 T coriander seeds, finely ground",
-        "1/2 t cumin seeds, finely ground",
-        "grated zest and juice of 1/2 lime",
-        "1 small bunch of cilantro (with stalks and roots)",
-        "2 T vegetable oil"
+        {
+            "category" : "spice paste",
+            "ingredients" : [
+                "3/4\" piece of galangal (or fresh ginger), peeled and chopped",
+                "1 1/2 medium fresh green chilies, seeded and roughly chopped",
+                "1 1/2 lemongrass stalks, outer layer and tough ends removed, roughly chopped",
+                "1 garlic clove, crushed",
+                "1/2 shallot, roughly chopped",
+                "3/4 T coriander seeds, finely ground",
+                "1/2 t cumin seeds, finely ground",
+                "grated zest and juice of 1/2 lime",
+                "1 small bunch of cilantro (with stalks and roots)",
+                "2 T vegetable oil"
+            ]
+        }
     ],
     "tools" : [
         "spice grinder or mortar and pestle",
