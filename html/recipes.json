@@ -14,10 +14,6 @@
         "40-45 minutes to bake each loaf",
         "24 hours total"
     ],
-    "ingredientsCategories" : [
-        "leaven",
-        "dough"
-    ],
     "ingredients" : [
         {
             "category" : "leaven",
