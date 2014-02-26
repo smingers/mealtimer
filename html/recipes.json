@@ -3327,13 +3327,17 @@
         "2 T chopped green onion",
         "1/2 t finely chopped red chile (or more if you want them hot)",
         "plenty of butter for frying",
-        "SAUCE",
-        "3 T Greek yogurt",
-        "3 T sour cream",
-        "2 T olive oil",
-        "1 T lemon juice",
-        "1 T chopped cilantro",
-        "salt and black pepper"
+        {
+            "category" : "sauce",
+            "ingredients" : [
+                "3 T Greek yogurt",
+                "3 T sour cream",
+                "2 T olive oil",
+                "1 T lemon juice",
+                "1 T chopped cilantro",
+                "salt and black pepper"
+            ]
+        }
     ],
     "tools" : [
         "large saucepan with lid",
