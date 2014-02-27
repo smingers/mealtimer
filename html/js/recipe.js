@@ -65,7 +65,7 @@ $(document).ready(function () {
     var buildRecipe = function (recipe) {
         
         var totalTime = 0;
-        var numNullSteps = 0; // for calculating progress bar
+        var numNullSteps = 0; // for inserting null-time steps into the progress bar
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
             
             var stepNum = recipe.steps[i].ordinal;

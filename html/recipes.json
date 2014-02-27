@@ -42,431 +42,415 @@
     ],
     
     "steps" : [
-        
+
         {
-            "category" : "Make the dough",
-            "steps" : [
-                {
-                "ordinal" : 1,
-                "time" : 43200000,
-                "elapsed" : 0,
-                "text" : "To make the leaven: the night before you are ready to bake, discard all of the <span class='ingredient'>starter</span> except for 1 tbsp.  Add the tbsp of starter to <span class='ingredient'>200g 78 degree water</span> and <span class='ingredient'>200g of the white and whole wheat flour mixture</span>. Cover with a <span class='tool'>kitchen towel</span> and let rise overnight, up to 12 hours.",
-                "ingredients" : [
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-        
-                {
-                "ordinal" : 2,
-                "time" : null,
-                "elapsed" : 0,
-                "text" : "Test the readiness of the leaven by dropping a spoonful in a bowl of room temperature water. If it floats it is ready to use. If not, wait awhile longer.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 3,
-                "time" : 120000,
-                "elapsed" : 0,
-                "text" : "Gather the ingredients to make the bread dough.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 4,
-                "time" : 120000,
-                "elapsed" : 0,
-                "text" : "Add <span class='ingredient'>700g water</span> into a large mixing bowl.  Stir in the <span class='ingredient'>200g leaven</span> to disperse.  Set aside the remaining leaven - this is now your starter.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 5,
-                "time" : 480000,
-                "elapsed" : 0,
-                "text" : "Add the <span class='ingredient'>900g white flour</span> and <span class='ingredient'>100g whole wheat flour</span> and mix by hand until fully incorporated.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 6,
-                "time" : 2400000,
-                "elapsed" : 0,
-                "text" : "Cover and let rest 25-40 minutes.  This initial rest is called the autolyse and is integral to forming tension in the dough.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 7,
-                "time" : null,
-                "elapsed" : 0,
-                "text" : "<p>Add <span class='ingredient'>20g salt</span> and <span class='ingredient'>50g water</span> (if the dough looks dry) and mix in by hand, breaking the dough apart.  Transfer to a <span class='tool'>large, clear plastic container with a lid (dough bucket)</span>.</p><p>Bulk fermentation begins and may take 3-4 hours in a warm area.  The cooler the room the longer it will take.  If your kitchen is cool you can create a microclimate in the oven by briefly heating it and keeping the oven door closed.</p><p>During fermentation, fold or \"turn\" the dough every 30 minutes.  Dip one hand in water to prevent the dough from sticking to you and then grab the underside of the dough, stretch it up, and fold it back over the rest of the dough.  Repeat this action two or three times so that all the dough gets evenly developed.  This is considered one turn.</p><p>Look for signs of development as you are folding.  These include bubbles forming in the dough and a smooth surface.  After folding the dough it should quickly regain its shape, and the dough should release from the sides of the container easily.</p>",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 8,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Wait 30 minutes before doing the first turn.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 9,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 1st time and wait 30 minutes.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 10,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 2nd time.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 11,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 3rd time.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 12,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 4th time.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 13,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 5th time.  At this time, the dough should start to get billowy, soft, and aerated.  At this later stage, you should turn the dough more gently to avoid pressing gas out of the dough.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 14,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 6th time, if necessary. Otherwise, skip to Step 16.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 15,
-                "time" : 1800000,
-                "elapsed" : 0,
-                "text" : "Turn the dough for the 7th time, if necessary. Otherwise, skip to Step 16.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                }
-            ]
+        "ordinal" : 1,
+        "time" : 43200000,
+        "elapsed" : 0,
+        "text" : "To make the leaven: the night before you are ready to bake, discard all of the <span class='ingredient'>starter</span> except for 1 tbsp.  Add the tbsp of starter to <span class='ingredient'>200g 78 degree water</span> and <span class='ingredient'>200g of the white and whole wheat flour mixture</span>. Cover with a <span class='tool'>kitchen towel</span> and let rise overnight, up to 12 hours.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Test the readiness of the leaven by dropping a spoonful in a bowl of room temperature water. If it floats it is ready to use. If not, wait awhile longer.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
         },
         
         {
-            "category" : "Shape the loaves",
-            "steps" : [
-                {
-                "ordinal" : 16,
-                "time" : null,
-                "elapsed" : 0,
-                "text" : "Place the dough on an unfloured work surface. Split the dough in half using a bench knife. Flour each piece, flip it over, and work into a ball in as few movements as possible.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 17,
-                "time" : 1200000,
-                "extra-time" : 600000,
-                "elapsed" : 0,
-                "text" : "When both doughs are shaped, flour the tops and cover with a <span class='tool'>towel</span> for the bench rest, 20-30 min.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 18,
-                "time" : 300000,
-                "elapsed" : 0,
-                "text" : "Line <span class='tool'>2 medium baskets or bowls with clean kitchen towels</span>; generously dust with flour. Using the dough scraper, transfer each round to a basket, smooth side down, with seam centered and facing up.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 19,
-                "time" : 9600000,
-                "extra-time" : 3600000,
-                "elapsed" : 0,
-                "text" : "Let rest at room temperature (75 degrees to 80 degrees), covered with <span class='tool'>towels</span> for 3 to 4 hours before baking.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                }
-            ]
+        "ordinal" : 3,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Gather the ingredients to make the bread dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
         },
         
         {
-            "category" : "Bake",
-            "steps" : [
-                {
-                "ordinal" : 20,
-                "time" : 1200000,
-                "elapsed" : 0,
-                "text" : "Bake the Bread: Twenty minutes before you are ready to bake the bread, preheat the <span class='tool'>oven</span> to 500 degrees, with rack in lowest position, and warm a 9 1/2-inch round or an <span class='tool'>11-inch oval Dutch oven</span> (or a heavy ovenproof pot with a tight-fitting lid).",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 21,
-                "time" : 1200000,
-                "elapsed" : 0,
-                "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a <span class='tool'>razor blade or a sharp knife</span>. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 22,
-                "time" : 1200000,
-                "extra-time" : 300000,
-                "elapsed" : 0,
-                "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 23,
-                "time" : null,
-                "elapsed" : 0,
-                "text" : "Transfer loaf to a <span class='tool'>wire rack</span>. It will feel light and sound hollow when tapped. Let cool.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 24,
-                "time" : 600000,
-                "elapsed" : 0,
-                "text" : "To bake the second loaf, raise oven temperature to 500 degrees, wipe out Dutch oven with a dry kitchen towel, and reheat with lid for 10 minutes.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 25,
-                "time" : 1200000,
-                "elapsed" : 0,
-                "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a razor blade or a sharp knife. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 26,
-                "time" : 1200000,
-                "extra-time" : 300000,
-                "elapsed" : 0,
-                "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                },
-                
-                {
-                "ordinal" : 27,
-                "time" : null,
-                "elapsed" : 0,
-                "text" : "Transfer loaf to a wire rack. It will feel light and sound hollow when tapped. Let cool.",
-                "ingredients" : [ 
-                ],
-                "tools" : [
-                ],
-                "media" : "",
-                "class" : "",
-                "subclass" : "",
-                "intensity" : ""
-                }
-            ]
+        "ordinal" : 4,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add <span class='ingredient'>700g water</span> into a large mixing bowl.  Stir in the <span class='ingredient'>200g leaven</span> to disperse.  Set aside the remaining leaven - this is now your starter.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 480000,
+        "elapsed" : 0,
+        "text" : "Add the <span class='ingredient'>900g white flour</span> and <span class='ingredient'>100g whole wheat flour</span> and mix by hand until fully incorporated.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 2400000,
+        "elapsed" : 0,
+        "text" : "Cover and let rest 25-40 minutes.  This initial rest is called the autolyse and is integral to forming tension in the dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "<p>Add <span class='ingredient'>20g salt</span> and <span class='ingredient'>50g water</span> (if the dough looks dry) and mix in by hand, breaking the dough apart.  Transfer to a <span class='tool'>large, clear plastic container with a lid (dough bucket)</span>.</p><p>Bulk fermentation begins and may take 3-4 hours in a warm area.  The cooler the room the longer it will take.  If your kitchen is cool you can create a microclimate in the oven by briefly heating it and keeping the oven door closed.</p><p>During fermentation, fold or \"turn\" the dough every 30 minutes.  Dip one hand in water to prevent the dough from sticking to you and then grab the underside of the dough, stretch it up, and fold it back over the rest of the dough.  Repeat this action two or three times so that all the dough gets evenly developed.  This is considered one turn.</p><p>Look for signs of development as you are folding.  These include bubbles forming in the dough and a smooth surface.  After folding the dough it should quickly regain its shape, and the dough should release from the sides of the container easily.</p>",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Wait 30 minutes before doing the first turn.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 1st time and wait 30 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 2nd time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 3rd time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 4th time.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 5th time.  At this time, the dough should start to get billowy, soft, and aerated.  At this later stage, you should turn the dough more gently to avoid pressing gas out of the dough.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 14,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 6th time, if necessary. Otherwise, skip to Step 16.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 15,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Turn the dough for the 7th time, if necessary. Otherwise, skip to Step 16.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 16,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Place the dough on an unfloured work surface. Split the dough in half using a bench knife. Flour each piece, flip it over, and work into a ball in as few movements as possible.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 17,
+        "time" : 1200000,
+        "extra-time" : 600000,
+        "elapsed" : 0,
+        "text" : "When both doughs are shaped, flour the tops and cover with a <span class='tool'>towel</span> for the bench rest, 20-30 min.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 18,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Line <span class='tool'>2 medium baskets or bowls with clean kitchen towels</span>; generously dust with flour. Using the dough scraper, transfer each round to a basket, smooth side down, with seam centered and facing up.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 19,
+        "time" : 9600000,
+        "extra-time" : 3600000,
+        "elapsed" : 0,
+        "text" : "Let rest at room temperature (75 degrees to 80 degrees), covered with <span class='tool'>towels</span> for 3 to 4 hours before baking.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 20,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Bake the Bread: Twenty minutes before you are ready to bake the bread, preheat the <span class='tool'>oven</span> to 500 degrees, with rack in lowest position, and warm a 9 1/2-inch round or an <span class='tool'>11-inch oval Dutch oven</span> (or a heavy ovenproof pot with a tight-fitting lid).",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 21,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a <span class='tool'>razor blade or a sharp knife</span>. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 22,
+        "time" : 1200000,
+        "extra-time" : 300000,
+        "elapsed" : 0,
+        "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 23,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer loaf to a <span class='tool'>wire rack</span>. It will feel light and sound hollow when tapped. Let cool.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 24,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "To bake the second loaf, raise oven temperature to 500 degrees, wipe out Dutch oven with a dry kitchen towel, and reheat with lid for 10 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 25,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Turn out 1 round into heated Dutch oven (it may stick to towel slightly). Score top twice using a razor blade or a sharp knife. Cover with lid. Return to oven, and reduce oven temperature to 450 degrees. Bake for 20 minutes.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 26,
+        "time" : 1200000,
+        "extra-time" : 300000,
+        "elapsed" : 0,
+        "text" : "Carefully remove lid (a cloud of steam will be released). Bake until crust is deep golden brown, 20 to 25 minutes more.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 27,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer loaf to a wire rack. It will feel light and sound hollow when tapped. Let cool.",
+        "ingredients" : [ 
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
         }
-        
     ]
 
 },
