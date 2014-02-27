@@ -1,3 +1,9 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
 .navbar-brand {
     vertical-align: top;
 }
@@ -114,7 +120,9 @@
 
 .step-controls {
     position: absolute;
-    padding: 10px 15px;
+    padding: 6px 15px;
+    left: 1%;
+    right: 1%;
 }
 
 .step-remaining {
