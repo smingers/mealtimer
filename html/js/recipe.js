@@ -24,6 +24,7 @@ $(document).ready(function () {
     var $progress = $('.progress');
     var $start = $('#start');
     var $stop = $('.stop');
+    var $ingredients = $('.ingredients');
     
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
@@ -109,13 +110,13 @@ $(document).ready(function () {
         }
         for (i = 0, length = recipe.ingredients.length; i < length; i++) {
             if (recipe.ingredients[i].category) {
-                $('.ingredients').append('<h6>' + recipe.ingredients[i].category + '</h6>');
+                $ingredients.append('<h6>' + recipe.ingredients[i].category + '</h6>');
                 for (var j = 0, length2 = recipe.ingredients[i].ingredients.length; j < length2; j++) {
-                    $('.ingredients').append('<li>' + recipe.ingredients[i].ingredients[j] + '</li>');
+                    $ingredients.append('<li>' + recipe.ingredients[i].ingredients[j] + '</li>');
                 }
-                $('.ingredients').append('<br>');
+                $ingredients.append('<br>');
             } else {
-                $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
+                $ingredients.append('<li>' + recipe.ingredients[i] + '</li>');
             }
             
         }
