@@ -1546,6 +1546,7 @@
         "ordinal" : 3,
         "time" : 3600000,
         "elapsed" : 0,
+        "passive" : true,
         "text" : "Wrap it in plastic wrap and chill for at least an hour.",
         "ingredients" : [
         ],
@@ -1576,6 +1577,7 @@
         "ordinal" : 5,
         "time" : 1800000,
         "elapsed" : 0,
+        "passive" : true,
         "text" : "Simmer the barley for 30 to 35 minutes, or until al dente.",
         "ingredients" : [
         ],
