@@ -66,6 +66,8 @@ $(document).ready(function () {
         
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
+        
+        // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
             
             var stepNum = recipe.steps[i].ordinal;
