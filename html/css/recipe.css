@@ -11,6 +11,15 @@
 	border: none;
 }
 
+.time {
+    display: inline;
+}
+
+.time small {
+    color: #555555;
+    padding-left: 10px;
+}
+
 .popover {
     position: fixed;
 }
@@ -36,15 +45,6 @@
 
 .inset {
     text-shadow: 1px 1px 0 #333;
-}
-
-.time {
-    display: inline;
-}
-
-.time small {
-    color: #555555;
-    padding-left: 10px;
 }
 
 .progress {
@@ -100,6 +100,10 @@
 
 .elapsed-time {
     float: right;
+}
+
+.passive-buttons {
+    margin-right: 15px;
 }
 
 /* experimenting with lighter border - looks thicker because of box shadow i think.

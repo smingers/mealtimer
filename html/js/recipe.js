@@ -66,7 +66,7 @@ $(document).ready(function () {
         
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
-        var passiveButtons = "<button type=\"button\" class=\"btn btn-default small play\"><span class=\"glyphicon glyphicon-play\"></span></button>";
+        var passiveButtons = "<button type=\"button\" class=\"btn btn-default btn-xs passive-buttons play\" id=\"panel-controls\"><span class=\"glyphicon glyphicon-play\"></span></button>";
         
         // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
@@ -77,7 +77,7 @@ $(document).ready(function () {
             
             // IN PROGRESS
             if (recipe.steps[i].passive) {
-                $('.steps').append("<div class=\"panel panel-default passive\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span>" + passiveButtons + "<span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
+                $('.steps').append("<div class=\"panel panel-default passive\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">" + passiveButtons + "Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span><span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
             } else {
                 $('.steps').append("<div class=\"panel panel-default\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span><span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
             }
