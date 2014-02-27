@@ -21,7 +21,7 @@ $(document).ready(function () {
     var $step = $('.step');
     var $timerRow = $('.timer-row');
     var $jumbotron = $('.jumbotron');
-    var $progress = $('.progress');
+    var $progress = $('#progress-bar-master');
     var $start = $('#start');
     var $stop = $('.stop');
     var $ingredients = $('.ingredients');

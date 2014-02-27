@@ -47,7 +47,7 @@
     text-shadow: 1px 1px 0 #333;
 }
 
-.progress {
+#progress-bar-master {
     border-radius: 0;
     height: 10px;
     box-shadow: 0 0 8px #eee;
