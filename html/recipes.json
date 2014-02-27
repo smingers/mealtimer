@@ -3910,6 +3910,209 @@
 },
 
 {
+    "id" : "19",
+    "title" : "Polenta with Mushrooms and Soy",
+    "description" : "Recipe adapted from Chris Jaeckle, All’onda, New York.",
+    "author" : "Sam Sifton",
+    "source" : "The New York Times",
+    "url" : "http://www.nytimes.com/recipes/1016084/polenta-with-mushrooms-and-soy.html",
+    "bgImage" : "http://static01.nyt.com/images/2014/03/02/magazine/02eat1/02eat1-master675-v2.jpg",
+    "yield" : "Serves 4 to 6",
+    "time" : [
+        "1 hour total"
+    ],
+    "ingredients" : [
+        {
+            "category" : "polenta",
+            "ingredients" : [
+                "2 cups minus 3 tablespoons whole milk",
+                "1 teaspoon salt, or to taste",
+                "1 3/4 cups polenta or cornmeal",
+                "4 tablespoons unsalted butter, or to taste",
+                "1 tablespoon grated Parmesan, or to taste"
+            ]
+        },
+        {
+            "category" : "mushrooms",
+            "ingredients" : [
+                "1/2 ounce dried porcini mushrooms",
+                "5 tablespoons cold unsalted butter, cut into pats, divided",
+                "1 clove garlic, peeled and minced",
+                "8 ounces fresh mushrooms, wild or cultivated, sliced thin",
+                "1 teaspoon fresh thyme leaves",
+                "1 tablespoon soy sauce",
+                "1 tablespoon heavy cream",
+                "1 tablespoon extra-virgin olive oil",
+                "Freshly ground black pepper"
+            ]
+        }
+    ],
+    "tools" : [
+        "medium saucepan",
+        "whisk",
+        "measuring cups",
+        "large saucepan (optional)",
+        "small bowl",
+        "sauté pan",
+        "wooden spoon"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "For the polenta, bring 4 1/2 cups water and the milk to a high simmer in a medium-size heavy saucepan set over medium-high heat. Add salt. Pour the cornmeal slowly into the liquid, stirring with a wire whisk to prevent clumping.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Continue stirring as the mixture thickens, 2 to 3 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 2400000,
+        "elapsed" : 0,
+        "text" : "Turn heat to low. Cook for approximately 40 to 45 minutes, stirring every 5 to 10 minutes. If the polenta becomes quite thick, thin it with 1/2 cup water, stir well and continue cooking. Add up to 1 cup more water as necessary, to keep the polenta soft enough to stir.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the butter to pot, and stir well. Add the Parmesan, if using. Taste for seasoning. Set the covered saucepan in a pot of barely simmering water, and keep warm for up to an hour or so.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Meanwhile, put the dried mushrooms in a small bowl, and cover with about 1/2 cup boiling water. Allow to steep for 20 minutes. Remove the mushrooms, and pat dry, then chop roughly. Reserve the mushroom stock.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Melt 2 tablespoons of the butter in a sauté pan set over high heat until it has melted.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 30000,
+        "elapsed" : 0,
+        "text" : "Add the garlic and cook until it starts to sizzle, about 30 seconds. Do not let the garlic brown.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Add the fresh and reconstituted mushrooms and thyme to the pan, and sauté 3 to 4 minutes, turning until browned.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add about 1/4 cup of the mushroom stock to deglaze the surface, using a wooden spoon to scrape at the browned bits. Allow the stock to reduce by half, then turn the heat to medium-low and add the remaining 3 tablespoons of butter, whisking to combine, followed by the soy sauce, cream and olive oil. Allow mixture to cook until it thickens a little, then remove from heat. Taste for seasoning, adding black pepper, if desired.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Put the polenta in a warmed bowl, then top with mushrooms and the sauce. Serve immediately.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
