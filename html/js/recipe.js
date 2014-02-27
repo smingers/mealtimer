@@ -108,14 +108,14 @@ $(document).ready(function () {
             $('.tools').append('<li>' + recipe.tools[i] + '</li>');
         }
         for (i = 0, length = recipe.ingredients.length; i < length; i++) {
-            if (!recipe.ingredients[i].category) {
-                $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
-            } else {
+            if (recipe.ingredients[i].category) {
                 $('.ingredients').append('<h6>' + recipe.ingredients[i].category + '</h6>');
                 for (var j = 0, length2 = recipe.ingredients[i].ingredients.length; j < length2; j++) {
                     $('.ingredients').append('<li>' + recipe.ingredients[i].ingredients[j] + '</li>');
                 }
                 $('.ingredients').append('<br>');
+            } else {
+                $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
             }
             
         }
