@@ -98,19 +98,15 @@
   border-bottom: 0;
 }
 
+/* deprecate when ready */
 .elapsed-time {
     float: right;
 }
 
+/* deprecate when ready */
 .passive-buttons {
     margin-right: 15px;
 }
-
-/* experimenting with lighter border - looks thicker because of box shadow i think.
-.panel-default {
-     border-color: #f5f5f5;
-}
-*/
 
 .sidebar ul {
     color: #777777;
