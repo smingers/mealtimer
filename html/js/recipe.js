@@ -108,7 +108,7 @@ $(document).ready(function () {
             $('.tools').append('<li>' + recipe.tools[i] + '</li>');
         }
         for (i = 0, length = recipe.ingredients.length; i < length; i++) {
-            if (typeof recipe.ingredients[i] === 'string') {
+            if (!recipe.ingredients[i].category) {
                 $('.ingredients').append('<li>' + recipe.ingredients[i] + '</li>');
             } else {
                 $('.ingredients').append('<h6>' + recipe.ingredients[i].category + '</h6>');
