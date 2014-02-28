@@ -231,6 +231,8 @@ $(document).ready(function () {
             }, 1000);
         }
         
+        console.log('elapsed: ', elapsed);
+        
         // smooth scrolling
         $('html, body').stop().animate({
             scrollTop: $('#' + (currentStep + 1)).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
@@ -244,7 +246,11 @@ $(document).ready(function () {
         elapsedTimes[currentStep] = elapsed;
         var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
         $display.text(stopWatchTime(convertMS(remaining)));
-        
+        $('#' + (currentStep + 1)  + ' .step-remaining').text(stopWatchTime(convertMS(remaining)));
+        $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
+        var percentComplete = (elapsed / recipeStepTimes[currentStep]) * 100;
+        $('#' + (currentStep + 1)  + ' .progress-bar').css('width', percentComplete + '%');  // MOVES TOO SLOW
+
         // time expires
         if (remaining < 0) {
             $('#' + (currentStep + 1)).addClass('times-up');
@@ -261,6 +267,8 @@ $(document).ready(function () {
             $timerRow.removeClass('timer-row-times-up');
             document.title = titleReg;
         }
+        
+        console.log('remaining: ', remaining);
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
