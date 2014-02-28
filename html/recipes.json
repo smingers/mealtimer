@@ -3063,8 +3063,16 @@
         "800g white onions, peeled and cut into rings",
         "2 tbsp picked thyme leaves",
         "½ tsp white-wine vinegar",
-        "200g chickpea flour (aka gram flour)",
-        "450ml water",
+        
+        {
+            "category" : "socca batter",
+            "ingredients" : [
+                "200g chickpea flour (aka gram flour)",
+                "450ml water",
+                "1½ T olive oil",
+                "2 egg whites"
+            ]
+        },
         "crème fraîche, to serve"
     ],
     "tools" : [
@@ -3097,6 +3105,7 @@
         "ordinal" : 2,
         "time" : 1500000,
         "elapsed" : 0,
+        "passive" : true,
         "text" : "Roast for 25 minutes or until semi-cooked.  The tomatoes are not supposed to dry out completely.",
         "ingredients" : [
         ],
@@ -3142,6 +3151,7 @@
         "ordinal" : 5,
         "time" : 1200000,
         "elapsed" : 0,
+        "passive" : true,
         "text" : "Reduce the heat to low and continue cooking for 20 minutes, stirring occasionally.  You want the onions completely soft, sweet and golden brown, but not very dark.  At the end, stir in the vinegar, then taste and adjust the seasoning.",
         "ingredients" : [
         ],
@@ -3172,7 +3182,7 @@
         "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Put the chickpea flour, water, 1 1/2 T olive oil, 3/4 t salt and some pepper in a bowl.  Mix well with a hand whisk until the batter is totally homogenous.  In a separate bowl whisk the egg whites to soft peaks and gently fold into the batter.",
+        "text" : "Put the chickpea flour, water, 1 1/2 T olive oil, 3/4 t salt and some pepper in a bowl.  Mix well with a hand whisk until the batter is totally homogenous (the batter should be very wet, similar to crepe batter).  In a separate bowl whisk the egg whites to soft peaks and gently fold into the batter.",
         "ingredients" : [
         ],
         "tools" : [
