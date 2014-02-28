@@ -23,7 +23,7 @@ $(document).ready(function () {
     var $jumbotron = $('.jumbotron');
     var $progress = $('#progress-bar-master');
     var $start = $('#start');
-    var $stop = $('.stop');
+    var $stop = $('#stop');
     var $ingredients = $('.ingredients');
     
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
@@ -66,7 +66,7 @@ $(document).ready(function () {
         
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
-        var passiveButtons = '<button type="button" class="btn btn-default btn-xs passive-buttons play" id="panel-controls"><span class="glyphicon glyphicon-play"></span></button>';
+        // TBD var passiveButtons = '<button type="button" class="btn btn-default btn-xs passive-buttons play" id="panel-controls"><span class="glyphicon glyphicon-play"></span></button>';
         
         // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
@@ -78,13 +78,15 @@ $(document).ready(function () {
             } else {
                 stepTime = "--:--:--";
             }
-            
             var stepText = recipe.steps[i].text;
             
-            $('.steps').append('<div class="panel panel-default" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar" style="width: 0%;"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-elapsed small">00:00:00</span><span class="step-remaining small">' + stepTime + '</span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
-
+            if (recipe.steps[i].passive) {
+                $('.steps').append('<div class="panel panel-default passive" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-elapsed small">00:00:00</span><span class="step-remaining small">' + stepTime + '</span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+            } else {
+                $('.steps').append('<div class="panel panel-default" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-elapsed small">00:00:00</span><span class="step-remaining small">' + stepTime + '</span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+            }
+            
             /*
-            // IN PROGRESS
             if (recipe.steps[i].passive) {
                 $('.steps').append("<div class=\"panel panel-default passive\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">" + passiveButtons + "Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span><span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
             } else {
@@ -248,8 +250,9 @@ $(document).ready(function () {
         $display.text(stopWatchTime(convertMS(remaining)));
         $('#' + (currentStep + 1)  + ' .step-remaining').text(stopWatchTime(convertMS(remaining)));
         $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
-        var percentComplete = (elapsed / recipeStepTimes[currentStep]) * 100;
-        $('#' + (currentStep + 1)  + ' .progress-bar').css('width', percentComplete + '%');  // MOVES TOO SLOW
+        // var percentComplete = ((elapsed / recipeStepTimes[currentStep]) * 100) + '%';
+        // $('#' + (currentStep + 1)  + ' .progress-bar').css('width', percentComplete);  // MOVES TOO SLOW
+        // ALT $('#' + (currentStep + 1)  + ' .progress-bar').animate({'width': percentComplete}, 1000);
 
         // time expires
         if (remaining < 0) {
@@ -268,7 +271,7 @@ $(document).ready(function () {
             document.title = titleReg;
         }
         
-        console.log('remaining: ', remaining);
+        console.log('remaining: ', remaining);  // IN PROGRESS
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
