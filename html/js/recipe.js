@@ -66,7 +66,7 @@ $(document).ready(function () {
         
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
-        var passiveButtons = "<button type=\"button\" class=\"btn btn-default btn-xs passive-buttons play\" id=\"panel-controls\"><span class=\"glyphicon glyphicon-play\"></span></button>";
+        var passiveButtons = '<button type="button" class="btn btn-default btn-xs passive-buttons play" id="panel-controls"><span class="glyphicon glyphicon-play"></span></button>';
         
         // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
@@ -109,7 +109,7 @@ $(document).ready(function () {
             } else {
                 widthNum = recipe.steps[i].time * (100 - numNullSteps * 0.5) / totalTime;
             }
-            var progressBarStep ="<div class=\"progress-bar progress-bar-step\" style=\"width: " + widthNum + "%\" id=\"progress"+ ( i + 1 ) + "\" href=\""+ (i + 1) +"\"></div>";
+            var progressBarStep ='<div class="progress-bar progress-bar-step" style="width: ' + widthNum + '%" id="progress"' + ( i + 1 ) + ' href="' + (i + 1) + '></div>';
             $progress.append(progressBarStep);
         }
         
@@ -143,7 +143,7 @@ $(document).ready(function () {
         // IN PROGRESS stop function, restores pretty much everything back to its original state
          $stop.click(function () {
             clearInterval(countDown);
-            $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
+            // PROBABLY DELETE THIS $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
             $more.popover('hide');
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
@@ -357,7 +357,7 @@ $(document).ready(function () {
         nextDisabler(currentStep);
         $more.popover('hide');
 
-        $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep - 1])));
+        // PROBABLY DELETE THIS $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep - 1])));
         elapsedTimes[currentStep - 1] = elapsed;
         
         // change the appearance of the step panels
