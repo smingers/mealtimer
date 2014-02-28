@@ -129,11 +129,19 @@
     float: right;
 }
 
+.step-elapsed {
+    margin-left: 8px;
+}
+
 .step-ordinal {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: lighter;
     text-align: center;
-    vertical-align: middle;
+    width: 4%;
+}
+
+.step-text {
+    width: 96%;
 }
 
 
