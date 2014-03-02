@@ -3597,7 +3597,7 @@
         "ordinal" : 6,
         "time" : 300000,
         "elapsed" : 0,
-        "text" : "Simmer gently for 5 minutes.  Meanwhile, bring two medium saucepans of salted water to the boil.  Meanwhile, warm serving bowls in the oven.",
+        "text" : "Simmer gently for 5 minutes.  Meanwhile, bring two medium saucepans of salted water to the boil and warm serving bowls in the oven.",
         "ingredients" : [
         ],
         "tools" : [
@@ -3642,7 +3642,7 @@
         "ordinal" : 9,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Drain both pans.  Rince the noodles briefly under hot water and drain well, then toss with 3 T of the sesame oil and the lime juice; season generously with salt.",
+        "text" : "Drain both pans.  Rinse the noodles briefly under hot water and drain well, then toss with 3 T of the sesame oil and the lime juice; season generously with salt.",
         "ingredients" : [
         ],
         "tools" : [
