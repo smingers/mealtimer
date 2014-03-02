@@ -221,6 +221,7 @@ $(document).ready(function () {
             countDown = setInterval(function () {
                 elapsed += 1000;
                 elapsedTimes[currentStep] = elapsed;
+                $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
             }, 1000);
         } else {
             $pause.removeClass('disabled');
@@ -301,7 +302,6 @@ $(document).ready(function () {
     };
     
     // BUTTONS
-    // play function, takes the first value in recipeStepTimes, loads it, starts counting down (timeout)
     $play.click(function () {
         // adjusts button appearances
         $pause.removeClass('disabled');
@@ -325,7 +325,6 @@ $(document).ready(function () {
         }
     });
 
-    // pause function, freezes the timer until play is pressed again
     $pause.click(function () {
         // adjusts button appearances
         $pause.addClass('disabled');
@@ -336,7 +335,6 @@ $(document).ready(function () {
         clearInterval(countDown);
     });
     
-    // go back to the previous step
     var prev = function () {
         clearInterval(countDown);
         userAddedTime = 0;
@@ -359,9 +357,16 @@ $(document).ready(function () {
         startCountdown();   
     };
     
-    // advance to the next step
     var next = function () {
+        // IN PROGRESS - handling passive steps
+        if ($('#' + (currentStep + 1)).hasClass('passive')) {
+            console.log('the previous step was passive');
+        } else {
+            console.log('the previous step was NOT passive');
+        }
+        
         clearInterval(countDown);
+        
         userAddedTime = 0;
         currentStep += 1;
         prevDisabler(currentStep);

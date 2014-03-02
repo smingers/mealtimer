@@ -3392,9 +3392,9 @@
 
         {
         "ordinal" : 2,
-        "time" : null,
+        "time" : 900000,
         "elapsed" : 0,
-        "text" : "Steam the sweet potatoes until completely soft.",
+        "text" : "Steam the sweet potatoes until completely soft (about 15 minutes, depending on the size of the chunks).",
         "ingredients" : [
         ],
         "tools" : [
