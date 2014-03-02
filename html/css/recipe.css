@@ -53,6 +53,21 @@
     text-shadow: 1px 1px 0 #333;
 }
 
+/* link styling in the jumbotron */
+a {
+	color: #888;
+}
+
+a:visited {
+    color: #aaa;
+    font-style: underline;
+}
+
+a:hover {
+	color: #ddd;
+	text-shadow: 0 0;
+}
+
 #progress-bar-master {
     border-radius: 0;
     height: 10px;
@@ -125,7 +140,8 @@
     right: 1%;
 }
 
-.step-remaining {
+/* in progress, restyling panel */
+.step-times {
     float: right;
 }
 
@@ -234,21 +250,6 @@
   border-color: #cccccc;
 }
 */
-
-/* link styling, specifically for the jumbotron */
-a {
-	color: #888;
-}
-
-a:visited {
-    color: #aaa;
-    font-style: underline;
-}
-
-a:hover {
-	color: #ddd;
-	text-shadow: 0 0;
-}
 
 /* current step in the recipe */
 .current {
