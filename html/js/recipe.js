@@ -393,7 +393,7 @@ $(document).ready(function () {
     $prev.click(prev);
     $next.click(next);
     
-        // popover with extra time controls (add, subtract, reset)
+    // popover with extra time controls (add, subtract, reset)
     $more.popover({
         position: 'fixed',
         placement: 'bottom',
@@ -428,10 +428,10 @@ $(document).ready(function () {
 });
 
     // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
-    $(document).keydown(function(objEvent) {
-        if (!$prev.hasClass('disabled') && objEvent.keyCode == 37) {
+    $(document).keydown(function (event) {
+        if (!$prev.hasClass('disabled') && event.keyCode == 37) {
              prev();
-        } else if (!$next.hasClass('disabled') && objEvent.keyCode == 39) {
+        } else if (!$next.hasClass('disabled') && event.keyCode == 39) {
             next();
         }
     });
