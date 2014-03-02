@@ -144,7 +144,7 @@ $(document).ready(function () {
             
         }
         
-        // IN PROGRESS stop function, restores pretty much everything back to its original state
+        // stop function, restores pretty much everything back to its original state
          $stop.click(function () {
             clearInterval(countDown);
             // PROBABLY DELETE THIS $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
