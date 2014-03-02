@@ -174,14 +174,11 @@ $(document).ready(function () {
             offset: {
                 top: function () {
                     return (this.top = $jumbotron.outerHeight() - $navbar.outerHeight());
-                }, 
-                bottom: function () {
-                    return (this.bottom = $('.bs-footer').outerHeight(true));
                 }
             }
         });
         
-        // affix sidebar  (IN PROGRESS - WHY DO HEIGHT AND OUTERHEIGHT === 550 WHEN CALCULATED AND 570 IN CHROME DEV TOOLS?)
+        // affix sidebar  (BUGGY; WHY DO HEIGHT AND OUTERHEIGHT === 550 WHEN CALCULATED AND 570 IN CHROME DEV TOOLS?)
         var affixSidebar = function () {
             var windowHeight = $(window).height();
             var windowWidth = $(window).width();
@@ -208,6 +205,7 @@ $(document).ready(function () {
         
     };
     
+    /*
     //IN PROGERSS - smooth scrolling on click of progress bar pieces
     $('.progress-bar-step').click(function (ordinal) {
         $(this).attr('href', ordinal);
@@ -217,6 +215,7 @@ $(document).ready(function () {
             scrollTop: $('#' + ordinal).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
         }, 500);
     });
+    */
     
     // intiate countdown and refresh every second using setInterval
     var startCountdown = function () { 
@@ -369,18 +368,19 @@ $(document).ready(function () {
             console.log('the previous step was passive');
         } else {
             console.log('the previous step was NOT passive');
+            clearInterval(countDown);
+            
         }
         
-        clearInterval(countDown);
+        
         
         userAddedTime = 0;
         currentStep += 1;
         prevDisabler(currentStep);
         nextDisabler(currentStep);
         $more.popover('hide');
-
-        // PROBABLY DELETE THIS $('#' + (currentStep)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep - 1])));
         elapsedTimes[currentStep - 1] = elapsed;
+        console.log(elapsedTimes); // TEST
         
         // change the appearance of the step panels
         $('#' + (currentStep + 1)).addClass('current');
@@ -442,7 +442,7 @@ $(document).ready(function () {
         }
     });
 
-   // get recipe from JSON array of objects; currently hard coding the ID number IN PROGRESS
+   // get recipe (relies on purl.js file)
     $.getJSON("recipes.json", function(recipes) {
         var recipe;
         for (var i = 0, length = recipes.length; i < length && !recipe; i++) {
