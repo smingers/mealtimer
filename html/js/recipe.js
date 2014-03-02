@@ -111,9 +111,11 @@ $(document).ready(function () {
             } else {
                 widthNum = recipe.steps[i].time * (100 - numNullSteps * 0.5) / totalTime;
             }
-            var progressBarStep ='<div class="progress-bar progress-bar-step" style="width: ' + widthNum + '%" id="progress"' + ( i + 1 ) + ' href="' + (i + 1) + '></div>';
+            var progressBarStep = ('<a href="#' + (i + 1) + '" class="progress-bar progress-bar-step" style="width: ' + widthNum + '%" id="progress' + ( i + 1 ) + '" data-toggle="tooltip" data-placement="bottom" title="Step ' + (i + 1) + '"></a>');
             $progress.append(progressBarStep);
         }
+        
+        $('.progress-bar-step').tooltip(); // IN PROGRESS
         
         // other page elements
         $display.text(stopWatchTime(convertMS(totalTime)));
@@ -179,7 +181,6 @@ $(document).ready(function () {
             }
         });
         
-        
         // affix sidebar  (IN PROGRESS - WHY DO HEIGHT AND OUTERHEIGHT === 550 WHEN CALCULATED AND 570 IN CHROME DEV TOOLS?)
         var affixSidebar = function () {
             var windowHeight = $(window).height();
@@ -202,11 +203,20 @@ $(document).ready(function () {
             }
             // console.log("window height: " + windowHeight + "\nwindow width: " + windowWidth + "\n div height: " + $toolsIngredients.height()); TEST
         };
-        
         affixSidebar();
         $(window).resize(affixSidebar);
         
     };
+    
+    //IN PROGERSS - smooth scrolling on click of progress bar pieces
+    $('.progress-bar-step').click(function (ordinal) {
+        $(this).attr('href', ordinal);
+        console.log(ordinal);
+        // smooth scrolling
+        $('html, body').stop().animate({
+            scrollTop: $('#' + ordinal).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
+        }, 500);
+    });
     
     // intiate countdown and refresh every second using setInterval
     var startCountdown = function () { 
@@ -233,8 +243,6 @@ $(document).ready(function () {
                 displayRemainingTime(startTime);
             }, 1000);
         }
-        
-        console.log('elapsed: ', elapsed);
         
         // smooth scrolling
         $('html, body').stop().animate({
@@ -271,7 +279,6 @@ $(document).ready(function () {
             document.title = titleReg;
         }
         
-        console.log('remaining: ', remaining);  // IN PROGRESS
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
