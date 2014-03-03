@@ -232,7 +232,6 @@ $(document).ready(function () {
                 $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
             }, 1000);
         } else {
-            $pause.removeClass('disabled');
             $more.removeClass('disabled');
             elapsed = elapsedTimes[currentStep];
             startTime = Date.now() - elapsed;
