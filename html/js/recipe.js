@@ -224,7 +224,6 @@ $(document).ready(function () {
         // checks for null time value
         if (recipeStepTimes[currentStep] === null) {
             $display.text('N/A');
-            // PROBABLY IRRELEVANT NOW $pause.addClass('disabled'); 
             $more.addClass('disabled');
             elapsed = elapsedTimes[currentStep];
             countDown = setInterval(function () {
