@@ -224,7 +224,7 @@ $(document).ready(function () {
         // checks for null time value
         if (recipeStepTimes[currentStep] === null) {
             $display.text('N/A');
-            $pause.addClass('disabled'); 
+            // PROBABLY IRRELEVANT NOW $pause.addClass('disabled'); 
             $more.addClass('disabled');
             elapsed = elapsedTimes[currentStep];
             countDown = setInterval(function () {
@@ -363,19 +363,22 @@ $(document).ready(function () {
     };
     
     var next = function () {
+        currentStep += 1;
+        
         // IN PROGRESS - handling passive steps
-        if ($('#' + (currentStep + 1)).hasClass('passive')) {
+        if ($('#' + (currentStep)).hasClass('passive')) {
             console.log('the previous step was passive');
         } else {
             console.log('the previous step was NOT passive');
             clearInterval(countDown);
-            
+            $('#' + (currentStep)).removeClass('current');
+            $('#' + (currentStep)).removeClass('times-up');
+            $('#' + (currentStep)).addClass('completed');
         }
         
         
         
         userAddedTime = 0;
-        currentStep += 1;
         prevDisabler(currentStep);
         nextDisabler(currentStep);
         $more.popover('hide');
@@ -384,9 +387,6 @@ $(document).ready(function () {
         
         // change the appearance of the step panels
         $('#' + (currentStep + 1)).addClass('current');
-        $('#' + currentStep).removeClass('current');
-        $('#' + currentStep).removeClass('times-up');
-        $('#' + currentStep).addClass('completed');
         $('#progress' + (currentStep)).removeClass('progress-bar-step-times-up');
         $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
         $('#progress' + (currentStep)).addClass('progress-bar-step-completed');
