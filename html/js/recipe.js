@@ -25,10 +25,10 @@ $(document).ready(function () {
     var $start = $('#start');
     var $stop = $('#stop');
     var $ingredients = $('.ingredients');
-    
+
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
-    // convert milliseconds into human readable format
+    // time conversion and rendering functions
     var convertMS = function (milliseconds) {
         // converts time into hours, minutes, seconds
         var absMilliseconds = Math.abs(milliseconds);
@@ -70,7 +70,6 @@ $(document).ready(function () {
         
         // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
-            
             var stepNum = recipe.steps[i].ordinal;
             var stepTime;
             if (recipe.steps[i].time) {
@@ -85,14 +84,6 @@ $(document).ready(function () {
             } else {
                 $('.steps').append('<div class="panel panel-default" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             }
-            
-            /*
-            if (recipe.steps[i].passive) {
-                $('.steps').append("<div class=\"panel panel-default passive\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">" + passiveButtons + "Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span><span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
-            } else {
-                $('.steps').append("<div class=\"panel panel-default\" id=\"" + stepNum + "\"><div class=\"panel-heading\"><h3 class=\"panel-title \">Step <span class=\"step-number\">" + stepNum + "</span> <small><span class=\"step-time\">" + stepTime + "</span><span class=\"elapsed-time\"></span></small></h3></div><div class=\"panel-body\">" + stepText + "</div></div>");
-            }
-            */
             
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
@@ -135,11 +126,11 @@ $(document).ready(function () {
             if (recipe.ingredients[i].category) {
                 $ingredients.append('<h6>' + recipe.ingredients[i].category + '</h6>');
                 for (var j = 0, length2 = recipe.ingredients[i].ingredients.length; j < length2; j++) {
-                    $ingredients.append('<li>' + recipe.ingredients[i].ingredients[j] + '</li>');
+                    $ingredients.append('<li class="ingredient">' + recipe.ingredients[i].ingredients[j] + '</li>');
                 }
                 $ingredients.append('<br>');
             } else {
-                $ingredients.append('<li>' + recipe.ingredients[i] + '</li>');
+                $ingredients.append('<li class="ingredient">' + recipe.ingredients[i] + '</li>');
             }
             
         }
@@ -220,12 +211,12 @@ $(document).ready(function () {
     // intiate countdown and refresh every second using setInterval
     var startCountdown = function () { 
         $step.text('Step ' + (currentStep + 1));
+        elapsed = elapsedTimes[currentStep];
         
         // checks for null time value
         if (recipeStepTimes[currentStep] === null) {
-            $display.text('N/A');
             $more.addClass('disabled');
-            elapsed = elapsedTimes[currentStep];
+            $display.text('N/A');
             countDown = setInterval(function () {
                 elapsed += 1000;
                 elapsedTimes[currentStep] = elapsed;
@@ -233,7 +224,6 @@ $(document).ready(function () {
             }, 1000);
         } else {
             $more.removeClass('disabled');
-            elapsed = elapsedTimes[currentStep];
             startTime = Date.now() - elapsed;
             displayRemainingTime(startTime);
             countDown = setInterval(function () {
@@ -255,6 +245,7 @@ $(document).ready(function () {
         var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
         $display.text(stopWatchTime(convertMS(remaining)));
         $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
+        // update panel progress bar 
         // var percentComplete = ((elapsed / recipeStepTimes[currentStep]) * 100) + '%';
         // $('#' + (currentStep + 1)  + ' .progress-bar').css('width', percentComplete);  // MOVES TOO SLOW
         // ALT $('#' + (currentStep + 1)  + ' .progress-bar').animate({'width': percentComplete}, 1000);
@@ -275,7 +266,21 @@ $(document).ready(function () {
             $timerRow.removeClass('timer-row-times-up');
             document.title = titleReg;
         }
-        
+    };
+    
+    // IN PROGRESS - HANDLING PASSIVE STEPS
+    var passiveStepHandler = function () {
+        for (var i = 1; i < currentStep; i++) {
+            if ($('.panel #' + i).hasClass('passive') && !$('.panel#' + i).hasClass('passive-stopped')) {
+                // keep counting down passive steps that have not been stopped
+                elapsed = elapsedTimes[i-1];
+                startTime = Date.now() - elapsed;
+                displayRemainingTime(startTime);
+                countDown = setInterval(function () {
+                    displayRemainingTime(startTime);
+                }, 1000);
+            }
+        }
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
@@ -362,19 +367,18 @@ $(document).ready(function () {
     
     var next = function () {
         currentStep += 1;
+        clearInterval(countDown);
+
         
         // IN PROGRESS - handling passive steps
         if ($('#' + (currentStep)).hasClass('passive')) {
             console.log('the previous step was passive');
         } else {
             console.log('the previous step was NOT passive');
-            clearInterval(countDown);
             $('#' + (currentStep)).removeClass('current');
             $('#' + (currentStep)).removeClass('times-up');
             $('#' + (currentStep)).addClass('completed');
         }
-        
-        
         
         userAddedTime = 0;
         prevDisabler(currentStep);
@@ -391,6 +395,7 @@ $(document).ready(function () {
         
         totalElapsed();
         startCountdown();
+        passiveStepHandler(); // TEST
         
     };
     
@@ -451,8 +456,8 @@ $(document).ready(function () {
         
         buildRecipe(recipe);
     });
-    
-});  
+
+});
     
 
 /*
