@@ -961,7 +961,6 @@
 },
 
 {
-    
     "id" : "5",
     "title" : "Oven Baked Home Fries",
     "description" : "Making home fries the traditional way takes about an hour of standing over a hot skillet, after which you get only three servings at most. We wanted a quicker, more hands-off method for making a larger amount. To speed things up, we developed a hybrid cooking technique: First, we parboil diced russet potatoes, and then we coat them in oil and cook them in a very hot oven. We discovered that boiling the potatoes with baking soda quickly breaks down their exterior while leaving their insides nearly raw, ensuring home fries with a crisp, brown crust and a moist, fluffy interior. We added diced onions in the last 20 minutes of oven time and finished the home fries with chives to reinforce the onion flavor.",
@@ -4110,6 +4109,601 @@
         "time" : null,
         "elapsed" : 0,
         "text" : "Put the polenta in a warmed bowl, then top with mushrooms and the sauce. Serve immediately.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "20",
+    "title" : "Spicy Grilled Shrimp",
+    "description" : "Be forewarned: this is the kind of dish that makes people eat more than they should.  Make extra; I always do.",
+    "author" : "Mark Bittman ",
+    "source" : "Fish: The Complete Guide to Buying and Cooking",
+    "bgImage" : "http://relishme.files.wordpress.com/2012/03/chip-shrimp-done-3.jpg",
+    "yield" : "Serves 4",
+    "time" : [
+        "15 minutes to prepare",
+        "5 minutes to cook",
+        "20 minutes total"
+    ],
+    "ingredients" : [
+        "2 lbs large shrimp",
+        "1 large clove garlic",
+        "1 T coarse salt",
+        "1/2 t cayenne pepper",
+        "1 t paprika",
+        "2 T olive oil",
+        "2 t fresh lemon juice",
+        "Lemon wedges"
+    ],
+    "tools" : [
+        "skewers",
+        "small mixing bowl",
+        "basting brush",
+        "tongs"
+    ],
+    
+    "steps" : [
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Start a charcoal or gas grill or preheat the broiler; the fire can be as hot as you like.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Peel the shrimp (you can butterfly them if you like, just cut along the line of the vein, a little deeper than usual).  Arrange in skewers.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 3,
+        "time" : 360000,
+        "elapsed" : 0,
+        "text" : "Peel and mince the garlic.  Mix with the salt, cayenne, and paprika, then make it into a paste with the olive oil and lemon juice.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Smear the paste all over the shrimp.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Grill or broil the shrimp for 2 to 3 minutes per side.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Turn the shrimp and cook an additional 2 to 3 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Serve immediately or at room temperature, with lemon wedges.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "21",
+    "title" : "Involtini",
+    "description" : "Involtini, derived from a word meaning 'to wrap or bundle,' are a preparations in which meat, fish, or vegetables are wrapped around a filling that often includes bread crumbs.  Depending on the recipe, the rolls are served cold or baked with sauce as we do here.  In southern Italy, religious tradition regarding the use of old bread advises one to waste none - a welcome respect for a loaf labored over.",
+    "author" : "Chad Robertson",
+    "source" : "Tartine Bread",
+    "bgImage" : "http://1.bp.blogspot.com/-mvpQBxGXaD0/TgVvNuEXfqI/AAAAAAAAAeU/Ymb7yTeV4jw/s1600/eggplant%2Binvoltini.jpg",
+    "yield" : "Serves 4 to 6",
+    "time" : [
+        "75 minutes to prepare",
+        "60 minutes to cook",
+        "2 1/2 hours total"
+    ],
+    "ingredients" : [
+        {
+            "category" : "Tomato Sauce",
+            "ingredients" : [
+                "1 yellow onion, finely chopped",
+                "1 carrot, peeled and finely chopped",
+                "3 T olive oil",
+                "3 oz can tomato paste",
+                "3 cloves garlic, finely chopped",
+                "16 oz can whole tomatoes",
+                "red wine vinegar",
+                "salt"
+            ]
+        },
+        {
+            "category" : "Bread Crumbs",
+            "ingredients" : [
+                "4 slices day-old bread",
+                "2 T olive oil",
+                "salt",
+                "1/2 t herbes de Provence"
+            ]
+        },
+        {
+            "category" : "Stuffing",
+            "ingredients" : [
+                "bread crumbs (see above)",
+                "2 c whole milk ricotta",
+                "Grated zest and juice of 1 lemon",
+                "1 t fresh thyme leaves",
+                "1/4 t salt"
+            ]
+        },
+        "2 or 3 medium globe eggplants",
+        "salt",
+        "olive oil",
+        "1 c heavy cream",
+        "1/2 c finely grated Asiago cheese"
+    ],
+    "tools" : [
+        "colander",
+        "large, deep skillet",
+        "mixing bowl",
+        "baking sheet",
+        "wooden spoon",
+        "kitchen towel",
+        "heavy saucepan or large skillet",
+        "thermometer",
+        "medium baking dish"
+    ],
+    
+    "steps" : [
+        
+        {
+        "ordinal" : 1,
+        "time" : 3600000,
+        "elapsed" : 0,
+        "passive" : true,
+        "text" : "Trim the stem end of each eggplant.  Cut lengthwise into 12 1/4\" thick slices.  Sprinkel the slices on both sides with salt, layer them in a colander, and let stand for 1 hour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+    
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the tomato sauce, heat a deep skillet over medium-high heat.  Chop the onion, carrot, and add to the pan with 2 tablespoons of the olive oil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 3,
+        "time" : 600000,
+        "elapsed" : 0,
+        "text" : "Sauté until the vegetables are soft, about 10 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : 360000,
+        "elapsed" : 0,
+        "text" : "Add the remaining tablespoon olive oil and the tomato paste and cook, stirring occasionally, until the paste turns a deep rusty red, 6 to 8 minutes.  Peel and chop the garlic.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Stir in the garlic and the red pepper flakes and cook for 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the whole tomatoes, raise the heat to high, and bring to a boil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Reduce the heat to low and simmer for 20 minutes, using a wooden spoon to mash the tomatoes into chunks.  Season with vinegar and salt to taste.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Meanwhile, heat the oven to 400&degF.  Make the croutons by tearing the bread slices and tossing in a bowl with 2 T olive oil and a pinch of salt.  If you are using the herbs, add them too.  Spread the bread evenly on a baking sheet.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : 420000,
+        "elapsed" : 0,
+        "text" : "Bake until golden brown and crisp, about 7 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 420000,
+        "elapsed" : 0,
+        "text" : "Check the croutons.  Redistrubte them if they are cooking unevenly and cook and additional 7-8 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the bread crumbs, allow the croutons to cool and crush with your hands or a rolling pin to the desired consistency.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 12,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Make the stuffing. In a bowl, stir together the bread crumbs, ricotta, lemon zest and juice, thyme, and salt.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 13,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When the eggplants are ready, press the moisture from them and blot dry with a kitchen towel.  Pour olive oil to a depth of 1 inch in a deep, heavy saucepan or large skillet and heat to 360&degF.  Preheat the oven to 425&degF.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 14,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Place 3 or 4 of the eggplant slices in the hot oil and cook until the slices take on some color, 3 to 4 minutes.  Using tongs, remove the slices and put in the colander to drain.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 15,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Repeat with 3-4 additional slices.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 16,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Repeat a third time.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 17,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Repeat a fourth time, if necessary.  Otherwise skip ahead.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 18,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When the oven is preheated, pour the tomato sauce into a medium-sized baking dish.  Place a spoonful of filling at the one end of each eggplant slice.  Roll the slice around the filling and place it seam-side down in the dish on top of the tomato sauce.  Spoon a generous tablespoon of cream over each roll to moisten it.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 19,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Bake until the edges of sauce around the sides of hte dish are dark and the rolls are nicely caramelized, 20 to 25 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 20,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Grate the Asiago cheese and garnish.  Serve.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "22",
+    "title" : "Croutons or breadcrumbs",
+    "description" : "Whether used as a principal ingredient or as a garnish to add texture, bread crumbs are the most practical, versatile way to turn old bread into dinner.  If you have stale bread, you have the makings of a substantial and thrifty meal.",
+    "author" : "Chad Robertson",
+    "source" : "Tartine Bread",
+    "bgImage" : "http://2.bp.blogspot.com/-GuHgiph7gic/T54GGfZ4q2I/AAAAAAAABFc/JIqeSSFti-0/s1600/IMG_2766.JPG",
+    "yield" : "200g croutons or bread crumbs",
+    "time" : [
+        "15 minutes total"
+    ],
+    "ingredients" : [
+        "4 slices day-old bread",
+        "2 T olive oil",
+        "salt",
+        "1/2 t herbes de Provence"
+    ],
+    "tools" : [
+        "baking sheet"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Preheat the oven to 400&degF.  Make the croutons by tearing the bread slices and tossing in a bowl with 2 T olive oil and a pinch of salt.  If you are using the herbs, add them too.  Spread the bread evenly on a baking sheet.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
+        "time" : 420000,
+        "elapsed" : 0,
+        "text" : "Bake until golden brown and crisp, about 7 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 420000,
+        "elapsed" : 0,
+        "text" : "Check the croutons.  Redistrubte them if they are cooking unevenly and cook and additional 7-8 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "If making bread crumbs, allow the croutons to cool and crush with your hands or a rolling pin to the desired consistency.",
         "ingredients" : [
         ],
         "tools" : [
