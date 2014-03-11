@@ -86,7 +86,7 @@ $(document).ready(function () {
             }
             var stepText = recipe.steps[i].text;
             
-            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small"></span><span class="divisor small"></span><span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="elapsed small"></span><span class="divisor small"></span><span class="total small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
@@ -316,6 +316,7 @@ $(document).ready(function () {
     });
     
     $panel.on('tick', function (event) {
+        console.log('tick'); // TEST
         var $element = $(event.currentTarget);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
@@ -330,7 +331,9 @@ $(document).ready(function () {
         $element.data('elapsed', elapsed);
         
         if (elapsed > stepTime && stepTime) {
-            $element.css('background', 'red');
+            $element.addClass('times-up');
+        } else if (elapsed === stepTime && stepTime) {
+            $('#timer-audio')[0].play();
         }
         
     });
