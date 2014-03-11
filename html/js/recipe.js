@@ -289,25 +289,20 @@ $(document).ready(function () {
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
     var prevNextDisabler = function (currentStep) {
-        if (currentStep === 0) {
+        if (currentStep === 1) {
             $prev.addClass('disabled');
         } else {
             $prev.removeClass('disabled');
         }
         
-        if (currentStep === (recipeStepTimes.length - 1)) {
+        if (currentStep === (recipeStepTimes.length)) {
             $next.addClass('disabled');
         } else {
             $next.removeClass('disabled');
         }
     };
     
-    // NEW BUTTONS
-    // test
-    $('button').on('click', function () {
-        console.log("BUTTON!");
-    });
-    
+    // BUTTONS
     $('.steps').on('click', 'button', function (event) {
         var $element = $(this).closest('.panel');
         var id = +$element.attr('id') - 1; // kinda lame
@@ -359,10 +354,10 @@ $(document).ready(function () {
         $('.play').removeClass('disabled');
         $start.css('visibility', 'hidden');
         $stop.css('visibility', 'visible');
-        prevNextDisabler(currentStep);
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
         $step.text('Step ' + currentStep);
+        prevNextDisabler(currentStep);
         smoothScrolling();
     });
     
@@ -377,6 +372,7 @@ $(document).ready(function () {
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
         $step.text('Step ' + currentStep);
+        prevNextDisabler(currentStep);
         smoothScrolling();
     };
     
@@ -394,6 +390,7 @@ $(document).ready(function () {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
         }
+        prevNextDisabler(currentStep);
         smoothScrolling();
     };
     
