@@ -294,7 +294,22 @@ $(document).ready(function () {
         }
     };
     
-    // BUTTONS
+    // NEW BUTTONS
+    $start.on('click', function () {
+        currentStep = 1;
+        $prev.removeClass('disabled');
+        $next.removeClass('disabled');
+        $('.play').removeClass('disabled');
+        $start.css('visibility', 'hidden');
+        $stop.css('visibility', 'visible');
+        prevNextDisabler(currentStep);
+        var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
+        $currentStepPlay.trigger('click');
+    });
+    
+    
+    /*
+    // OLD BUTTONS
     $play.click(function () {
         // adjusts button appearances
         $pause.removeClass('disabled');
@@ -383,6 +398,7 @@ $(document).ready(function () {
     
     $prev.click(prev);
     $next.click(next);
+    */
     
     // popover with extra time controls (add, subtract, reset)
     $more.popover({
