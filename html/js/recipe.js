@@ -209,6 +209,8 @@ $(document).ready(function () {
     });
     */
     
+    // OLD TIMER FUNCTIONS
+    /*
     // intiate countdown and refresh every second using setInterval
     var startCountdown = function () { 
         $step.text('Step ' + (currentStep + 1));
@@ -237,13 +239,6 @@ $(document).ready(function () {
             scrollTop: $('#' + (currentStep + 1)).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
         }, 500);
         
-    };
-    
-    // smooth scrolling
-    var smoothScrolling = function () {
-        $('html, body').stop().animate({
-            scrollTop: $('#' + currentStep).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
-        }, 500);
     };
         
     // displays the remaining time 1x when called (called every second by setInterval fn)
@@ -283,6 +278,15 @@ $(document).ready(function () {
             total += elapsedTimes[i];
         }
         $('.total-elapsed').html('Total time: '+ stopWatchTime(convertMS(total)));
+    };
+    
+    */
+    
+    // smooth scrolling
+    var smoothScrolling = function () {
+        $('html, body').stop().animate({
+            scrollTop: $('#' + currentStep).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
+        }, 500);
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
