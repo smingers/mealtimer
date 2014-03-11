@@ -270,6 +270,15 @@ $(document).ready(function () {
         }
     };
     
+    // display total elapsed time & update on prev, next, stop
+    var totalElapsed = function () {
+        var total = 0;
+        for (var i = 0; i < elapsedTimes.length; i++) {
+            total += elapsedTimes[i];
+        }
+        $('.total-elapsed').html('Total time: '+ stopWatchTime(convertMS(total)));
+    };
+    
     // disable prev and next buttons at the beginning and end of the recipe, respectively
     var prevNextDisabler = function (currentStep) {
         if (currentStep === 0) {
@@ -283,15 +292,6 @@ $(document).ready(function () {
         } else {
             $next.removeClass('disabled');
         }
-    };
-    
-    // display total elapsed time & update on prev, next, stop
-    var totalElapsed = function () {
-        var total = 0;
-        for (var i = 0; i < elapsedTimes.length; i++) {
-            total += elapsedTimes[i];
-        }
-        $('.total-elapsed').html('Total time: '+ stopWatchTime(convertMS(total)));
     };
     
     // BUTTONS
