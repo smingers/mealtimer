@@ -64,11 +64,9 @@ $(document).ready(function () {
     
     // load recipe content from JSON 
     var buildRecipe = function (recipe) {
-        
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
-        // TBD var passiveButtons = '<button type="button" class="btn btn-default btn-xs passive-buttons play" id="panel-controls"><span class="glyphicon glyphicon-play"></span></button>';
-        
+
         // step panels
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
             var stepNum = recipe.steps[i].ordinal;
@@ -487,15 +485,14 @@ $(document).ready(function () {
     // click outside popover to dismiss; doesn't work on mobile
     // attributed to: http://stackoverflow.com/questions/11703093/how-to-dismiss-a-twitter-bootstrap-popover-by-clicking-outside and http://jsfiddle.net/mattdlockyer/C5GBU/2/
     $('body').on('click', function (event) {
-    $('[data-toggle="popover"]').each(function () {
-        // 'is' for buttons that trigger popups
-        // 'has' for icons within a button that triggers a popup
-        if (!$(this).is(event.target) && $(this).has(event.target).length === 0 && $('.popover').has(event.target).length === 0) {
-            $(this).popover('hide');
-        }
+        $('[data-toggle="popover"]').each(function () {
+            // 'is' for buttons that trigger popups
+            // 'has' for icons within a button that triggers a popup
+            if (!$(this).is(event.target) && $(this).has(event.target).length === 0 && $('.popover').has(event.target).length === 0) {
+                $(this).popover('hide');
+            }
+        });
     });
-    
-});
 
     // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
     $(document).keydown(function (event) {
@@ -518,7 +515,7 @@ $(document).ready(function () {
         buildRecipe(recipe);
     });
 
-});
+}); // END
     
 
 /*
