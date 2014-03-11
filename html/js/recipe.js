@@ -27,8 +27,6 @@ $(document).ready(function () {
     var $ingredients = $('.ingredients');
     var $panel = $('.panel');
 
-    //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
-    
     // time conversion and rendering functions
     var convertMS = function (milliseconds) {
         // converts time into hours, minutes, seconds
@@ -368,7 +366,11 @@ $(document).ready(function () {
         smoothScrolling();
     });
     
+    $prev.tooltip();
+    $next.tooltip();
+    
     var prev = function () {
+        $prev.tooltip('hide');
         var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
         $currentStepStop.trigger('click');
         currentStep--;
@@ -383,6 +385,7 @@ $(document).ready(function () {
     });
     
     var next = function () {
+        $next.tooltip('hide');
         if (!$('.steps').find('#' + currentStep).data('passive')) {
             var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
             $currentStepStop.trigger('click');
