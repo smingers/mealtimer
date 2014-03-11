@@ -316,7 +316,6 @@ $(document).ready(function () {
     });
     
     $panel.on('tick', function (event) {
-        console.log('tick'); // TEST
         var $element = $(event.currentTarget);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
