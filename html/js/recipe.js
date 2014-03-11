@@ -302,17 +302,20 @@ $(document).ready(function () {
     
     // NEW BUTTONS
     // test
-    $('button').click(function () {
+    $('button').on('click', function () {
         console.log("BUTTON!");
     });
     
-    $('body').on('click', 'button', function (event) {
-        var $element = $(event.currentTarget).closest('.panel');
+    $('.steps').on('click', 'button', function (event) {
+        var $element = $(this).closest('.panel');
+        var id = $element.attr('id');
+        console.log(id);
+        // var $element = $(event.currentTarget).closest('.panel');
         if ($(this).hasClass('play')) {
             $element.data('playing', true);
             $element.trigger('tick');
             $element.data('timer', setInterval(function () {
-                $element.trigger('tick');
+                $element.trigger('tick', id);
             }, 1000));
             $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
         } else if ($(this).hasClass('pause')) {
@@ -322,9 +325,9 @@ $(document).ready(function () {
         }
     });
     
-    $('.panel').on('tick', function (event) {
-        console.log('tick');
-        var $element = $(event.currentTarget);
+    $('.steps').on('tick', function (event, id) {
+        var $element = $(event.currentTarget).children().eq(id);
+        // console.log('tick', $element);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
         
