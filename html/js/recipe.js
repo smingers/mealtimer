@@ -380,9 +380,7 @@ $(document).ready(function () {
         smoothScrolling();
     };
     
-    $prev.on('click', function () {
-        prev();
-    });
+    $prev.on('click', prev);
     
     var next = function () {
         $next.tooltip('hide');
@@ -399,9 +397,7 @@ $(document).ready(function () {
         smoothScrolling();
     };
     
-    $next.on('click', function () {
-        next();
-    });
+    $next.on('click', next);
     
     // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
     $(document).keydown(function (event) {
