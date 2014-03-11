@@ -72,6 +72,14 @@ $(document).ready(function () {
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
             var stepNum = recipe.steps[i].ordinal;
             var stepTime;
+    
+            var passive;
+            if (recipe.steps[i].passive) {
+                passive = true;
+            } else {
+                passive = false;
+            }
+            
             if (recipe.steps[i].time) {
                 stepTime = stopWatchTime(convertMS(recipe.steps[i].time));
             } else {
@@ -79,22 +87,7 @@ $(document).ready(function () {
             }
             var stepText = recipe.steps[i].text;
             
-            if (recipe.steps[i].passive) {
-                $('.steps').append([
-                    '<div class="panel panel-default passive" id="',
-                    stepNum,
-                    '"><div class="panel-heading progress"><div class="',
-                    'progress-bar step-progress" role="progressbar"></div><div class="step-controls">',
-                    '<button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play">',
-                    '</span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span>',
-                    '/ <span class="step-remaining small">' + stepTime + '</span></span></div></div>',
-                    '<table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">',
-                    stepText,
-                    '</td></tbody></tr></table></div>'
-                    ].join(""));
-            } else {
-                $('.steps').append('<div class="panel panel-default" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
-            }
+            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
