@@ -308,11 +308,12 @@ $(document).ready(function () {
     
     $('.steps').on('click', 'button', function (event) {
         var $element = $(this).closest('.panel');
-        var id = $element.attr('id');
+        var id = +$element.attr('id') - 1; // kinda lame
         console.log(id);
         // var $element = $(event.currentTarget).closest('.panel');
         if ($(this).hasClass('play')) {
             $element.data('playing', true);
+            $element.toggleClass('playing');
             $element.trigger('tick');
             $element.data('timer', setInterval(function () {
                 $element.trigger('tick', id);
@@ -320,6 +321,7 @@ $(document).ready(function () {
             $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
         } else if ($(this).hasClass('pause')) {
             $element.data('playing', false);
+            $element.toggleClass('playing');
             clearInterval($element.data('timer'));
             $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
         }
@@ -358,6 +360,7 @@ $(document).ready(function () {
         prevNextDisabler(currentStep);
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
+        $step.text('Step ' + currentStep);
         smoothScrolling();
     });
     
@@ -367,7 +370,7 @@ $(document).ready(function () {
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
-        $start.text('Step ' + currentStep);
+        $step.text('Step ' + currentStep);
         smoothScrolling();
     };
     
@@ -381,7 +384,7 @@ $(document).ready(function () {
             $currentStepStop.trigger('click');
         }
         currentStep++;
-        $start.text('Step ' + currentStep);
+        $step.text('Step ' + currentStep);
         if (!$('.steps').find('#' + currentStep).data('playing')) {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
