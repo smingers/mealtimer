@@ -238,6 +238,13 @@ $(document).ready(function () {
         }, 500);
         
     };
+    
+    // smooth scrolling
+    var smoothScrolling = function () {
+        $('html, body').stop().animate({
+            scrollTop: $('#' + currentStep).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
+        }, 500);
+    };
         
     // displays the remaining time 1x when called (called every second by setInterval fn)
     var displayRemainingTime = function(startTime) {
@@ -299,7 +306,7 @@ $(document).ready(function () {
         console.log("BUTTON!");
     });
     
-    $panel.on('click', 'button', function (event) {
+    $('body').on('click', 'button', function (event) {
         var $element = $(event.currentTarget).closest('.panel');
         if ($(this).hasClass('play')) {
             $element.data('playing', true);
@@ -315,7 +322,8 @@ $(document).ready(function () {
         }
     });
     
-    $panel.on('tick', function (event) {
+    $('.panel').on('tick', function (event) {
+        console.log('tick');
         var $element = $(event.currentTarget);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
@@ -347,18 +355,24 @@ $(document).ready(function () {
         prevNextDisabler(currentStep);
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
+        smoothScrolling();
     });
     
-    $prev.on('click', function () {
+    var prev = function () {
         var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
         $currentStepStop.trigger('click');
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
         $start.text('Step ' + currentStep);
+        smoothScrolling();
+    };
+    
+    $prev.on('click', function () {
+        prev();
     });
     
-    $next.on('click', function () {
+    var next = function () {
         if (!$('.steps').find('#' + currentStep).data('passive')) {
             var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
             $currentStepStop.trigger('click');
@@ -368,6 +382,20 @@ $(document).ready(function () {
         if (!$('.steps').find('#' + currentStep).data('playing')) {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
+        }
+        smoothScrolling();
+    };
+    
+    $next.on('click', function () {
+        next();
+    });
+    
+    // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
+    $(document).keydown(function (event) {
+        if (!$prev.hasClass('disabled') && event.keyCode == 37) {
+             prev();
+        } else if (!$next.hasClass('disabled') && event.keyCode == 39) {
+            next();
         }
     });
     
@@ -494,15 +522,6 @@ $(document).ready(function () {
                 $(this).popover('hide');
             }
         });
-    });
-
-    // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
-    $(document).keydown(function (event) {
-        if (!$prev.hasClass('disabled') && event.keyCode == 37) {
-             prev();
-        } else if (!$next.hasClass('disabled') && event.keyCode == 39) {
-            next();
-        }
     });
 
    // get recipe (relies on purl.js file)
