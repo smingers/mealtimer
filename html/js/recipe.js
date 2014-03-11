@@ -302,12 +302,20 @@ $(document).ready(function () {
         }
     };
     
+    var currentStepCountdown = function (currentStep, elapsed, stepTime) {
+        var remaining;
+        if (stepTime) {
+            remaining = stopWatchTime(convertMS(stepTime - elapsed));
+        } else {
+            remaining = 'N/A';
+        }
+        $display.text(remaining);
+    };
+    
     // BUTTONS
     $('.steps').on('click', 'button', function (event) {
         var $element = $(this).closest('.panel');
         var id = +$element.attr('id') - 1; // kinda lame
-        console.log(id);
-        // var $element = $(event.currentTarget).closest('.panel');
         if ($(this).hasClass('play')) {
             $element.data('playing', true);
             $element.toggleClass('playing');
@@ -326,7 +334,6 @@ $(document).ready(function () {
     
     $('.steps').on('tick', function (event, id) {
         var $element = $(event.currentTarget).children().eq(id);
-        // console.log('tick', $element);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
         
@@ -343,6 +350,11 @@ $(document).ready(function () {
             $element.addClass('times-up');
         } else if (elapsed === stepTime && stepTime) {
             $('#timer-audio')[0].play();
+        }
+        
+        // main display handler
+        if (id + 1 === currentStep) {
+            currentStepCountdown(currentStep, elapsed, stepTime);
         }
         
     });
@@ -463,24 +475,12 @@ $(document).ready(function () {
     var next = function () {
         currentStep += 1;
         clearInterval(countDown);
-
-        
-        // IN PROGRESS - handling passive steps
-        if ($('#' + (currentStep)).hasClass('passive')) {
-            console.log('the previous step was passive');
-        } else {
-            console.log('the previous step was NOT passive');
-            $('#' + (currentStep)).removeClass('current');
-            $('#' + (currentStep)).removeClass('times-up');
-            $('#' + (currentStep)).addClass('completed');
-        }
         
         userAddedTime = 0;
         prevNextDisabler(currentStep);
         $more.popover('hide');
         elapsedTimes[currentStep - 1] = elapsed;
-        console.log(elapsedTimes); // TEST
-        
+
         // change the appearance of the step panels
         $('#' + (currentStep + 1)).addClass('current');
         $('#progress' + (currentStep)).removeClass('progress-bar-step-times-up');
