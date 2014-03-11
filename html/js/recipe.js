@@ -319,7 +319,7 @@ $(document).ready(function () {
         if ($this.hasClass('play')) {
             $element.data('playing', true);
             $element.toggleClass('playing');
-            $element.trigger('tick');
+            $element.trigger('tick', id);
             $element.data('timer', setInterval(function () {
                 $element.trigger('tick', id);
             }, 1000));
