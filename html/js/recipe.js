@@ -1,12 +1,12 @@
 $(document).ready(function () {
     var countDown; // counts down the time using setInterval
     var currentStep = 0; // current step in the recipe (zero indexed)
-    var paused;  // assigned boolean value if timer paused (true) or not (false)
+    // var paused;  // assigned boolean value if timer paused (true) or not (false)
     var startTime; // date.now when current step begins
-    var elapsed; // amount of time elapsed in the current step
+    // var elapsed; // amount of time elapsed in the current step
     var userAddedTime = 0; // time added to the current step by the user
-    var titleReg = document.title;
-    var titleAlert = "(!) " + document.title;
+    // var titleReg = document.title;
+    // var titleAlert = "(!) " + document.title;
     var elapsedTimes = []; // actual completion times for the user
     var recipeStepTimes = []; // times, in ms, for each step in the recipe
     
@@ -19,13 +19,12 @@ $(document).ready(function () {
     var $next = $('.next');
     var $navbar = $('.navbar');
     var $step = $('.step');
-    var $timerRow = $('.timer-row');
+    // var $timerRow = $('.timer-row');
     var $jumbotron = $('.jumbotron');
     var $progress = $('#progress-bar-master');
     var $start = $('#start');
     var $stop = $('#stop');
     var $ingredients = $('.ingredients');
-    var $panel = $('.panel');
 
     // time conversion and rendering functions
     var convertMS = function (milliseconds) {
