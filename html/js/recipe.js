@@ -313,21 +313,22 @@ $(document).ready(function () {
     
     // BUTTONS
     $('.steps').on('click', 'button', function (event) {
-        var $element = $(this).closest('.panel');
+        var $this = $(this);
+        var $element = $this.closest('.panel');
         var id = +$element.attr('id') - 1; // kinda lame
-        if ($(this).hasClass('play')) {
+        if ($this.hasClass('play')) {
             $element.data('playing', true);
             $element.toggleClass('playing');
             $element.trigger('tick');
             $element.data('timer', setInterval(function () {
                 $element.trigger('tick', id);
             }, 1000));
-            $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
-        } else if ($(this).hasClass('pause')) {
+            $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
+        } else if ($this.hasClass('pause')) {
             $element.data('playing', false);
             $element.toggleClass('playing');
             clearInterval($element.data('timer'));
-            $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
+            $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
         }
     });
     
