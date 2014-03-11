@@ -296,6 +296,11 @@ $(document).ready(function () {
     };
     
     // NEW BUTTONS
+    // test
+    $('button').click(function () {
+        console.log("BUTTON!");
+    });
+    
     $panel.on('click', 'button', function (event) {
         var $element = $(event.currentTarget).closest('.panel');
         if ($(this).hasClass('play')) {
