@@ -25,6 +25,7 @@ $(document).ready(function () {
     var $start = $('#start');
     var $stop = $('#stop');
     var $ingredients = $('.ingredients');
+    var $panel = $('.panel');
 
     //TODO: use ordinal for current step instead of 0-indexed place in array + 1,
     
@@ -295,6 +296,42 @@ $(document).ready(function () {
     };
     
     // NEW BUTTONS
+    $panel.on('click', 'button', function (event) {
+        var $element = $(event.currentTarget).closest('.panel');
+        if ($(this).hasClass('play')) {
+            $element.data('playing', true);
+            $element.trigger('tick');
+            $element.data('timer', setInterval(function () {
+                $element.trigger('tick');
+            }, 1000));
+            $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
+        } else if ($(this).hasClass('pause')) {
+            $element.data('playing', false);
+            clearInterval($element.data('timer'));
+            $(this).toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
+        }
+    });
+    
+    $panel.on('tick', function (event) {
+        var $element = $(event.currentTarget);
+        var $elapsed = $element.find('.elapsed');
+        var elapsed = $element.data('elapsed') || 0;
+        
+        var $divisor = $element.find('.divisor');
+        $divisor.text(' / ');
+        
+        var stepTime = $element.data('time');
+        
+        $elapsed.text(stopWatchTime(convertMS(elapsed)));
+        elapsed += 1000;
+        $element.data('elapsed', elapsed);
+        
+        if (elapsed > stepTime && stepTime) {
+            $element.css('background', 'red');
+        }
+        
+    });
+    
     $start.on('click', function () {
         currentStep = 1;
         $prev.removeClass('disabled');
@@ -307,6 +344,27 @@ $(document).ready(function () {
         $currentStepPlay.trigger('click');
     });
     
+    $prev.on('click', function () {
+        var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
+        $currentStepStop.trigger('click');
+        currentStep--;
+        var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
+        $currentStepPlay.trigger('click');
+        $start.text('Step ' + currentStep);
+    });
+    
+    $next.on('click', function () {
+        if (!$('.steps').find('#' + currentStep).data('passive')) {
+            var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
+            $currentStepStop.trigger('click');
+        }
+        currentStep++;
+        $start.text('Step ' + currentStep);
+        if (!$('.steps').find('#' + currentStep).data('playing')) {
+            var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
+            $currentStepPlay.trigger('click');
+        }
+    });
     
     /*
     // OLD BUTTONS
