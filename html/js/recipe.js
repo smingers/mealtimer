@@ -87,7 +87,7 @@ $(document).ready(function () {
             }
             var stepText = recipe.steps[i].text;
             
-            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
@@ -109,7 +109,6 @@ $(document).ready(function () {
             var progressBarStep = ('<a href="#' + (i + 1) + '" class="progress-bar progress-bar-step" style="width: ' + widthNum + '%" id="progress' + ( i + 1 ) + '" data-toggle="tooltip" data-placement="bottom" title="Step ' + (i + 1) + '"></a>');
             $progress.append(progressBarStep);
         }
-        
         $('.progress-bar-step').tooltip(); // IN PROGRESS
         
         // other page elements
@@ -272,15 +271,13 @@ $(document).ready(function () {
     };
     
     // disable prev and next buttons at the beginning and end of the recipe, respectively
-    var prevDisabler = function (currentStep) {
+    var prevNextDisabler = function (currentStep) {
         if (currentStep === 0) {
             $prev.addClass('disabled');
         } else {
             $prev.removeClass('disabled');
         }
-    };
-
-    var nextDisabler = function (currentStep) {
+        
         if (currentStep === (recipeStepTimes.length - 1)) {
             $next.addClass('disabled');
         } else {
@@ -305,9 +302,8 @@ $(document).ready(function () {
         $more.removeClass('disabled');
         $start.css('visibility', 'hidden');
         $stop.css('visibility', 'visible');
-        prevDisabler(currentStep);
-        nextDisabler(currentStep);
-        
+        prevNextDisabler(currentStep);
+
         // change the appearance of the step panel
         $('#' + (currentStep + 1)).addClass('current');
         $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
@@ -336,8 +332,7 @@ $(document).ready(function () {
         userAddedTime = 0;
         currentStep -= 1;
         elapsed = elapsedTimes[currentStep - 1];
-        prevDisabler(currentStep);
-        nextDisabler(currentStep);
+        prevNextDisabler(currentStep);
         $more.popover('hide');
         
         // change the appearance of the step panels
@@ -369,8 +364,7 @@ $(document).ready(function () {
         }
         
         userAddedTime = 0;
-        prevDisabler(currentStep);
-        nextDisabler(currentStep);
+        prevNextDisabler(currentStep);
         $more.popover('hide');
         elapsedTimes[currentStep - 1] = elapsed;
         console.log(elapsedTimes); // TEST
