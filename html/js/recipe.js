@@ -47,7 +47,7 @@ $(document).ready(function () {
         }
     };
     
-    var textTime = function (time) {
+    /* var textTime = function (time) {
         var timeString = "";
         if (time[0] > 0) {
             timeString += (time[0] + " hours ");
@@ -59,7 +59,7 @@ $(document).ready(function () {
             timeString += (time[2] + " seconds");
         }
         return timeString;
-    };
+    }; // no longer in use - discard? */
     
     // load recipe content from JSON 
     var buildRecipe = function (recipe) {
@@ -80,7 +80,18 @@ $(document).ready(function () {
             var stepText = recipe.steps[i].text;
             
             if (recipe.steps[i].passive) {
-                $('.steps').append('<div class="panel panel-default passive" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+                $('.steps').append([
+                    '<div class="panel panel-default passive" id="',
+                    stepNum,
+                    '"><div class="panel-heading progress"><div class="',
+                    'progress-bar step-progress" role="progressbar"></div><div class="step-controls">',
+                    '<button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play">',
+                    '</span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span>',
+                    '/ <span class="step-remaining small">' + stepTime + '</span></span></div></div>',
+                    '<table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">',
+                    stepText,
+                    '</td></tbody></tr></table></div>'
+                    ].join(""));
             } else {
                 $('.steps').append('<div class="panel panel-default" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="step-elapsed small">00:00:00</span> / <span class="step-remaining small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             }
@@ -89,7 +100,7 @@ $(document).ready(function () {
             totalTime += recipe.steps[i].time;
             elapsedTimes.push(recipe.steps[i].elapsed);
             
-            if (recipe.steps[i].time === null) {
+            if (!recipe.steps[i].time) {
                 numNullSteps++;
             }
         }
@@ -112,7 +123,7 @@ $(document).ready(function () {
         $display.text(stopWatchTime(convertMS(totalTime)));
         $jumbotron.css("background-image", "url('" + recipe.bgImage + "')");
         $('.title').text(recipe.title);
-        // document.title = recipe.title + " | " + document.title;
+        // document.title = recipe.title + " | " + document.title; 
         $('.description').html(recipe.description);
         $('.author').html(recipe.author);
         $('.yield').append('<li>' + recipe.yield + '</li>');
@@ -138,7 +149,6 @@ $(document).ready(function () {
         // stop function, restores pretty much everything back to its original state
          $stop.click(function () {
             clearInterval(countDown);
-            // PROBABLY DELETE THIS $('#' + (currentStep + 1)).find('.elapsed-time').text("Completed in " + textTime(convertMS(elapsedTimes[currentStep])));
             $more.popover('hide');
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
