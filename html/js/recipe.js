@@ -278,21 +278,6 @@ $(document).ready(function () {
         }
     };
     
-    // IN PROGRESS - HANDLING PASSIVE STEPS
-    var passiveStepHandler = function () {
-        for (var i = 1; i < currentStep; i++) {
-            if ($('.panel #' + i).hasClass('passive') && !$('.panel#' + i).hasClass('passive-stopped')) {
-                // keep counting down passive steps that have not been stopped
-                elapsed = elapsedTimes[i-1];
-                startTime = Date.now() - elapsed;
-                displayRemainingTime(startTime);
-                countDown = setInterval(function () {
-                    displayRemainingTime(startTime);
-                }, 1000);
-            }
-        }
-    };
-    
     // disable prev and next buttons at the beginning and end of the recipe, respectively
     var prevDisabler = function (currentStep) {
         if (currentStep === 0) {
