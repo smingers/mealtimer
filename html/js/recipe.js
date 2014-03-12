@@ -177,17 +177,16 @@ $(document).ready(function () {
                 $toolsIngredients.affix({
                     offset: {
                       top: function () {
+                          console.log('top', $toolsIngredients.offset().top - $navbar.outerHeight(true) - $progress.outerHeight());
                           return (this.top = $toolsIngredients.offset().top - $navbar.outerHeight(true) - $progress.outerHeight());
-                      }, 
+                      } /*, 
                       bottom: function () {
-                        return (this.bottom = $('.bs-footer').outerHeight(true));
-                      }
+                          console.log('bottom', $('.bs-footer').outerHeight(true));
+                          return (this.bottom = $('.bs-footer').outerHeight(true));
+                      } */
                     }
                 });
-            } /*else {
-                $toolsIngredients.removeClass("affix affix-top affix-bottom");
-            } */
-            // console.log("window height: " + windowHeight + "\nwindow width: " + windowWidth + "\n div height: " + $toolsIngredients.height()); TEST
+            }
         };
         affixSidebar();
         $(window).resize(affixSidebar);

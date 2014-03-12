@@ -1225,7 +1225,7 @@
         "2 lbs medium shrimp, peeled",
         "4 small onions, chopped",
         "1/2 c celery, chopped",
-        "1 stick butter or margarine",
+        "1 stick butter",
         "2 t tomato paste",
         "2-3 T flour",
         "1 c shallots, chopped",
@@ -1244,9 +1244,24 @@
     
         {
         "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Wash and chop the 4 small onions, 1/2 cup celery, 1 cup shallots, and 2 tablespoons parsley.  Preheat a large frying pan over medium-high heat and melt the butter.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
         "time" : 300000,
         "elapsed" : 0,
-        "text" : "Sauté onions and celery in butter (or margarine) until glazed.",
+        "text" : "Sauté onions and celery until glazed.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1258,7 +1273,7 @@
         },
 
         {
-        "ordinal" : 2,
+        "ordinal" : 3,
         "time" : 60000,
         "elapsed" : 0,
         "text" : "Add tomato paste and blend into the onions and celery.",
@@ -1273,7 +1288,7 @@
         },
         
         {
-        "ordinal" : 3,
+        "ordinal" : 4,
         "time" : 300000,
         "elapsed" : 0,
         "text" : "Add shrimp and cook until the mixture bubbles and shrimp starts to turn pink.",
@@ -1288,7 +1303,7 @@
         },
         
         {
-        "ordinal" : 4,
+        "ordinal" : 5,
         "time" : 120000,
         "elapsed" : 0,
         "text" : "Blend in the flour - add a little water to thin the mixture.",
@@ -1303,7 +1318,7 @@
         },
         
         {
-        "ordinal" : 5,
+        "ordinal" : 6,
         "time" : null,
         "elapsed" : 0,
         "text" : "Add salt, cayenne to taste, shallots, and parsley flakes.",
@@ -1318,7 +1333,7 @@
         },
         
         {
-        "ordinal" : 6,
+        "ordinal" : 7,
         "time" : 600000,
         "elapsed" : 0,
         "text" : "Cover and let simmer for 10-15 minutes.  While the etoufee is simmering, bring a pot of water to boil and cook the rice.",
@@ -1333,7 +1348,7 @@
         },
         
         {
-        "ordinal" : 7,
+        "ordinal" : 8,
         "time" : 300000,
         "elapsed" : 0,
         "text" : "Remove cover and add sherry, if using,  Let bubble and cook down, 5 minutes.  If the mixture looks too thin, add stir in extra flour.",
@@ -1348,7 +1363,7 @@
         },
         
         {
-        "ordinal" : 8,
+        "ordinal" : 9,
         "time" : null,
         "elapsed" : 0,
         "text" : "Spoon etoufee over the rice and serve hot.",
