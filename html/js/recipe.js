@@ -314,17 +314,36 @@ $(document).ready(function () {
     // IN PROGRESS (problem on prev because it doesn't handle steps greater than current - use .each()?)
     var prevStepClasses = function (currentStep) {
         // panels and progress bars
-
+        
+        var $panels = $('.steps').children();
+        var $progressBars = $progress.children();
+        
+        $panels.each(function () {
+            if (+$(this).attr('id') != currentStep) {
+                $(this).removeClass('panel-danger');
+                $(this).removeClass('panel-info');
+                console.log(currentStep);
+            }
+        });
+        
+        $progressBars.each(function () {
+            if (+$(this).attr('id').slice(8) != currentStep) {
+                $(this).removeClass('progress-bar-step-times-up-current');
+                $(this).removeClass('progress-bar-step-playing-current');
+            }
+            if (+$(this).attr('id').slice(8) < currentStep) {
+                $(this).addClass('progress-bar-step-completed');
+            }
+        });
+        
+        /*
         for (var i = 0; i < currentStep; i++) {
-            $('#' + i).removeClass('panel-danger');
-            $('#' + i).removeClass('panel-info');
-            $('#progress' + i).removeClass('progress-bar-step-times-up-current');
-            $('#progress' + i).removeClass('progress-bar-step-playing-current');
-            $('#progress' + i).addClass('progress-bar-step-completed');
+            
             if ($('#progress' + i).data('playing')) {
                 
             }
         }
+        */
     };
     
     var totalElapsed = function () {
