@@ -184,9 +184,9 @@ $(document).ready(function () {
                       }
                     }
                 });
-            } else {
+            } /*else {
                 $toolsIngredients.removeClass("affix affix-top affix-bottom");
-            }
+            } */
             // console.log("window height: " + windowHeight + "\nwindow width: " + windowWidth + "\n div height: " + $toolsIngredients.height()); TEST
         };
         affixSidebar();
