@@ -311,27 +311,17 @@ $(document).ready(function () {
         }
     };
     
-    // IN PROGRESS
+    // IN PROGRESS (problem on prev because it doesn't handle steps greater than current - use .each()?)
     var prevStepClasses = function (currentStep) {
         // panels and progress bars
-        
-        
+
         for (var i = 0; i < currentStep; i++) {
-            console.log(i);
-            $('.step').children().eq(i).removeClass('panel-danger');
-            $('.step').children().eq(i).removeClass('panel-info');
-            
-            if (!$('.step').children().eq(i).hasClass('playing')) {
-                $('.step').children().eq(i).removeClass('times-up');
-            }
-            if (+$('.step').children().eq(i) === currentStep) {
-                $('.step').children().eq(i).addClass('panel-primary');
-            } else {
-                $('.step').children().eq(i).removeClass('panel-primary');
-            }
+            $('#' + i).removeClass('panel-danger');
+            $('#' + i).removeClass('panel-info');
+            $('#progress' + i).removeClass('progress-bar-step-times-up');
+            $('#progress' + i).removeClass('progress-bar-step-current');
         }
     };
-
     
     var totalElapsed = function () {
         var $totalElapsed = $('.total-elapsed');
@@ -416,7 +406,7 @@ $(document).ready(function () {
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
-        prevStepClasses();
+        prevStepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
@@ -435,7 +425,7 @@ $(document).ready(function () {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
         }
-        prevStepClasses();
+        prevStepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
