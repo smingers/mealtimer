@@ -115,7 +115,7 @@ a:hover {
     font-size: 75%;
 }
 
-.panel-heading.progress {
+.panel-heading {
     border-bottom: 0;
     border-radius: 0;
     background-color: #f5f5f5;
@@ -126,11 +126,6 @@ a:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 0;
-    
-}
-
-.panel-heading.progress > .progress-bar {
-    height: inherit;
 }
 
 .step-controls {
@@ -140,7 +135,6 @@ a:hover {
     right: 1%;
 }
 
-/* in progress, restyling panel */
 .step-times {
     float: right;
 }
@@ -158,17 +152,6 @@ a:hover {
 
 .step-text {
     width: 96%;
-}
-
-
-/* deprecate when ready */
-.elapsed-time {
-    float: right;
-}
-
-/* deprecate when ready */
-.passive-buttons {
-    margin-right: 15px;
 }
 
 .sidebar ul {
@@ -240,16 +223,6 @@ a:hover {
     margin-bottom: 0;
   }
 }
-
-
-/* IN PROGRESS adjusting active state of the timer controls button group 
-.btn-group .btn:active,
-.btn-group .btn.active {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
-}
-*/
 
 /* current step in the recipe */
 .current {
