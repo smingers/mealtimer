@@ -268,15 +268,6 @@ $(document).ready(function () {
         }
     };
     
-    // display total elapsed time & update on prev, next, stop
-    var totalElapsed = function () {
-        var total = 0;
-        for (var i = 0; i < elapsedTimes.length; i++) {
-            total += elapsedTimes[i];
-        }
-        $('.total-elapsed').html('Total time: '+ stopWatchTime(convertMS(total)));
-    };
-    
     */
     
     // smooth scrolling
