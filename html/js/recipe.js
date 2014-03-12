@@ -309,6 +309,7 @@ $(document).ready(function () {
             $('#' + currentStep).addClass('panel-info');
             $('#progress' + currentStep).addClass('progress-bar-step-playing-current');
         }
+        $('#progress' + currentStep).removeClass('progress-bar-step-completed');
     };
     
     // IN PROGRESS (problem on prev because it doesn't handle steps greater than current - use .each()?)
@@ -351,9 +352,9 @@ $(document).ready(function () {
     $('.steps').on('click', 'button', function (event) {
         var $this = $(this);
         var $panel = $this.closest('.panel');
-        var $panelID = $panel.attr('id');
-        var $progressBar = $('.progress-bar-step').attr('id', 'progress' + $panelID);
-        console.log($panelID);
+        // var $progressID = 'progress' + $panel.attr('id');
+        // var $progressBar = $('.progress-bar-step').attr('id', $progressID);
+        // console.log($panel);
         var id = +$panel.attr('id') - 1; // kinda lame
         if ($this.hasClass('play')) {
             $panel.data('playing', true);
