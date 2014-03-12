@@ -81,17 +81,27 @@ a:hover {
   border-right: 1px solid #cfcfcf;
 }
 
-.progress-bar-step-current {
+.progress-bar-step-playing {
+    background-color: #d9edf7;
+    border-right: none;
+}
+
+.progress-bar-step-playing-current {
     background-color: #66afe9;
     border-right: none;
 }
 
 .progress-bar-step-completed {
-    background-color: #a3cff1;
+    background-color: #f5f5f5;
     border-right: none;
 }
 
 .progress-bar-step-times-up {
+	background-color: #f2dede;
+	border-right: none;
+}
+
+.progress-bar-step-times-up-current {
 	background-color: #953b39;
 	border-right: none;
 }

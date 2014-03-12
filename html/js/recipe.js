@@ -304,10 +304,10 @@ $(document).ready(function () {
         //currentStepClass
         if (stepTime && elapsed > stepTime) {
             $('#' + currentStep).addClass('panel-danger');
-            $('#progress' + currentStep).addClass('progress-bar-step-times-up');
+            $('#progress' + currentStep).addClass('progress-bar-step-times-up-current');
         } else {
             $('#' + currentStep).addClass('panel-info');
-            $('#progress' + currentStep).addClass('progress-bar-step-current');
+            $('#progress' + currentStep).addClass('progress-bar-step-playing-current');
         }
     };
     
@@ -318,8 +318,12 @@ $(document).ready(function () {
         for (var i = 0; i < currentStep; i++) {
             $('#' + i).removeClass('panel-danger');
             $('#' + i).removeClass('panel-info');
-            $('#progress' + i).removeClass('progress-bar-step-times-up');
-            $('#progress' + i).removeClass('progress-bar-step-current');
+            $('#progress' + i).removeClass('progress-bar-step-times-up-current');
+            $('#progress' + i).removeClass('progress-bar-step-playing-current');
+            $('#progress' + i).addClass('progress-bar-step-completed');
+            if ($('#progress' + i).data('playing')) {
+                
+            }
         }
     };
     
@@ -357,6 +361,7 @@ $(document).ready(function () {
     
     $('.steps').on('tick', function (event, id) {
         var $element = $(event.currentTarget).children().eq(id);
+        var $progressBarStep = $progress.children().eq(id);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
         
@@ -371,6 +376,7 @@ $(document).ready(function () {
         
         if (elapsed > stepTime && stepTime) {
             $element.addClass('times-up');
+            $progressBarStep.addClass('progress-bar-step-times-up');
         } else if (elapsed === stepTime && stepTime) {
             $('#timer-audio')[0].play();
         }
