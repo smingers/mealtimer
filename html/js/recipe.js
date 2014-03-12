@@ -152,7 +152,7 @@ $(document).ready(function () {
             $('.progress-bar-step').removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
-            totalElapsed();
+            clearInterval($('.total-elapsed').data('total'));
             elapsedTimes = elapsedTimes.map(function(){
                return 0; // resets all values in array to zero
             });
@@ -311,6 +311,16 @@ $(document).ready(function () {
         $display.text(remaining);
     };
     
+    var totalElapsed = function () {
+        var $totalElapsed = $('.total-elapsed');
+        var total = 0;
+        $totalElapsed.html('Total time: '+ stopWatchTime(convertMS(total)));
+        $totalElapsed.data('total', setInterval(function () {
+            total += 1000;
+            $totalElapsed.html('Total time: '+ stopWatchTime(convertMS(total)));
+        }, 1000));
+    };
+    
     // BUTTONS
     $('.steps').on('click', 'button', function (event) {
         var $this = $(this);
@@ -370,6 +380,7 @@ $(document).ready(function () {
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
+        totalElapsed();
     });
     
     $prev.tooltip();
