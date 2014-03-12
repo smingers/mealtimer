@@ -300,7 +300,38 @@ $(document).ready(function () {
             remaining = 'N/A';
         }
         $display.text(remaining);
+        
+        //currentStepClass
+        if (stepTime && elapsed > stepTime) {
+            $('#' + currentStep).addClass('panel-danger');
+            $('#progress' + currentStep).addClass('progress-bar-step-times-up');
+        } else {
+            $('#' + currentStep).addClass('panel-info');
+            $('#progress' + currentStep).addClass('progress-bar-step-current');
+        }
     };
+    
+    // IN PROGRESS
+    var prevStepClasses = function (currentStep) {
+        // panels and progress bars
+        
+        
+        for (var i = 0; i < currentStep; i++) {
+            console.log(i);
+            $('.step').children().eq(i).removeClass('panel-danger');
+            $('.step').children().eq(i).removeClass('panel-info');
+            
+            if (!$('.step').children().eq(i).hasClass('playing')) {
+                $('.step').children().eq(i).removeClass('times-up');
+            }
+            if (+$('.step').children().eq(i) === currentStep) {
+                $('.step').children().eq(i).addClass('panel-primary');
+            } else {
+                $('.step').children().eq(i).removeClass('panel-primary');
+            }
+        }
+    };
+
     
     var totalElapsed = function () {
         var $totalElapsed = $('.total-elapsed');
@@ -328,6 +359,7 @@ $(document).ready(function () {
         } else if ($this.hasClass('pause')) {
             $element.data('playing', false);
             $element.toggleClass('playing');
+            $element.removeClass('times-up');
             clearInterval($element.data('timer'));
             $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
         }
@@ -384,6 +416,7 @@ $(document).ready(function () {
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
+        prevStepClasses();
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
@@ -393,17 +426,17 @@ $(document).ready(function () {
     
     var next = function () {
         $next.tooltip('hide');
-        console.log($('.steps').find('#' + currentStep).data('passive'));
         if (!$('.steps').find('#' + currentStep).data('passive')) {
             var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
             $currentStepStop.trigger('click');
         }
         currentStep++;
-        $step.text('Step ' + currentStep);
         if (!$('.steps').find('#' + currentStep).data('playing')) {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
         }
+        prevStepClasses();
+        $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
     };
