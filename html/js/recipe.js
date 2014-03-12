@@ -333,6 +333,8 @@ $(document).ready(function () {
             }
             if (+$(this).attr('id').slice(8) < currentStep && !($(this).hasClass('playing'))) {
                 $(this).addClass('progress-bar-step-completed');
+            } else if (+$(this).attr('id').slice(8) < currentStep && $(this).hasClass('playing')) {
+                $(this).addClass('progress-bar-step-playing');
             }
             
         });
@@ -352,8 +354,7 @@ $(document).ready(function () {
     $('.steps').on('click', 'button', function (event) {
         var $this = $(this);
         var $panel = $this.closest('.panel');
-        // var $progressID = 'progress' + $panel.attr('id');
-        // var $progressBar = $('.progress-bar-step').attr('id', $progressID);
+        // var $progressID = $('#progress' + $panel.attr('id'));
         // console.log($panel);
         var id = +$panel.attr('id') - 1; // kinda lame
         if ($this.hasClass('play')) {
@@ -364,6 +365,7 @@ $(document).ready(function () {
                 $panel.trigger('tick', id);
             }, 1000));
             $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
+            // $progressID.toggleClass('progress-bar-step-playing');
         } else if ($this.hasClass('pause')) {
             $panel.data('playing', false);
             $panel.toggleClass('playing');
@@ -371,6 +373,7 @@ $(document).ready(function () {
             clearInterval($panel.data('timer'));
             $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
         }
+        stepClasses(currentStep);
     });
     
     $('.steps').on('tick', function (event, id) {
@@ -426,7 +429,7 @@ $(document).ready(function () {
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
-        stepClasses(currentStep);
+        // stepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
@@ -445,7 +448,7 @@ $(document).ready(function () {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
         }
-        stepClasses(currentStep);
+        // stepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
