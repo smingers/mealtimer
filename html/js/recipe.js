@@ -83,7 +83,7 @@ $(document).ready(function () {
             }
             var stepText = recipe.steps[i].text;
             
-            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="elapsed small"></span><span class="divisor small"></span><span class="total small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
+            $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data-passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading progress"><div class="progress-bar step-progress" role="progressbar"></div><div class="step-controls"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><span class="step-times"><span class="elapsed small"></span><span class="divisor small"></span><span class="total small">' + stepTime + '</span></span></div></div><table class="table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
             
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
@@ -352,7 +352,6 @@ $(document).ready(function () {
             $('#timer-audio')[0].play();
         }
         
-        // main display handler
         if (id + 1 === currentStep) {
             currentStepCountdown(currentStep, elapsed, stepTime);
         }
@@ -392,6 +391,7 @@ $(document).ready(function () {
     
     var next = function () {
         $next.tooltip('hide');
+        console.log($('.steps').find('#' + currentStep).data('passive'));
         if (!$('.steps').find('#' + currentStep).data('passive')) {
             var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
             $currentStepStop.trigger('click');
