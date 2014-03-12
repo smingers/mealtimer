@@ -312,8 +312,7 @@ $(document).ready(function () {
     };
     
     // IN PROGRESS (problem on prev because it doesn't handle steps greater than current - use .each()?)
-    var prevStepClasses = function (currentStep) {
-        // panels and progress bars
+    var stepClasses = function (currentStep) {
         
         var $panels = $('.steps').children();
         var $progressBars = $progress.children();
@@ -322,7 +321,7 @@ $(document).ready(function () {
             if (+$(this).attr('id') != currentStep) {
                 $(this).removeClass('panel-danger');
                 $(this).removeClass('panel-info');
-                console.log(currentStep);
+                console.log(currentStep); //TEST
             }
         });
         
@@ -331,19 +330,11 @@ $(document).ready(function () {
                 $(this).removeClass('progress-bar-step-times-up-current');
                 $(this).removeClass('progress-bar-step-playing-current');
             }
-            if (+$(this).attr('id').slice(8) < currentStep) {
+            if (+$(this).attr('id').slice(8) < currentStep && !($(this).hasClass('playing'))) {
                 $(this).addClass('progress-bar-step-completed');
             }
-        });
-        
-        /*
-        for (var i = 0; i < currentStep; i++) {
             
-            if ($('#progress' + i).data('playing')) {
-                
-            }
-        }
-        */
+        });
     };
     
     var totalElapsed = function () {
@@ -359,21 +350,24 @@ $(document).ready(function () {
     // BUTTONS
     $('.steps').on('click', 'button', function (event) {
         var $this = $(this);
-        var $element = $this.closest('.panel');
-        var id = +$element.attr('id') - 1; // kinda lame
+        var $panel = $this.closest('.panel');
+        var $panelID = $panel.attr('id');
+        var $progressBar = $('.progress-bar-step').attr('id', 'progress' + $panelID);
+        console.log($panelID);
+        var id = +$panel.attr('id') - 1; // kinda lame
         if ($this.hasClass('play')) {
-            $element.data('playing', true);
-            $element.toggleClass('playing');
-            $element.trigger('tick', id);
-            $element.data('timer', setInterval(function () {
-                $element.trigger('tick', id);
+            $panel.data('playing', true);
+            $panel.toggleClass('playing');
+            $panel.trigger('tick', id);
+            $panel.data('timer', setInterval(function () {
+                $panel.trigger('tick', id);
             }, 1000));
             $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-pause"></span>');
         } else if ($this.hasClass('pause')) {
-            $element.data('playing', false);
-            $element.toggleClass('playing');
-            $element.removeClass('times-up');
-            clearInterval($element.data('timer'));
+            $panel.data('playing', false);
+            $panel.toggleClass('playing');
+            $panel.removeClass('times-up');
+            clearInterval($panel.data('timer'));
             $this.toggleClass('play').toggleClass('pause').html('<span class="glyphicon glyphicon-play"></span>');
         }
     });
@@ -431,7 +425,7 @@ $(document).ready(function () {
         currentStep--;
         var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
         $currentStepPlay.trigger('click');
-        prevStepClasses(currentStep);
+        stepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
@@ -450,7 +444,7 @@ $(document).ready(function () {
             var $currentStepPlay = $('.steps').find('#' + currentStep + ' .play');
             $currentStepPlay.trigger('click');
         }
-        prevStepClasses(currentStep);
+        stepClasses(currentStep);
         $step.text('Step ' + currentStep);
         prevNextDisabler(currentStep);
         smoothScrolling();
