@@ -582,13 +582,13 @@ $(document).ready(function () {
       steps: [
       {
         element: "#start",
-        title: "Start mealtimer",
-        content: "Click Start when you are ready to cook and mealtimer will advance to the first step."
+        title: "Start meal&middottimer",
+        content: "Click <code>Start &raquo;</code> when you are ready to cook and meal&middottimer will advance to the first step."
       },
       {
         element: ".hidden-xs .btn-group",
         title: "Advance to the next step",
-        content: "When you have completed the current step in the recipe.  Press 'next' to advance to the next step (ou can also go back to the previous steps by clicking the back arrow, in case you move ahead too soon). The left and right arrow keys on your keyboard also work.",
+        content: "After finishing a step in the recipe, press <span class='glyphicon glyphicon-arrow-right'></span> to advance to the next step (you can also go back to the previous steps by clicking <span class='glyphicon glyphicon-arrow-left'></span>, in case you move ahead too soon). Or, use the left and right arrow keys on your keyboard.",
         placement: "bottom"
       },
       {
@@ -600,38 +600,37 @@ $(document).ready(function () {
       {
         element: "#1",
         title: "Recipe step",
-        content: "Each step in the recipe is appears in its very own box with.  The current step in the recipe will always be highlighted in blue.",
+        content: "Each step in the recipe appears in its very own box.  The current step is highlighted in blue.  Any other steps that are counting down have a blue border.  When time has expired, the border turns red.",
         placement: "left"
       },
       {
         element: "#1 .total",
         title: "Duration",
-        content: "The duration of each step will appear here.  When the step is in progress, a timer will appear next to it and display how much time has elapsed since you started this step.",
+        content: "The duration of each step is shown here (steps without a time component will read <code>--:--:--</code>).  While the step is in progress, the elapsed time is visible.",
         placement: "bottom"
       },
       {
         element: "#1 .play",
         title: "Play/Pause",
-        content: "Every step in the recipe can be started & stopped by clicking this button, so you can set multiple timers to run simultaneously.",
+        content: "Working on more than one step at a time?  Just click <span class='glyphicon glyphicon-play'></span> and multiple timers will run simultaneously.",
         placement: "bottom"
       },
       {
         element: ".progress",
         title: "Progress indicator",
         content: "Visualize your progress toward completing the recipe using the progress bar.  See which steps are complete and which are underway.",
-        placement: "bottom"
+        placement: "top"
       },
       {
-        element: ".navbar",
-        title: "Fin",
-        content: "That's it!  Just click start to begin cooking with mealtimer.",
-        placement: "bottom"
+        orphan: true,
+        title: "Bon Appetit!",
+        content: "That's it!  Just click 'Start' to begin cooking with mealtimer."
       }
     ]}).init().start();
     
     $('.help').tooltip();
     $('.help').on('click', function () {
-        $(this).tooltip('hide');
+        $(this).tooltip('destroy');
         tour.restart();
     });
 

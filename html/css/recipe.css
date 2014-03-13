@@ -41,6 +41,10 @@
     color: #666;
 }
 
+.popover-title {
+    font-weight: bold;
+}
+
 .more .popover {
     position: fixed;
 }
