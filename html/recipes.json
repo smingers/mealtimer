@@ -1259,6 +1259,23 @@
         
         {
         "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "passive" : true,
+        "text" : "Meanwhile, bring a pot of water to boil and cook the rice.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        
+        {
+        "ordinal" : 3,
         "time" : 300000,
         "elapsed" : 0,
         "text" : "Sauté onions and celery until glazed.",
@@ -1273,7 +1290,7 @@
         },
 
         {
-        "ordinal" : 3,
+        "ordinal" : 4,
         "time" : 60000,
         "elapsed" : 0,
         "text" : "Add tomato paste and blend into the onions and celery.",
@@ -1288,8 +1305,8 @@
         },
         
         {
-        "ordinal" : 4,
-        "time" : 300000,
+        "ordinal" : 5,
+        "time" : 240000,
         "elapsed" : 0,
         "text" : "Add shrimp and cook until the mixture bubbles and shrimp starts to turn pink.",
         "ingredients" : [
@@ -1303,10 +1320,10 @@
         },
         
         {
-        "ordinal" : 5,
+        "ordinal" : 6,
         "time" : 120000,
         "elapsed" : 0,
-        "text" : "Blend in the flour - add a little water to thin the mixture.",
+        "text" : "Blend in the flour and add a little water to thin the mixture.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1318,7 +1335,7 @@
         },
         
         {
-        "ordinal" : 6,
+        "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
         "text" : "Add salt, cayenne to taste, shallots, and parsley flakes.",
@@ -1333,25 +1350,10 @@
         },
         
         {
-        "ordinal" : 7,
-        "time" : 600000,
-        "elapsed" : 0,
-        "text" : "Cover and let simmer for 10-15 minutes.  While the etoufee is simmering, bring a pot of water to boil and cook the rice.",
-        "ingredients" : [
-        ],
-        "tools" : [
-        ],
-        "media" : "",
-        "class" : "",
-        "subclass" : "",
-        "intensity" : ""
-        },
-        
-        {
         "ordinal" : 8,
         "time" : 300000,
         "elapsed" : 0,
-        "text" : "Remove cover and add sherry, if using,  Let bubble and cook down, 5 minutes.  If the mixture looks too thin, add stir in extra flour.",
+        "text" : "Cover and let simmer for 5-10 minutes.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1364,6 +1366,21 @@
         
         {
         "ordinal" : 9,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Remove cover and add sherry, if using,  Let bubble and cook down, 5 minutes.  If the mixture looks too thin, stir in some extra flour.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
         "time" : null,
         "elapsed" : 0,
         "text" : "Spoon etoufee over the rice and serve hot.",
@@ -1940,10 +1957,15 @@
         "1/2 teaspoon ground cardamom",
         "1 bay leaf, preferably Indian",
         "1 teaspoon salt",
-        "2 tablespoons sunflower or safflower oil",
-        "6 whole cloves",
-        "4 large garlic cloves, thinly sliced",
-        "1 teaspoon crushed-red-chili flakes (optional)",
+        {
+            "category" : "tadka",
+            "ingredients" : [
+                "2 tablespoons sunflower or safflower oil",
+                "6 whole cloves",
+                "4 large garlic cloves, thinly sliced",
+                "1 teaspoon crushed-red-chili flakes (optional)"
+            ]
+        },
         "3 tablespoons freshly chopped cilantro"
     ],
     "tools" : [
@@ -1958,7 +1980,7 @@
         "ordinal" : 1,
         "time" : null,
         "elapsed" : 0,
-        "text" : "Combine the chana dal, turmeric, cardamom, bay leaf, salt and 4 cups water in a large saucepan and bring to a boil. Adjust the heat so the mixture bubbles gently and partly cover.",
+        "text" : "Put a pot of 4 cups water on the boil.  Measure and rinse the chana dal and combine with the, turmeric, cardamom, bay leaf, and salt and add to the water.  Once boiling, adjust the heat so the mixture bubbles gently and partially cover.",
         "ingredients" : [
         ],
         "tools" : [
@@ -1988,7 +2010,7 @@
         "ordinal" : 3,
         "time" : 1200000,
         "elapsed" : 0,
-        "text" : "At that point, the mixture should still be quite moist; if it is not, add 1 cup additional water and continue cooking, covered, until the dal is tender, about 20 minutes; turn off the heat.",
+        "text" : "At this point, the mixture should still be quite moist; if it is not, add 1 cup additional water and continue cooking, covered, until the dal is tender, about 20 minutes.",
         "ingredients" : [
         ],
         "tools" : [
@@ -2003,7 +2025,7 @@
         "ordinal" : 4,
         "time" : 60000,
         "elapsed" : 0,
-        "text" : "Remove the bay leaf. Use an Indian mathani (see description) to purée the dal for about 1 minute; the dal should be saucy but not soupy.",
+        "text" : "Turn off the heat and remove the bay leaf. Use an Indian mathani (see description) to purée the dal for about 1 minute; the dal should be saucy but not soupy.",
         "ingredients" : [
         ],
         "tools" : [
@@ -2018,7 +2040,7 @@
         "ordinal" : 5,
         "time" : null,
         "elapsed" : 0,
-        "text" : "To make the tadka, put the oil in a small saucepan over medium-high heat. When the oil is hot, add the cloves.",
+        "text" : "To make the tadka, gather the cloves and chili flakes and slice the garlic.  Put the oil in a small saucepan over medium-high heat. When the oil is hot, add the cloves.",
         "ingredients" : [
         ],
         "tools" : [

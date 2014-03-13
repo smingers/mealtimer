@@ -1,3 +1,5 @@
+/*global Tour:true, purl:true*/
+
 $(document).ready(function () {
     var countDown; // counts down the time using setInterval
     var currentStep = 0; // current step in the recipe (zero indexed)
@@ -311,7 +313,7 @@ $(document).ready(function () {
         $('#progress' + currentStep).removeClass('progress-bar-step-completed');
     };
     
-    // IN PROGRESS (problem on prev because it doesn't handle steps greater than current - use .each()?)
+    // IN PROGRESS
     var stepClasses = function (currentStep) {
         
         var $panels = $('.steps').children();
@@ -321,7 +323,6 @@ $(document).ready(function () {
             if (+$(this).attr('id') != currentStep) {
                 $(this).removeClass('panel-danger');
                 $(this).removeClass('panel-info');
-                console.log(currentStep); //TEST
             }
         });
         
@@ -544,7 +545,7 @@ $(document).ready(function () {
     $next.click(next);
     */
     
-    // popover with extra time controls (add, subtract, reset)
+    // $more with extra time controls (add, subtract, reset)
     $more.popover({
         position: 'fixed',
         placement: 'bottom',
@@ -575,6 +576,63 @@ $(document).ready(function () {
                 $(this).popover('hide');
             }
         });
+    });
+    
+    var tour = new Tour({
+      steps: [
+      {
+        element: "#start",
+        title: "Start mealtimer",
+        content: "Click Start when you are ready to cook and mealtimer will advance to the first step."
+      },
+      {
+        element: ".hidden-xs .btn-group",
+        title: "Advance to the next step",
+        content: "When you have completed the current step in the recipe.  Press 'next' to advance to the next step (ou can also go back to the previous steps by clicking the back arrow, in case you move ahead too soon). The left and right arrow keys on your keyboard also work.",
+        placement: "bottom"
+      },
+      {
+        element: ".hidden-xs .time",
+        title: "Countdown",
+        content: "This is the main timer.  It will display your current step and count down until it is complete.",
+        placement: "bottom"
+      },
+      {
+        element: "#1",
+        title: "Recipe step",
+        content: "Each step in the recipe is appears in its very own box with.  The current step in the recipe will always be highlighted in blue.",
+        placement: "left"
+      },
+      {
+        element: "#1 .total",
+        title: "Duration",
+        content: "The duration of each step will appear here.  When the step is in progress, a timer will appear next to it and display how much time has elapsed since you started this step.",
+        placement: "bottom"
+      },
+      {
+        element: "#1 .play",
+        title: "Play/Pause",
+        content: "Every step in the recipe can be started & stopped by clicking this button, so you can set multiple timers to run simultaneously.",
+        placement: "bottom"
+      },
+      {
+        element: ".progress",
+        title: "Progress indicator",
+        content: "Visualize your progress toward completing the recipe using the progress bar.  See which steps are complete and which are underway.",
+        placement: "bottom"
+      },
+      {
+        element: ".navbar",
+        title: "Fin",
+        content: "That's it!  Just click start to begin cooking with mealtimer.",
+        placement: "bottom"
+      }
+    ]}).init().start();
+    
+    $('.help').tooltip();
+    $('.help').on('click', function () {
+        $(this).tooltip('hide');
+        tour.restart();
     });
 
    // get recipe (relies on purl.js file)

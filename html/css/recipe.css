@@ -25,11 +25,27 @@
     padding-left: 10px;
 }
 
-.popover {
+.help {
+    color: #999;
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.help:hover {
+    color: #666;
+}
+
+.help:focus {
+    outline: none;
+    color: #666;
+}
+
+.more .popover {
     position: fixed;
 }
 
-.popover-content {
+.more .popover-content {
     padding: 0;
 }
 
