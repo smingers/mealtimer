@@ -4366,10 +4366,24 @@
         
         {
         "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Trim the stem end of each eggplant.  Cut lengthwise into 12 1/4\" thick slices.  Sprinkle the slices on both sides with salt, layer them in a colander.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        {
+        "ordinal" : 2,
         "time" : 3600000,
         "elapsed" : 0,
         "passive" : true,
-        "text" : "Trim the stem end of each eggplant.  Cut lengthwise into 12 1/4\" thick slices.  Sprinkel the slices on both sides with salt, layer them in a colander, and let stand for 1 hour.",
+        "text" : "Let the eggplant drain in the colander for 1 hour.",
         "ingredients" : [
         ],
         "tools" : [
@@ -4381,7 +4395,7 @@
         },
     
         {
-        "ordinal" : 2,
+        "ordinal" : 3,
         "time" : null,
         "elapsed" : 0,
         "text" : "To make the tomato sauce, heat a deep skillet over medium-high heat.  Chop the onion, carrot, and add to the pan with 2 tablespoons of the olive oil.",
@@ -4396,7 +4410,7 @@
         },
 
         {
-        "ordinal" : 3,
+        "ordinal" : 4,
         "time" : 600000,
         "elapsed" : 0,
         "text" : "Sauté until the vegetables are soft, about 10 minutes.",
@@ -4411,7 +4425,7 @@
         },
         
         {
-        "ordinal" : 4,
+        "ordinal" : 5,
         "time" : 360000,
         "elapsed" : 0,
         "text" : "Add the remaining tablespoon olive oil and the tomato paste and cook, stirring occasionally, until the paste turns a deep rusty red, 6 to 8 minutes.  Peel and chop the garlic.",
@@ -4426,7 +4440,7 @@
         },
         
         {
-        "ordinal" : 5,
+        "ordinal" : 6,
         "time" : 120000,
         "elapsed" : 0,
         "text" : "Stir in the garlic and the red pepper flakes and cook for 2 minutes.",
@@ -4441,7 +4455,7 @@
         },
         
         {
-        "ordinal" : 6,
+        "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
         "text" : "Add the whole tomatoes, raise the heat to high, and bring to a boil.",
@@ -4456,7 +4470,7 @@
         },
         
         {
-        "ordinal" : 7,
+        "ordinal" : 8,
         "time" : 1200000,
         "elapsed" : 0,
         "text" : "Reduce the heat to low and simmer for 20 minutes, using a wooden spoon to mash the tomatoes into chunks.  Season with vinegar and salt to taste.",
@@ -4471,7 +4485,7 @@
         },
         
         {
-        "ordinal" : 8,
+        "ordinal" : 9,
         "time" : null,
         "elapsed" : 0,
         "text" : "Meanwhile, heat the oven to 400&degF.  Make the croutons by tearing the bread slices and tossing in a bowl with 2 T olive oil and a pinch of salt.  If you are using the herbs, add them too.  Spread the bread evenly on a baking sheet.",
@@ -4486,7 +4500,7 @@
         },
         
         {
-        "ordinal" : 9,
+        "ordinal" : 10,
         "time" : 420000,
         "elapsed" : 0,
         "text" : "Bake until golden brown and crisp, about 7 minutes.",
@@ -4501,7 +4515,7 @@
         },
         
         {
-        "ordinal" : 10,
+        "ordinal" : 11,
         "time" : 420000,
         "elapsed" : 0,
         "text" : "Check the croutons.  Redistrubte them if they are cooking unevenly and cook and additional 7-8 minutes.",
@@ -4516,7 +4530,7 @@
         },
         
         {
-        "ordinal" : 11,
+        "ordinal" : 12,
         "time" : null,
         "elapsed" : 0,
         "text" : "To make the bread crumbs, allow the croutons to cool and crush with your hands or a rolling pin to the desired consistency.",
@@ -4531,7 +4545,7 @@
         },
         
         {
-        "ordinal" : 12,
+        "ordinal" : 13,
         "time" : null,
         "elapsed" : 0,
         "text" : "Make the stuffing. In a bowl, stir together the bread crumbs, ricotta, lemon zest and juice, thyme, and salt.",
@@ -4546,7 +4560,7 @@
         },
         
         {
-        "ordinal" : 13,
+        "ordinal" : 14,
         "time" : null,
         "elapsed" : 0,
         "text" : "When the eggplants are ready, press the moisture from them and blot dry with a kitchen towel.  Pour olive oil to a depth of 1 inch in a deep, heavy saucepan or large skillet and heat to 360&degF.  Preheat the oven to 425&degF.",
@@ -4561,7 +4575,7 @@
         },
         
         {
-        "ordinal" : 14,
+        "ordinal" : 15,
         "time" : 240000,
         "elapsed" : 0,
         "text" : "Place 3 or 4 of the eggplant slices in the hot oil and cook until the slices take on some color, 3 to 4 minutes.  Using tongs, remove the slices and put in the colander to drain.",
@@ -4576,7 +4590,7 @@
         },
         
         {
-        "ordinal" : 15,
+        "ordinal" : 16,
         "time" : 240000,
         "elapsed" : 0,
         "text" : "Repeat with 3-4 additional slices.",
@@ -4591,7 +4605,7 @@
         },
         
         {
-        "ordinal" : 16,
+        "ordinal" : 17,
         "time" : 240000,
         "elapsed" : 0,
         "text" : "Repeat a third time.",
@@ -4606,7 +4620,7 @@
         },
         
         {
-        "ordinal" : 17,
+        "ordinal" : 18,
         "time" : 240000,
         "elapsed" : 0,
         "text" : "Repeat a fourth time, if necessary.  Otherwise skip ahead.",
@@ -4621,7 +4635,7 @@
         },
         
         {
-        "ordinal" : 18,
+        "ordinal" : 19,
         "time" : null,
         "elapsed" : 0,
         "text" : "When the oven is preheated, pour the tomato sauce into a medium-sized baking dish.  Place a spoonful of filling at the one end of each eggplant slice.  Roll the slice around the filling and place it seam-side down in the dish on top of the tomato sauce.  Spoon a generous tablespoon of cream over each roll to moisten it.",
@@ -4636,7 +4650,7 @@
         },
         
         {
-        "ordinal" : 19,
+        "ordinal" : 20,
         "time" : 1200000,
         "elapsed" : 0,
         "text" : "Bake until the edges of sauce around the sides of hte dish are dark and the rolls are nicely caramelized, 20 to 25 minutes.",
@@ -4651,7 +4665,7 @@
         },
         
         {
-        "ordinal" : 20,
+        "ordinal" : 21,
         "time" : null,
         "elapsed" : 0,
         "text" : "Grate the Asiago cheese and garnish.  Serve.",
