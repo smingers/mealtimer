@@ -579,6 +579,9 @@ $(document).ready(function () {
     });
     
     var tour = new Tour({
+      onEnd: function () {
+        $('#1').removeClass('current').removeClass('times-up').removeClass('panel-info').removeClass('panel-danger');
+      },
       steps: [
       {
         orphan: true,

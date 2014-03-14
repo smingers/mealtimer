@@ -4366,7 +4366,7 @@
         
         {
         "ordinal" : 1,
-        "time" : null,
+        "time" : 900000,
         "elapsed" : 0,
         "text" : "Trim the stem end of each eggplant.  Cut lengthwise into 12 1/4\" thick slices.  Sprinkle the slices on both sides with salt, layer them in a colander.",
         "ingredients" : [
@@ -4396,9 +4396,9 @@
     
         {
         "ordinal" : 3,
-        "time" : null,
+        "time" : 600000,
         "elapsed" : 0,
-        "text" : "To make the tomato sauce, heat a deep skillet over medium-high heat.  Chop the onion, carrot, and add to the pan with 2 tablespoons of the olive oil.",
+        "text" : "To make the tomato sauce, finely chop the onion and carrot, heat a deep skillet over medium-high heat, and add to the pan with 2 tablespoons of the olive oil.",
         "ingredients" : [
         ],
         "tools" : [
