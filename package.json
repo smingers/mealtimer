@@ -1,0 +1,26 @@
+{
+  "name": "mealtimer",
+  "version": "0.0.0",
+  "description": "a tasty recipe app",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smingers/mealtimer.git"
+  },
+  "keywords": [
+    "mealtimer",
+    "cooking",
+    "app",
+    "food",
+    "recipes"
+  ],
+  "author": "jordan-berman",
+  "license": "commercial (c) jordan berman",
+  "bugs": {
+    "url": "https://github.com/smingers/mealtimer/issues"
+  },
+  "homepage": "https://github.com/smingers/mealtimer"
+}
