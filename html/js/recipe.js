@@ -1,12 +1,12 @@
 /*global Tour:true, purl:true*/
 
 $(document).ready(function () {
-    var countDown; // counts down the time using setInterval
+    // var countDown; // counts down the time using setInterval
     var currentStep = 0; // current step in the recipe (zero indexed)
     // var paused;  // assigned boolean value if timer paused (true) or not (false)
-    var startTime; // date.now when current step begins
+    // var startTime; // date.now when current step begins
     // var elapsed; // amount of time elapsed in the current step
-    var userAddedTime = 0; // time added to the current step by the user
+    // var userAddedTime = 0; // time added to the current step by the user
     // var titleReg = document.title;
     // var titleAlert = "(!) " + document.title;
     var elapsedTimes = []; // actual completion times for the user
@@ -46,20 +46,6 @@ $(document).ready(function () {
             return "-" + ("0" + time[0]).slice(-2) + ":" + ('0' + time[1]).slice(-2) + ":" + ("0" + time[2]).slice(-2);
         }
     };
-    
-    /* var textTime = function (time) {
-        var timeString = "";
-        if (time[0] > 0) {
-            timeString += (time[0] + " hours ");
-        }
-        if (time[1] > 0) {
-            timeString += (time[1] + " minutes ");
-        }
-        if (time[2] > 0) {
-            timeString += (time[2] + " seconds");
-        }
-        return timeString;
-    }; // no longer in use - discard? */
     
     // load recipe content from JSON 
     var buildRecipe = function (recipe) {
@@ -205,70 +191,6 @@ $(document).ready(function () {
             scrollTop: $('#' + ordinal).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
         }, 500);
     });
-    */
-    
-    // OLD TIMER FUNCTIONS
-    /*
-    // intiate countdown and refresh every second using setInterval
-    var startCountdown = function () { 
-        $step.text('Step ' + (currentStep + 1));
-        elapsed = elapsedTimes[currentStep];
-        
-        // checks for null time value
-        if (recipeStepTimes[currentStep] === null) {
-            $more.addClass('disabled');
-            $display.text('N/A');
-            countDown = setInterval(function () {
-                elapsed += 1000;
-                elapsedTimes[currentStep] = elapsed;
-                $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
-            }, 1000);
-        } else {
-            $more.removeClass('disabled');
-            startTime = Date.now() - elapsed;
-            displayRemainingTime(startTime);
-            countDown = setInterval(function () {
-                displayRemainingTime(startTime);
-            }, 1000);
-        }
-        
-        // smooth scrolling
-        $('html, body').stop().animate({
-            scrollTop: $('#' + (currentStep + 1)).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
-        }, 500);
-        
-    };
-        
-    // displays the remaining time 1x when called (called every second by setInterval fn)
-    var displayRemainingTime = function(startTime) {
-        elapsed = Date.now() - startTime;
-        elapsedTimes[currentStep] = elapsed;
-        var remaining = Math.round((recipeStepTimes[currentStep] - (elapsed - userAddedTime)) / 1000) * 1000;
-        $display.text(stopWatchTime(convertMS(remaining)));
-        $('#' + (currentStep + 1)  + ' .step-elapsed').text(stopWatchTime(convertMS(elapsed)));
-        // update panel progress bar 
-        // var percentComplete = ((elapsed / recipeStepTimes[currentStep]) * 100) + '%';
-        // $('#' + (currentStep + 1)  + ' .progress-bar').css('width', percentComplete);  // MOVES TOO SLOW
-        // ALT $('#' + (currentStep + 1)  + ' .progress-bar').animate({'width': percentComplete}, 1000);
-
-        // time expires
-        if (remaining < 0) {
-            $('#' + (currentStep + 1)).addClass('times-up');
-            $('#progress' + (currentStep + 1)).addClass('progress-bar-step-times-up');
-            if (document.title === titleReg) {
-                document.title = titleAlert;
-            } else {
-                document.title = titleReg;
-            }
-        } else if (remaining === 0) {
-            $('#timer-audio')[0].play();
-        } else {
-            $('#' + (currentStep + 1)).removeClass('times-up');
-            $timerRow.removeClass('timer-row-times-up');
-            document.title = titleReg;
-        }
-    };
-    
     */
     
     // smooth scrolling
@@ -465,87 +387,7 @@ $(document).ready(function () {
         }
     });
     
-    /*
-    // OLD BUTTONS
-    $play.click(function () {
-        // adjusts button appearances
-        $pause.removeClass('disabled');
-        $play.addClass('disabled');
-        $more.removeClass('disabled');
-        $start.css('visibility', 'hidden');
-        $stop.css('visibility', 'visible');
-        prevNextDisabler(currentStep);
-
-        // change the appearance of the step panel
-        $('#' + (currentStep + 1)).addClass('current');
-        $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
-        
-        // determines whether timer is currently paused
-        if (paused) {
-            startCountdown(elapsed);
-            paused = false;
-        } else {
-            startCountdown();
-        }
-    });
-
-    $pause.click(function () {
-        // adjusts button appearances
-        $pause.addClass('disabled');
-        $play.removeClass('disabled');
-        
-        // freezes visible timer
-        paused = true;
-        clearInterval(countDown);
-    });
-    
-    var prev = function () {
-        clearInterval(countDown);
-        userAddedTime = 0;
-        currentStep -= 1;
-        elapsed = elapsedTimes[currentStep - 1];
-        prevNextDisabler(currentStep);
-        $more.popover('hide');
-        
-        // change the appearance of the step panels
-        $('#' + (currentStep + 1)).removeClass('completed');
-        $('#' + (currentStep + 1)).addClass('current');
-        $('#' + (currentStep + 2)).removeClass('current');
-        $('#' + (currentStep + 2)).removeClass('times-up');
-        $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
-        $('#progress' + (currentStep + 1)).removeClass('progress-bar-step-completed');
-        $('#progress' + (currentStep + 2)).removeClass('progress-bar-step-current');
-        $('#progress' + (currentStep + 2)).removeClass('progress-bar-step-times-up');
-        
-        startCountdown();   
-    };
-    
-    var next = function () {
-        currentStep += 1;
-        clearInterval(countDown);
-        
-        userAddedTime = 0;
-        prevNextDisabler(currentStep);
-        $more.popover('hide');
-        elapsedTimes[currentStep - 1] = elapsed;
-
-        // change the appearance of the step panels
-        $('#' + (currentStep + 1)).addClass('current');
-        $('#progress' + (currentStep)).removeClass('progress-bar-step-times-up');
-        $('#progress' + (currentStep + 1)).addClass('progress-bar-step-current');
-        $('#progress' + (currentStep)).addClass('progress-bar-step-completed');
-        
-        totalElapsed();
-        startCountdown();
-        passiveStepHandler(); // TEST
-        
-    };
-    
-    $prev.click(prev);
-    $next.click(next);
-    */
-    
-    // $more with extra time controls (add, subtract, reset)
+    /* // $more with extra time controls (add, subtract, reset)
     $more.popover({
         position: 'fixed',
         placement: 'bottom',
@@ -564,7 +406,7 @@ $(document).ready(function () {
         userAddedTime = 0;
         clearInterval(countDown);
         startCountdown();
-    });
+    }); */
     
     // click outside popover to dismiss; doesn't work on mobile
     // attributed to: http://stackoverflow.com/questions/11703093/how-to-dismiss-a-twitter-bootstrap-popover-by-clicking-outside and http://jsfiddle.net/mattdlockyer/C5GBU/2/
@@ -691,19 +533,3 @@ $(document).ready(function () {
     });
 
 }); // END
-    
-
-/*
-
-    var confirmMsg = function() {
-        confirm("Your recipe timer is still in progress. Are you sure you want to leave this page?");
-    };
-
-    // IN PROGRESS close window alert
-    window.onbeforeunload = function() {
-        // if (!paused) {
-            confirmMsg();
-        // }
-    };
-    
-*/
