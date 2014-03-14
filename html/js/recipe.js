@@ -138,7 +138,7 @@ $(document).ready(function () {
         
         // stop function, restores pretty much everything back to its original state
          $stop.click(function () {
-            clearInterval(countDown);
+            // clearInterval(countDown);
             $more.popover('hide');
             currentStep = 0;
             $display.text(stopWatchTime(convertMS(totalTime)));
@@ -588,7 +588,7 @@ $(document).ready(function () {
       {
         element: ".hidden-xs .btn-group",
         title: "Advance to the next step",
-        content: "After finishing a step in the recipe, press <span class='glyphicon glyphicon-arrow-right'></span> to advance to the next step (you can also go back to the previous steps by clicking <span class='glyphicon glyphicon-arrow-left'></span>, in case you move ahead too soon). Or, use the left and right arrow keys on your keyboard.",
+        content: "After finishing a step in the recipe, press <code><span class='glyphicon glyphicon-arrow-right'></span></code> to advance to the next step (you can also go back to the previous steps by clicking <code><span class='glyphicon glyphicon-arrow-left'></span></code>, in case you move ahead too soon). Or, use the left and right arrow keys on your keyboard.",
         placement: "bottom"
       },
       {
@@ -600,31 +600,65 @@ $(document).ready(function () {
       {
         element: "#1",
         title: "Recipe step",
-        content: "Each step in the recipe appears in its very own box.  The current step is highlighted in blue.  Any other steps that are counting down have a blue border.  When time has expired, the border turns red.",
-        placement: "left"
+        content: "Each step in the recipe appears in its very own box.  The appearance of the box will change as you follow the recipe.",
+        placement: "left",
+        onShow: function (tour) {
+            $('#1').removeClass('current').removeClass('panel-info');
+        }
+      },
+      {
+        element: "#1",
+        title: "Current Step",
+        content: "The current step is highlighted in blue.",
+        placement: "left",
+        onShown: function (tour) {
+            setTimeout(function () {
+                $('#1').removeClass('times-up').removeClass('panel-danger');
+                $('#1').addClass('current').addClass('panel-info');
+            }, 500);
+        }
+      },
+      {
+        element: "#1",
+        title: "Time's Up!",
+        content: "When time expires on the current step, it turns red and a chime will sound.",
+        placement: "left",
+        onShown: function (tour) {
+            setTimeout(function () {
+                $('#1').addClass('times-up').addClass('panel-danger');
+                $('#timer-audio')[0].play();
+            }, 500);
+        }
       },
       {
         element: "#1 .total",
         title: "Duration",
-        content: "The duration of each step is shown here (steps without a time component will read <code>--:--:--</code>).  While the step is in progress, the elapsed time is visible.",
-        placement: "bottom"
+        content: "The duration of each step is shown here (untimed steps will read <code>--:--:--</code>).  While the step is in progress, the elapsed time is visible.",
+        placement: "bottom",
+        onShown: function (tour) {
+            $('#1').removeClass('times-up').removeClass('panel-danger').removeClass('current').removeClass('panel-info');
+            $('#1 .play').click();
+        }
       },
       {
         element: "#1 .play",
         title: "Play/Pause",
-        content: "Working on more than one step at a time?  Just click <span class='glyphicon glyphicon-play'></span> and multiple timers will run simultaneously.",
-        placement: "bottom"
+        content: "Working on more than one step at a time?  Just click <code><span class='glyphicon glyphicon-play'></span></code> and multiple timers will run simultaneously.",
+        placement: "bottom",
+        onShown: function (tour) {
+            clearInterval($('#1').data('timer'));
+        }
       },
       {
         element: ".progress",
         title: "Progress indicator",
-        content: "Visualize your progress toward completing the recipe using the progress bar.  See which steps are complete and which are underway.",
+        content: "Visualize progress toward completing the recipe.  See which steps are complete and which are underway.",
         placement: "top"
       },
       {
         orphan: true,
         title: "Bon Appetit!",
-        content: "That's it!  Just click 'Start' to begin cooking with mealtimer."
+        content: "That's it!  Click <code>Start &raquo;</code> to begin cooking with mealtimer."
       }
     ]}).init().start();
     

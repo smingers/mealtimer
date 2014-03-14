@@ -45,6 +45,10 @@
     font-weight: bold;
 }
 
+code {
+  color: #c7254e;
+}
+
 .more .popover {
     position: fixed;
 }
