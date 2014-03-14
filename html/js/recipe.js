@@ -589,18 +589,18 @@ $(document).ready(function () {
       {
         element: "#start",
         title: "Start meal&middottimer",
-        content: "Click <code>Start &raquo;</code> when you are ready to cook and meal&middottimer will advance to the first step."
+        content: "Click <code>Start &raquo;</code> when you are ready to cook and <strong>meal&middottimer</strong> will advance to the first step."
       },
       {
         element: ".hidden-xs .btn-group",
         title: "Advance to the next step",
-        content: "After finishing a step in the recipe, press <code><span class='glyphicon glyphicon-arrow-right'></span></code> to advance to the next step (you can also go back to the previous steps by clicking <code><span class='glyphicon glyphicon-arrow-left'></span></code>, in case you move ahead too soon). Or, use the left and right arrow keys on your keyboard.",
+        content: "After finishing a step in the recipe, press <code><span class='glyphicon glyphicon-arrow-right'></span></code> to advance to the next step (you can also go back to the previous steps by clicking <code><span class='glyphicon glyphicon-arrow-left'></span></code>). Or, use the left and right arrow keys on your keyboard.",
         placement: "bottom"
       },
       {
         element: ".hidden-xs .time",
         title: "Countdown",
-        content: "This is the main timer.  It will display your current step and count down until it is complete.",
+        content: "The primary timer counts down the time remaining in the current step.",
         placement: "bottom"
       },
       {
@@ -665,7 +665,7 @@ $(document).ready(function () {
         orphan: true,
         backdrop: true,
         title: "Bon Appetit!",
-        content: "That's it!  Click <code>Start &raquo;</code> to begin cooking with mealtimer."
+        content: "That's it!  Click <code>Start &raquo;</code> to begin cooking with <strong>meal&middottimer</strong>."
       }
     ]}).init().start();
     
