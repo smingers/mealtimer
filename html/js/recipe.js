@@ -581,6 +581,12 @@ $(document).ready(function () {
     var tour = new Tour({
       steps: [
       {
+        orphan: true,
+        backdrop: true,
+        title: "Welcome to meal&middottimer",
+        content: "<strong>meal&middottimer</strong> transforms your favorite recipes with an interactive experience that helps you get dinner on the table and on time.  Take this brief tour to see how it works."
+      },
+      {
         element: "#start",
         title: "Start meal&middottimer",
         content: "Click <code>Start &raquo;</code> when you are ready to cook and meal&middottimer will advance to the first step."
@@ -615,7 +621,7 @@ $(document).ready(function () {
             setTimeout(function () {
                 $('#1').removeClass('times-up').removeClass('panel-danger');
                 $('#1').addClass('current').addClass('panel-info');
-            }, 500);
+            }, 1000);
         }
       },
       {
@@ -627,7 +633,7 @@ $(document).ready(function () {
             setTimeout(function () {
                 $('#1').addClass('times-up').addClass('panel-danger');
                 $('#timer-audio')[0].play();
-            }, 500);
+            }, 1000);
         }
       },
       {
@@ -637,7 +643,7 @@ $(document).ready(function () {
         placement: "bottom",
         onShown: function (tour) {
             $('#1').removeClass('times-up').removeClass('panel-danger').removeClass('current').removeClass('panel-info');
-            $('#1 .play').click();
+            //$('#1 .play').click();
         }
       },
       {
@@ -646,7 +652,7 @@ $(document).ready(function () {
         content: "Working on more than one step at a time?  Just click <code><span class='glyphicon glyphicon-play'></span></code> and multiple timers will run simultaneously.",
         placement: "bottom",
         onShown: function (tour) {
-            clearInterval($('#1').data('timer'));
+            //$('#1 .play').click();
         }
       },
       {
@@ -657,6 +663,7 @@ $(document).ready(function () {
       },
       {
         orphan: true,
+        backdrop: true,
         title: "Bon Appetit!",
         content: "That's it!  Click <code>Start &raquo;</code> to begin cooking with mealtimer."
       }

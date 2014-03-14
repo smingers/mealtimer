@@ -46,7 +46,8 @@
 }
 
 code {
-  color: #c7254e;
+  background: #66afe9;
+  color: white;
 }
 
 .more .popover {
