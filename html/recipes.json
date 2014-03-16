@@ -4956,6 +4956,384 @@
 },
 
 {
+    "id" : "24",
+    "title" : "Panade",
+    "description" : "Panade is a basic French preparation similar to the Spanish <em>sopa seca</em>, or 'dry soup.'  The Italian version is called ribollita, and in Macedonia, paximadia, or rusks, are used to make the dry soup.  The variations are infinite, but the foundation is always dry bread moistened with water or stock and cooked on the stove top or in the oven until the bread has absorbed almost all of the liquid.  Root vegetables, cabbage, greens and other vegetables on hand can be added along with herbs and a piece of smoked meat to flavor the whole.  Unlike egg-based bread pudding, which is usually eaten fresh from the oven, this panade sets and retains its shape best on the second or third day.  It is then cut into wedges, moistened with a spoonful of cream, and reheated.  These slices of savory pie are much more handsome than when served straight out of the oven.",
+    "author" : "Chad Robertson",
+    "source" : "Tartine Bread",
+    "bgImage" : "http://www.poormansfeast.com/wp-content/uploads/2010/12/PanadeBefore.jpg",
+    "yield" : "Serves 4 to 6",
+    "time" : [
+        "30 minutes to prepare",
+        "60 minutes to cook",
+        "90 minutes total"
+    ],
+    "ingredients" : [
+        "6 T unsalted butter",
+        "2 leeks, white parts only, finely chopped",
+        "6 c whole milk",
+        "salt",
+        "4 slices day-old bread, 1 inch thick",
+        "1 sm butternut squash (about 1 pound), peeled, seeded, and cut into 1/4 inch thick slices",
+        "1 bunch black kale, stems removed",
+        "1 head cauliflower (about 1 1/2 pounds), trimmed and cut into 1/2 inch slices",
+        "1/2 pound fontina cheese, thinly sliced",
+        "Heavy cream (optional)"
+    ],
+    "tools" : [
+        "saucepan",
+        "5-qt pot with lid"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Wash and chop all vegetables: the leeks, squash, kale, and cauliflower.  Preheat the oven to 375&degF.  Melt 1 T butter in a saucepan over medium heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Add the leeks and saute until softened, about 5 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add 2 cups of the milk, the remaining 5 T butter, and 2 t salt.  Bring to a boil and then remove from the heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Cover the bottom of a deep, heavy, 5-quart pot with 2 or more slices of the bread.  Arrange the squash slices in an even layer on top of the bread and pour in 2 cups of the hot milk mixture.  Top with the remaining 2 bread slices and then with the kale.  Arrange the cauliflower slices over the kale.  Press the ingredients down to compact them if they don't quite fit into the pot.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Pour the remaining 4 cups milk mixture over the vegetables and bread.  Stop adding the milk when the level is almost to the rim.  Season with salt.  Cover the pot with the lid or aluminum foil.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 1800000,
+        "elapsed" : 0,
+        "text" : "Bake for 30 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Uncover and arrange the cheese over the top.  Cover and return to the oven.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 1200000,
+        "elapsed" : 0,
+        "text" : "Bake until the liquid is absorbed and reduced, and the cheese has melted and browned, about 20 minutes.  When the panade has cooled, it should appear dry.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Serve immediately or let cool and refrigerate for up to 3 days.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To reheat, preheat the oven to 375&degF.  Cut the panade into wedges and put on individual ovenproof plates.  Pour 1/4 cream over the top of each wedge.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Bake for 15 to 20 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
+    "id" : "",
+    "title" : "",
+    "description" : "",
+    "author" : "",
+    "source" : "",
+    "bgImage" : "",
+    "yield" : "",
+    "time" : [
+    ],
+    "ingredients" : [
+        {
+            "category" : "",
+            "ingredients" : [
+                ""
+            ]
+        },
+        "",
+        ""
+    ],
+    "tools" : [
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
