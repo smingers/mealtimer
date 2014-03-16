@@ -5156,26 +5156,56 @@
 },
 
 {
-    "id" : "",
-    "title" : "",
+    "id" : "25",
+    "title" : "Baked Chicken Parmesan Meatballs in Tomato Cream Sauce",
     "description" : "",
-    "author" : "",
-    "source" : "",
-    "bgImage" : "",
-    "yield" : "",
+    "author" : "Annie's Eats",
+    "source" : "http://www.annies-eats.com/2014/01/24/baked-chicken-parmesan-meatballs-in-tomato-cream-sauce/",
+    "bgImage" : "http://farm3.staticflickr.com/2838/11918984795_eb972a1f6f_z.jpg",
+    "yield" : "Serves 6-8",
     "time" : [
+        "40 minutes to prepare",
+        "20 minutes to cook",
+        "1 hour total"
     ],
     "ingredients" : [
         {
-            "category" : "",
+            "category" : "Sauce",
             "ingredients" : [
-                ""
+                "1 (28 oz.) can whole tomatoes, liquid reserved",
+                "1 tbsp. butter",
+                "¼ cup finely chopped onion",
+                "1½ tbsp. tomato paste",
+                "2 cloves garlic, minced",
+                "½ tsp. red pepper flakes",
+                "Salt and pepper, to taste",
+                "1/3 cup heavy cream or half-and-half"
             ]
         },
-        "",
-        ""
+        {
+            "category" : "Meatballs",
+            "ingredients" : [
+                "½ cup dried panko",
+                "1/3 cup grated onion",
+                "1 tsp. dried parsley",
+                "1 tsp. dried basil",
+                "½ cup freshly grated Parmesan cheese",
+                "3/4 tsp. kosher salt",
+                "¼ tsp. ground black pepper",
+                "3 cloves garlic, minced",
+                "1 large egg, lightly beaten",
+                "1½ lbs. ground chicken",
+                "2 tbsp. olive oil"
+            ]
+        },
+        "4 oz. shredded fresh mozzarella",
+        "2 tbsp. freshly grated Parmesan",
+        "2-3 tbsp. minced fresh basil (optional)"
     ],
     "tools" : [
+        "blender or food processor",
+        "large skillet",
+        "large skillet or dutch oven"
     ],
     
     "steps" : [
@@ -5184,7 +5214,7 @@
         "ordinal" : 1,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "To make the sauce, add the tomatoes to a blender or food processor.  Puree until smooth, adding a bit of the reserved liquid if necessary to smooth the mixture out.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5199,7 +5229,7 @@
         "ordinal" : 2,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Melt the butter in a large, deep skillet or sauté pan over medium-high heat.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5212,9 +5242,9 @@
         
         {
         "ordinal" : 3,
-        "time" : null,
+        "time" : 60000,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Add the onion and cook about 1 minute, until it begins to soften.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5227,9 +5257,9 @@
         
         {
         "ordinal" : 4,
-        "time" : null,
+        "time" : 30000,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Stir in the tomato paste, garlic and red pepper flakes and mix just until fragrant, about 30 seconds.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5242,9 +5272,9 @@
         
         {
         "ordinal" : 5,
-        "time" : null,
+        "time" : 300000,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Stir in the tomato mixture, lower the heat to a simmer, and cook about 5-8 minutes, until the sauce is slightly thickened.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5259,7 +5289,7 @@
         "ordinal" : 6,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Season to taste with salt and pepper.  Remove the pan from the heat and stir in the cream.  Set aside.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5274,7 +5304,7 @@
         "ordinal" : 7,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Prepare all the ingredients for the meatballs.  Combine the panko, grated onion, parsley, basil, Parmesan, salt, pepper, garlic and egg.  Stir together with a fork just until blended.  Mix in the ground chicken and knead together gently until evenly combined.  Form the mixture into meatballs about 1½-inch in diameter.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5289,7 +5319,7 @@
         "ordinal" : 8,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Preheat the oven to 400&degF.  Heat the olive oil in a large skillet or Dutch oven over medium-high heat.  Add the meatballs to the pan in a single layer (two batches may be necessary if you don’t have enough surface area.)  Let cook, turning occasionally, until all sides are browned.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5304,7 +5334,7 @@
         "ordinal" : 9,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Once all of the meatballs are browned, place them in the pan with the tomato sauce.  Sprinkle the mozzarella and additional Parmesan over the top.",
         "ingredients" : [
         ],
         "tools" : [
@@ -5317,9 +5347,24 @@
         
         {
         "ordinal" : 10,
+        "time" : 900000,
+        "elapsed" : 0,
+        "text" : "Bake until the cheese is fully melted and bubbling and the meatballs are cooked through, about 15 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
         "time" : null,
         "elapsed" : 0,
-        "text" : "",
+        "text" : "Remove from the oven and garnish with the fresh basil.  Serve warm.",
         "ingredients" : [
         ],
         "tools" : [
