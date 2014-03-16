@@ -182,7 +182,7 @@ a:hover {
 }
 
 .step-ordinal {
-    font-size: 18px;
+    font-weight: 18px;
     font-weight: lighter;
     text-align: center;
     width: 4%;
@@ -190,11 +190,12 @@ a:hover {
 
 .step-text {
     width: 96%;
+    font-size: 1.25em;
 }
 
 .sidebar ul {
     color: #777777;
-    font-size: 13px;
+    font-size: 1em;
     padding-left: 15px;
     line-height: 1.75;
 }
@@ -290,7 +291,7 @@ a:hover {
 
 /* text styles for classes of content */
 .ingredient {
-	font-weight: bold;
+	/* font-weight: bold; */
 	border-bottom: 1px dotted;
 }
 
