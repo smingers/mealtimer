@@ -58,7 +58,7 @@ code {
     position: fixed;
 }
 
-.more .popover-content {
+.popover-content.paddingless {
     padding: 0;
 }
 
