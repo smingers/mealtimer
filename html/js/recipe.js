@@ -165,7 +165,6 @@ $(document).ready(function () {
                 $toolsIngredients.affix({
                     offset: {
                       top: function () {
-                          console.log('top', $toolsIngredients.offset().top - $navbar.outerHeight(true) - $progress.outerHeight());
                           return (this.top = $toolsIngredients.offset().top - $navbar.outerHeight(true) - $progress.outerHeight());
                       } /*, 
                       bottom: function () {
