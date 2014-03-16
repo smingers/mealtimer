@@ -54,10 +54,6 @@ code {
   color: white;
 }
 
-.more .popover {
-    position: fixed;
-}
-
 .popover-content.paddingless {
     padding: 0;
 }
