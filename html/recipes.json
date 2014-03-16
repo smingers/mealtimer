@@ -4769,6 +4769,193 @@
 },
 
 {
+    "id" : "23",
+    "title" : "Bagnet Vert",
+    "description" : "This traditional Italian condiment is related to Spanish <em>salsa verde</em>, Italian <em>bagna cauda</em>, and Greek <em>skordalia</em>.  Another sauce with many uses, it is traditionally eaten with boiled meats and it delicious with pretty much anything else - in this case, marinated anchovies.  At Bar Tartine, we serve Bagnet Vert with Bolinas black cod, cilantro blossoms, and fennel tops.  The incorporation of bread transforms the sauce into something much more substantial, a sublime combination of aromatic flavors bound with bread.",
+    "author" : "Chad Robertson",
+    "source" : "Tartine Bread",
+    "bgImage" : "http://3.bp.blogspot.com/-l7JRHqq2sgI/Uw8Hd8to8_I/AAAAAAAAH1s/yLE8IzFqDd8/s1600/sauce+7.jpg",
+    "yield" : "Serves 4 to 6",
+    "time" : [
+        "4-12 hours to prep, mostly idle",
+        "5-10 minutes to cook",
+        "4-12 hours, total"
+    ],
+    "ingredients" : [
+        {
+            "category" : "Marinated Anchovies",
+            "ingredients" : [
+                "1 T coriander seeds",
+                "4 oz olive oil-packed anchovy fillets, drained",
+                "Grated zest of 1 lemon",
+                "Red pepper flakes",
+                "1/2 c olive oil",
+                "1 bunch cilantro blossoms for garnish (optional)"
+            ]
+        },
+        {
+            "category" : "Bagnet Vert",
+            "ingredients" : [
+                "2 c torn day-old bread",
+                "1 T red wine or sherry vinegar",
+                "1/2 c water",
+                "2 c fresh flat-leaf parsley leaves, roughly chopped",
+                "1 c olive oil",
+                "1 T capers",
+                "4 olive oil-packed anchovy fillets",
+                "1/2 t salt",
+                "Cilantro blossoms (optional)"
+            ]
+        }
+    ],
+    "tools" : [
+        "small frying pan",
+        "mortar and pestle",
+        "zester",
+        "blender or food processor"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the marinated anchovies, collect and prepare all ingredients.  Zest the lemon and drain the anchovy fillets.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Heat a small frying pan over medium heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 3,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Toast the coriander seeds, stirring occasionally, until you smell the toasty aroma and the seeds begin to smoke slightly, about five minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer the seeds to a mortar and coarsely crack with a pestle.  Arrange the anchovy fillets on a plate and sprnikle with the lemon zest, coriander seeds, and pepper flakes.  Pour enough olive oil over the fillets to cover them.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 14400000,
+        "elapsed" : 0,
+        "text" : "Let marinate for 4 hours or up to overnight.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To make the <em>bagnet vert</em>, place the bread in a bowl and toss with the vinegar and water.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 300000,
+        "elapsed" : 0,
+        "text" : "Let soften for 5 to 10 minutes",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Transfer the bread to a blender and add the parsley, olive oil, capers, anchovies, and salt.  Blend to a smooth puree.  Add more water, a spoonful at a time, if the sauce is too thick to blend.  Taste and season with salt if necessary.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Spoon the <em>bagnet vert</em> on plates and arrange the anchovies over the top.  Garnish with the cilantro blossoms, if desired.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
+{
     
 }
 
