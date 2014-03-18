@@ -452,7 +452,6 @@
         "intensity" : ""
         }
     ]
-
 },
 
 {
@@ -615,7 +614,6 @@
         }
         
     ]
-
 },
 
 {
@@ -756,7 +754,6 @@
         }
         
     ]
-
 },
 
 {
@@ -956,8 +953,7 @@
         "intensity" : ""
         }
         
-    ]
-    
+    ] 
 },
 
 {
@@ -1206,7 +1202,6 @@
         }
         
     ]
-
 },
 
 {
@@ -1393,8 +1388,7 @@
         "subclass" : "",
         "intensity" : ""
         }
-    ]
-        
+    ]     
 },
 
 {
@@ -5377,6 +5371,158 @@
         
     ]
 },
+
+{
+    "id" : "26",
+    "title" : "Basic Flatfish Meunière",
+    "description" : "This classic preparation for fillets of sole works equally well for any other flatfish (flounder, dab, plaice, turbot, halibut, fluke, etc.).  Serve hot, hot, hot!",
+    "author" : "Mark Bittman",
+    "source" : "Fish: The Complete Guide to Buying and Cooking",
+    "bgImage" : "http://www.katherinemartinelli.com/wp-content/uploads/2011/08/DSC_4240.jpg",
+    "yield" : "Serves 2",
+    "time" : [
+        "20 minutes total"
+    ],
+    "ingredients" : [
+        "1/2 to 3/4 lb flatfish fillets",
+        "1 T olive or vegetable oil",
+        "1/4 c (1/2 stick) butter",
+        "flour, for dredging",
+        "juice of 1/2 lemon",
+        "chopped fresh parsley, for garnish",
+        "2 lemon wedges",
+        "salt and freshly ground black pepper (to taste)"
+    ],
+    "tools" : [
+        "3 plates",
+        "12-inch nonstick skillet",
+        ""
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Measure all ingredients.  Juice the 1/2 lemon, cut the lemon wedges, and chop the parsley.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Heat two plates in a low oven.  Season the fillets with salt and pepper.  Sprinkle flour on a third plate for dredging.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 3,
+        "time" : 180000,
+        "elapsed" : 0,
+        "text" : "Heat a 12-inch nonstick skillet over medium-high heat for 3-4 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the oil and half the butter.  When the butter foam subsides, dredge the fillets, one by one, in the flour, shaking off any excess, and add them to the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Cook until golden on each side, 4-5 minutes total.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Remove to the warm serving plates.  Reduce the heat to medium and add the remaining butter to the pan.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Cook until the butter foams, 1 or 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the lemon juice and stir, scraping the bottom of the pan as you do so; pour the sauce over the fillets.  Sprinkle with the parsley and serve immediately with the lemon wedges.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+}
 
 {
     
