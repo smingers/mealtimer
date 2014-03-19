@@ -5524,6 +5524,213 @@
     ]
 },
 
+{
+    "id" : "27",
+    "title" : "Mee Goreng",
+    "description" : "This Malay dish takes only a few minutes to make (once you have a little bit of prep out of the way) and is unique in its many layers and depth of flavors.  If you want to serve more than two people you'll need to start again with a second batch, because double quantities will be too much for one work.  This recipe calls for fresh noodles; if you want to use dried noodles they must be cooked ahead of time.",
+    "author" : "Yotam Ottolenghi",
+    "source" : "Plenty",
+    "bgImage" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mi_Goreng_GM.jpg/1280px-Mi_Goreng_GM.jpg",
+    "yield" : "Serves 2",
+    "time" : [
+        "20 minutes to prepare",
+        "10 minutes to cook",
+        "20 minutes total"
+    ],
+    "ingredients" : [
+        "2 T peanut oil",
+        "1/2 onion, diced",
+        "8 oz firm tofu, cut into 3/8-inch-thick strips",
+        "4 oz green beans, trimmed and cut in half at an angle",
+        "4 oz choi sum (or bok choy), cut into large chunks (both leaves and stalks)",
+        "11 oz fresh egg noodles",
+        "1 1/2 t ground coriander",
+        "1 t ground cumin",
+        "2 t sambal oelek (or another savory chile paste), plus extra to serve",
+        "2 t thick soy sauce",
+        "2 t light soy sauce",
+        "1 T water",
+        "2 oz Mung bean sprouts",
+        "handful of shredded iceberg lettuce",
+        "1 T crisp-fried shallots",
+        "lemon wedges, to serve"
+    ],
+    "tools" : [
+        "small frying pan",
+        "large wok or frying pan"
+    ],
+    
+    "steps" : [
+    
+        {
+        "ordinal" : 1,
+        "time" : 900000,
+        "elapsed" : 0,
+        "passive" : true,
+        "text" : "Prep the ingredients.  Drain the tofu and press between two plates and set aside, 15 minutes.  Meanwhile wash and chop the vegetables.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 2,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "To fry the shallots, finely mince and heat 2 T vegetable oil in a small frying pan over medium-high heat.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 3,
+        "time" : 240000,
+        "elapsed" : 0,
+        "text" : "Add the shallots to the pan and fry until crispy, about 4-5 minutes.  Set aside.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+
+        {
+        "ordinal" : 4,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Set a work or large pan on high heat.  Once hot, add the oil and then the onion.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 5,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Cook onion for about 1 minute to soften a bit.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 6,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Add the tofu and French beans and cook for 2 to 3 minutes to give the tofu a bit of color.  Stir gently as you cook, trying not to break up the tofu.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 7,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Next, add the choi sum.  When it wilts add the noodles and carefully spread them in the wok using tongs or large chopsticks.  You want the noodles to get a lot of heat, almost to fry.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 8,
+        "time" : 120000,
+        "elapsed" : 0,
+        "text" : "Mix gently, cooking the noodles for about 2 minutes.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 9,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "Add the spices, sambal oelek, soy sauces, water, and bean sprouts and toss carefully.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 10,
+        "time" : 60000,
+        "elapsed" : 0,
+        "text" : "Cook for about a minute, or until the noodles are semisoft.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        },
+        
+        {
+        "ordinal" : 11,
+        "time" : null,
+        "elapsed" : 0,
+        "text" : "When ready, top with lettuce, transfer to serving bowls, and sprinkle with crisp shallots.  On the side, serve lemon wedges and a small bowl of extra sambal olek.",
+        "ingredients" : [
+        ],
+        "tools" : [
+        ],
+        "media" : "",
+        "class" : "",
+        "subclass" : "",
+        "intensity" : ""
+        }
+        
+    ]
+},
+
 {}
 
 ]
