@@ -1,14 +1,10 @@
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
+var http = require("http");
 
-app.use(logfmt.requestLogger());
+http.createServer(function (request, response) {
+	console.log("request received!");
+	response.writeHead(200, {"Content-Type": "text/plain"});
+	response.write("Hello, World");
+	response.end();
+}).listen(8888);
 
-app.get('/', function(req, res) {
-  res.send('Hello World!');
-});
-
-var port = Number(process.env.PORT || 5000);
-app.listen(port, function() {
-  console.log("Listening on " + port);
-});
+console.log("Server has started.");
