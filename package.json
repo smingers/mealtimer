@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/smingers/mealtimer/issues"
   },
-  "homepage": "https://github.com/smingers/mealtimer"
+  "homepage": "https://github.com/smingers/mealtimer",
+  "dependencies": {
+    "logfmt": "^1.0.0-pre3",
+    "express": "^3.5.0"
+  }
+
+},
+{ 
+  "engines" : { 
+    "node" : "*" } 
 }
