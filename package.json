@@ -27,10 +27,4 @@
     "logfmt": "^1.0.0-pre3",
     "express": "^3.5.0"
   }
-
-}
-{ 
-  "engines" : { 
-    "node" : "*" 
-  } 
 }
