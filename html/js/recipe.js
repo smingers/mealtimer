@@ -239,7 +239,7 @@ $(document).ready(function () {
             $('#' + currentStep).addClass('panel-danger');
             $('#progress' + currentStep).addClass('progress-bar-step-times-up-current');
         } else {
-            $('#' + currentStep).addClass('panel-info');
+            $('#' + currentStep).addClass('panel-primary');
             $('#progress' + currentStep).addClass('progress-bar-step-playing-current');
         }
         $('#progress' + currentStep).removeClass('progress-bar-step-completed');
@@ -254,7 +254,7 @@ $(document).ready(function () {
         $panels.each(function () {
             if (+$(this).attr('id') != currentStep) {
                 $(this).removeClass('panel-danger');
-                $(this).removeClass('panel-info');
+                $(this).removeClass('panel-primary');
             }
         });
         
@@ -424,7 +424,7 @@ $(document).ready(function () {
     
     var tour = new Tour({
       onEnd: function () {
-        $('#1').removeClass('current').removeClass('times-up').removeClass('panel-info').removeClass('panel-danger');
+        $('#1').removeClass('current').removeClass('times-up').removeClass('panel-primary').removeClass('panel-danger');
       },
       steps: [
       {
@@ -456,7 +456,7 @@ $(document).ready(function () {
         content: "Each step in the recipe appears in its very own box.  The appearance of the box will change as you follow the recipe.",
         placement: "left",
         onShow: function (tour) {
-            $('#1').removeClass('current').removeClass('panel-info');
+            $('#1').removeClass('current').removeClass('panel-primary');
         }
       },
       {
@@ -467,7 +467,7 @@ $(document).ready(function () {
         onShown: function (tour) {
             setTimeout(function () {
                 $('#1').removeClass('times-up').removeClass('panel-danger');
-                $('#1').addClass('current').addClass('panel-info');
+                $('#1').addClass('current').addClass('panel-primary');
             }, 1000);
         }
       },
@@ -489,7 +489,7 @@ $(document).ready(function () {
         content: "The duration of each step is shown here (untimed steps will read <code>--:--:--</code>).  While the step is in progress, the elapsed time is visible.",
         placement: "bottom",
         onShown: function (tour) {
-            $('#1').removeClass('times-up').removeClass('panel-danger').removeClass('current').removeClass('panel-info');
+            $('#1').removeClass('times-up').removeClass('panel-danger').removeClass('current').removeClass('panel-primary');
             //$('#1 .play').click();
         }
       },

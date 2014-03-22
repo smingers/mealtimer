@@ -190,12 +190,20 @@ a:hover {
     font-size: 2em;
     font-weight: lighter;
     text-align: center;
+    vertical-align: top;
     width: 4%;
 }
 
 .step-text {
     width: 96%;
-    font-size: 1.25em;
+}
+
+.panel-primary .step-text {
+    font-size: 1.5em;
+}
+
+.panel-danger .step-text {
+    font-size: 1.5em;
 }
 
 .sidebar ul {
