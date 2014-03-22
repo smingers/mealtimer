@@ -145,12 +145,13 @@ $(document).ready(function () {
             $pause.addClass('disabled');
             $more.addClass('disabled');
             $next.addClass('disabled');
-            $('.panel').removeClass('completed');
-            $('.panel').removeClass('current');
-            $('.progress-bar-step').removeClass('progress-bar-step-current');
-            $('.progress-bar-step').removeClass('progress-bar-step-completed');
+            $('.panel').removeClass('completed').removeClass('current').removeClass('playing').removeClass('panel-primary').removeClass('panel-danger');
+            $('.play').addClass('disabled');
+            $('.pause').addClass('disabled');
+            $('.progress-bar-step').removeClass('progress-bar-step-current').removeClass('progress-bar-step-completed');
             $start.css('visibility', 'visible');
             $stop.css('visibility', 'hidden');
+            clearInterval($('.panel').data('timer')); // not working properly
             clearInterval($('.total-elapsed').data('total'));
             elapsedTimes = elapsedTimes.map(function(){
                return 0; // resets all values in array to zero
