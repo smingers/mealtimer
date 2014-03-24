@@ -4,7 +4,7 @@ var fs = require('fs');
 http.createServer(function(request, response) {
   response.writeHead(200);
 
-  fs.readFile('home.html', function(err, contents) {
+  fs.readFile('/html/home.html', function(err, contents) {
     response.write(contents);
     response.end();
   });
