@@ -7,7 +7,7 @@ var fs = require('fs');
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
- 	//res.send('coming soon...');
+ 	res.send('coming soon...');
 
  	fs.readFile('/html/home.html', function(err, contents) {
     response.write(contents);
