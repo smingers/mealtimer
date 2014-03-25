@@ -5,7 +5,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(request, response) {
- 	response.sendfile(__dirname + './html/home.html');
+ 	response.sendfile(__dirname + './client/home.html');
 
   });
 
