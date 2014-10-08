@@ -9,6 +9,10 @@ app.get('/', function(request, response) {
  	response.sendfile(__dirname + '/client/index.html');
 });
 
+app.get('/recipe', function(request, response) {
+   response.sendfile(__dirname + '/client/recipe.html');
+});
+
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
 	console.log("Listening on " + port);
