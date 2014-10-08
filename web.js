@@ -6,9 +6,6 @@ app.use(logfmt.requestLogger());
 
 app.get('/', function(request, response) {
  	response.sendfile(__dirname + './client/home.html');
-
-  });
-
 });
 
 var port = Number(process.env.PORT || 5000);
