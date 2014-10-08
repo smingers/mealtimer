@@ -3,9 +3,10 @@ var logfmt = require("logfmt");
 var app = express();
 
 app.use(logfmt.requestLogger());
+app.use("/assets", express.static(__dirname + '/assets'));
 
 app.get('/', function(request, response) {
- 	response.sendfile(__dirname + '/client/home.html');
+ 	response.sendfile(__dirname + '/client/index.html');
 });
 
 var port = Number(process.env.PORT || 5000);

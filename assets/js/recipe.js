@@ -11,7 +11,7 @@ $(document).ready(function () {
     // var titleAlert = "(!) " + document.title;
     var elapsedTimes = []; // actual completion times for the user
     var recipeStepTimes = []; // times, in ms, for each step in the recipe
-    
+
     // DOM elements called > 1x
     var $display = $('.display');
     var $play = $('.play');
@@ -38,7 +38,7 @@ $(document).ready(function () {
         var time = [hours, minutes, seconds, milliseconds];
         return time;
     };
-    
+
     var stopWatchTime = function (time) {
         if (time[3] > -1000) {
             return ("0" + time[0]).slice(-2) + ":" + ('0' + time[1]).slice(-2) + ":" + ("0" + time[2]).slice(-2);
@@ -46,8 +46,8 @@ $(document).ready(function () {
             return "-" + ("0" + time[0]).slice(-2) + ":" + ('0' + time[1]).slice(-2) + ":" + ("0" + time[2]).slice(-2);
         }
     };
-    
-    // load recipe content from JSON 
+
+    // load recipe content from JSON
     var buildRecipe = function (recipe) {
         var totalTime = 0;
         var numNullSteps = 0; // for inserting null-time steps into the progress bar
@@ -56,32 +56,32 @@ $(document).ready(function () {
         for (var i = 0, length = recipe.steps.length; i < length; i++) {
             var stepNum = recipe.steps[i].ordinal;
             var stepTime;
-    
+
             var passive;
             if (recipe.steps[i].passive) {
                 passive = true;
             } else {
                 passive = false;
             }
-            
+
             if (recipe.steps[i].time) {
                 stepTime = stopWatchTime(convertMS(recipe.steps[i].time));
             } else {
                 stepTime = "--:--:--";
             }
             var stepText = recipe.steps[i].text;
-            
+
             $('.steps').append('<div class="panel panel-default" data-time="' + recipe.steps[i].time +'" data-passive="' + passive + '" id="' + stepNum + '"><div class="panel-heading"><div class="step-controls"><div class="btn-group step-btn"><button type="button" class="btn btn-default btn-xs play disabled"><span class="glyphicon glyphicon-play"></span></button><button type="button" class="btn btn-default btn-xs more" data-container="body" data-toggle="popover"><span class="glyphicon glyphicon-chevron-down"></span></button></div><span class="step-times"><span class="elapsed small"></span><span class="divisor small"></span><span class="total small">' + stepTime + '</span></span></div></div><table class="panel-table"><tr><tbody><td class="step-ordinal">' + stepNum + '</td><td class="step-text">'+ stepText +'</td></tbody></tr></table></div>');
-            
+
             recipeStepTimes.push(recipe.steps[i].time);
             totalTime += recipe.steps[i].time;
             elapsedTimes.push(recipe.steps[i].elapsed);
-            
+
             if (!recipe.steps[i].time) {
                 numNullSteps++;
             }
         }
-        
+
         // progress bar
         for (i = 0, length = recipe.steps.length; i < length; i++) {
             var widthNum;
@@ -94,12 +94,12 @@ $(document).ready(function () {
             $progress.append(progressBarStep);
         }
         $('.progress-bar-step').tooltip(); // IN PROGRESS
-        
+
         // other page elements
         $display.text(stopWatchTime(convertMS(totalTime)));
         $jumbotron.css("background-image", "url('" + recipe.bgImage + "')");
         $('.title').text(recipe.title);
-        // document.title = recipe.title + " | " + document.title; 
+        // document.title = recipe.title + " | " + document.title;
         $('.description').html(recipe.description);
         $('.author').html(recipe.author);
         $('.yield').append('<li>' + recipe.yield + '</li>');
@@ -119,7 +119,7 @@ $(document).ready(function () {
             } else {
                 $ingredients.append('<li class="ingredient">' + recipe.ingredients[i] + '</li>');
             }
-        
+
         // more button fn (add, subtract, reset)
         var $more = $('.more');
         $more.popover({
@@ -130,9 +130,9 @@ $(document).ready(function () {
         }).on('click', function () {
             $('.popover-content').addClass('paddingless');
         }) // this dynamic class addition is kind of lame; try to make it better.  can conflict with the tour popovers
-            
+
         }
-        
+
         // stop function, restores pretty much everything back to its original state
          $stop.click(function () {
             // clearInterval(countDown);
@@ -157,7 +157,7 @@ $(document).ready(function () {
                return 0; // resets all values in array to zero
             });
         });
-        
+
         // affix progress bar
         $progress.affix({
             offset: {
@@ -166,19 +166,19 @@ $(document).ready(function () {
                 }
             }
         });
-        
+
         // affix sidebar  (BUGGY; WHY DO HEIGHT AND OUTERHEIGHT === 550 WHEN CALCULATED AND 570 IN CHROME DEV TOOLS?)
         var affixSidebar = function () {
             var windowHeight = $(window).height();
             var windowWidth = $(window).width();
             var $toolsIngredients = $('.tools-ingredients');
-            
+
             if (windowHeight > $toolsIngredients.height() && windowWidth >= 992) {
                 $toolsIngredients.affix({
                     offset: {
                       top: function () {
                           return (this.top = $toolsIngredients.offset().top - $navbar.outerHeight(true) - $progress.outerHeight());
-                      } /*, 
+                      } /*,
                       bottom: function () {
                           console.log('bottom', $('.bs-footer').outerHeight(true));
                           return (this.bottom = $('.bs-footer').outerHeight(true));
@@ -189,9 +189,9 @@ $(document).ready(function () {
         };
         affixSidebar();
         $(window).resize(affixSidebar);
-        
+
     };
-    
+
     /*
     //IN PROGERSS - smooth scrolling on click of progress bar pieces
     $('.progress-bar-step').click(function (ordinal) {
@@ -203,14 +203,14 @@ $(document).ready(function () {
         }, 500);
     });
     */
-    
+
     // smooth scrolling
     var smoothScrolling = function () {
         $('html, body').stop().animate({
             scrollTop: $('#' + currentStep).offset().top - $navbar.outerHeight(true) - $progress.outerHeight()
         }, 500);
     };
-    
+
     // disable prev and next buttons at the beginning and end of the recipe, respectively
     var prevNextDisabler = function (currentStep) {
         if (currentStep === 1) {
@@ -218,14 +218,14 @@ $(document).ready(function () {
         } else {
             $prev.removeClass('disabled');
         }
-        
+
         if (currentStep === (recipeStepTimes.length)) {
             $next.addClass('disabled');
         } else {
             $next.removeClass('disabled');
         }
     };
-    
+
     var currentStepCountdown = function (currentStep, elapsed, stepTime) {
         var remaining;
         if (stepTime) {
@@ -234,7 +234,7 @@ $(document).ready(function () {
             remaining = 'N/A';
         }
         $display.text(remaining);
-        
+
         //currentStepClass
         if (stepTime && elapsed > stepTime) {
             $('#' + currentStep).addClass('panel-danger');
@@ -245,20 +245,20 @@ $(document).ready(function () {
         }
         $('#progress' + currentStep).removeClass('progress-bar-step-completed');
     };
-    
+
     // IN PROGRESS
     var stepClasses = function (currentStep) {
-        
+
         var $panels = $('.steps').children();
         var $progressBars = $progress.children();
-        
+
         $panels.each(function () {
             if (+$(this).attr('id') != currentStep) {
                 $(this).removeClass('panel-danger');
                 $(this).removeClass('panel-primary');
             }
         });
-        
+
         $progressBars.each(function () {
             if (+$(this).attr('id').slice(8) != currentStep) {
                 $(this).removeClass('progress-bar-step-times-up-current');
@@ -269,10 +269,10 @@ $(document).ready(function () {
             } else if (+$(this).attr('id').slice(8) < currentStep && $(this).hasClass('playing')) {
                 $(this).addClass('progress-bar-step-playing');
             }
-            
+
         });
     };
-    
+
     var totalElapsed = function () {
         var $totalElapsed = $('.total-elapsed');
         var total = 0;
@@ -282,7 +282,7 @@ $(document).ready(function () {
             $totalElapsed.html('Total time: '+ stopWatchTime(convertMS(total)));
         }, 1000));
     };
-    
+
     // BUTTONS
     $('.steps').on('click', 'button', function (event) {
         var $this = $(this);
@@ -308,35 +308,35 @@ $(document).ready(function () {
         }
         stepClasses(currentStep);
     });
-    
+
     $('.steps').on('tick', function (event, id) {
         var $element = $(event.currentTarget).children().eq(id);
         var $progressBarStep = $progress.children().eq(id);
         var $elapsed = $element.find('.elapsed');
         var elapsed = $element.data('elapsed') || 0;
-        
+
         var $divisor = $element.find('.divisor');
         $divisor.text(' / ');
-        
+
         var stepTime = $element.data('time');
-        
+
         $elapsed.text(stopWatchTime(convertMS(elapsed)));
         elapsed += 1000;
         $element.data('elapsed', elapsed);
-        
+
         if (elapsed > stepTime && stepTime) {
             $element.addClass('times-up');
             $progressBarStep.addClass('progress-bar-step-times-up');
         } else if (elapsed === stepTime && stepTime) {
             $('#timer-audio')[0].play();
         }
-        
+
         if (id + 1 === currentStep) {
             currentStepCountdown(currentStep, elapsed, stepTime);
         }
-        
+
     });
-    
+
     $start.on('click', function () {
         currentStep = 1;
         $prev.removeClass('disabled');
@@ -351,10 +351,10 @@ $(document).ready(function () {
         smoothScrolling();
         totalElapsed();
     });
-    
+
     $prev.tooltip();
     $next.tooltip();
-    
+
     var prev = function () {
         $prev.tooltip('hide');
         var $currentStepStop = $('.steps').find('#' + currentStep + ' .pause');
@@ -367,9 +367,9 @@ $(document).ready(function () {
         prevNextDisabler(currentStep);
         smoothScrolling();
     };
-    
+
     $prev.on('click', prev);
-    
+
     var next = function () {
         $next.tooltip('hide');
         if (!$('.steps').find('#' + currentStep).data('passive')) {
@@ -386,9 +386,9 @@ $(document).ready(function () {
         prevNextDisabler(currentStep);
         smoothScrolling();
     };
-    
+
     $next.on('click', next);
-    
+
     // Uses left and right arrow keys to go back / forward a step - PROBLEMS WITH SPACEBAR AND ENTER
     $(document).keydown(function (event) {
         if (!$prev.hasClass('disabled') && event.keyCode == 37) {
@@ -397,7 +397,7 @@ $(document).ready(function () {
             next();
         }
     });
-    
+
     $('body').on('click', '.add', function () {
         //userAddedTime += 60000;
         //displayRemainingTime(startTime);
@@ -410,7 +410,7 @@ $(document).ready(function () {
         //clearInterval(countDown);
         //startCountdown();
     });
-    
+
     // click outside popover to dismiss; doesn't work on mobile
     // attributed to: http://stackoverflow.com/questions/11703093/how-to-dismiss-a-twitter-bootstrap-popover-by-clicking-outside and http://jsfiddle.net/mattdlockyer/C5GBU/2/
     $('body').on('click', function (event) {
@@ -422,7 +422,7 @@ $(document).ready(function () {
             }
         });
     });
-    
+
     var tour = new Tour({
       onEnd: function () {
         $('#1').removeClass('current').removeClass('times-up').removeClass('panel-primary').removeClass('panel-danger');
@@ -516,7 +516,7 @@ $(document).ready(function () {
         content: "That's it!  Click <code>Start &raquo;</code> to begin cooking with <strong>meal&middottimer</strong>."
       }
     ]}).init().start();
-    
+
     $('.help').tooltip();
     $('.help').on('click', function () {
         $(this).tooltip('destroy');
@@ -524,14 +524,14 @@ $(document).ready(function () {
     });
 
    // get recipe (relies on purl.js file)
-    $.getJSON("recipes.json", function(recipes) {
+    $.getJSON("/assets/recipes.json", function(recipes) {
         var recipe;
         for (var i = 0, length = recipes.length; i < length && !recipe; i++) {
             if (recipes[i].id === purl().param('id')) {
                 recipe = recipes[i];
             }
         }
-        
+
         buildRecipe(recipe);
     });
 
